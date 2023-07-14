@@ -52,10 +52,10 @@ if game:GetService("CoreGui"):FindFirstChild("SOME X GUI") then
 end
 
 local function MakeDraggable(topbarobject, object)
-	local Dragging = nil
-	local DragInput = nil
-	local DragStart = nil
-	local StartPosition = nil
+	local Dragging = false
+	local DragInput = false
+	local DragStart = false
+	local StartPosition = false
 
 	local function Update(input)
 		local Delta = input.Position - DragStart
@@ -1632,3 +1632,128 @@ local Create = {}
         return Tab 
     end
     end
+
+---------------------
+--return Create
+---------------------
+
+local Load = Create:CreateLoading(true)
+local window = Create:window()
+local Tab1 = window:CreateTab("Main")
+local Tab2 = window:CreateTab("Teleport")
+local Tab3 = window:CreateTab("Misc")
+local Page1 = Tab1:CreatePage("NAME PAGE")
+local Page2 = Tab2:CreatePage("NAME PAGE")
+local Page3 = Tab3:CreatePage("NAME PAGE")
+
+Page1:Toggle("FAT DarkBladeV2",false,function(b)
+    DarkBladeV2l = b
+	
+			spawn(function()
+			while wait() do
+			if DarkBladeV2l then
+			pcall(function()
+			local args = {
+				[1] = 1,2,3,4,5,6,7,8,9,10,
+				[2] = game:GetService("Players").LocalPlayer
+				}
+					
+				game:GetService("Players").LocalPlayer.Character.DarkBladeAwake.HackerSo1TheGioi.RemoteEvent:FireServer(unpack(args))					
+			end)
+		end
+	end
+	end)
+end)
+
+Page1:Button("Kill Zamasu",function()
+	game.Workspace.FusedZamasu.Humanoid.Health = 0
+end)
+local Slider = Page1:Slider("Slider",true,0,100,20,function(v)
+    print(v)
+end)
+
+Page1:Button("Uqdate Slider",function()
+    Slider:Update(20)
+end)
+
+local Dropdown = Page1:Dropdown("DropDown",{"1","2","3"},"1",function(v)
+    print(v)
+end)
+Page1:Button("Clear Dropdown",function()
+    Dropdown:Clear()
+end)
+
+Page1:Button("Add Dropdown",function()
+    Dropdown:Add("Test")
+end)
+
+--Tab2--
+Page2:Button("StartMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(542.69677734375, 95.16138458251953, 589.5328979492188)
+end)
+
+Page2:Button("SandMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1256.447021484375, 83.61588287353516, -273.8178405761719)
+end)
+
+Page2:Button("SnowMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(319.26397705078125, 113.6695556640625, -2193.4443359375)
+end)
+
+Page2:Button("RoshiMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-735.9171142578125, 67.0309066772461, -1347.133544921875)
+end)
+
+Page2:Button("FlowerMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2537.9365234375, 71.77963256835938, -2270.19970703125)
+end)
+
+Page2:Button("NameKMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-383.6541748046875, 207.4360809326172, 2457.125244140625)
+end)
+
+Page2:Button("FutureMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(692.5753173828125, 113.63595581054688, 4230.7197265625)
+end)
+
+Page2:Button("DontKnowThisMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3325.499755859375, 75.06717681884766, -1380.8511962890625)
+end)
+
+Page2:Button("SkyMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2312.774169921875, 1118.76904296875, -2592.284912109375)
+end)
+
+Page2:Button("MagmaMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1308.3154296875, 113.15087127685547, -3274.510498046875)
+end)
+
+Page2:Button("DsMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3118.255859375, 107.61368560791016, 215.41189575195312)
+end)
+
+Page2:Button("SnuwMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1206.219482421875, 82.41027069091797, 3915.558349609375)
+end)
+
+Page2:Button("SeaBeatMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2453.816650390625, 128.06797790527344, 1268.0037841796875)
+end)
+
+Page2:Button("BossZamaMap",function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3592.89404296875, 320.6554870605469, 1217.5552978515625)
+end)
+
+--Tab3--
+Page3:Button("CopyFrame",function()
+    setclipboard(tostring(game.Players.LocalPlayer.Character.HumanoidRootPart.Position))
+end)
+Page3:Button("FlyGui", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HUBWORKNOICE/DragonHub/main/FlyGui"))()
+end)
+Page3:Button("Infinity Yield", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+Page3:Button("RemoteSpy", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+end)
