@@ -1,1 +1,2006 @@
-([[This file was protected with MoonSec V3 by federal9999 on discord]]):gsub('.+', (function(a) _vSGfgGevDaXb = a; end)); return(function(k,...)local s;local l;local o;local r;local f;local b;local e=24915;local d=0;local n={};while d<335 do d=d+1;while d<0x387 and e%0x3faa<0x1fd5 do d=d+1 e=(e-847)%22390 local t=d+e if(e%0x2a68)>=0x1534 then e=(e*0x237)%0x360f while d<0x33c and e%0x20f6<0x107b do d=d+1 e=(e*984)%39395 local f=d+e if(e%0x3904)>=0x1c82 then e=(e-0x1ee)%0x3aa2 local e=26013 if not n[e]then n[e]=0x1 l=getfenv and getfenv();end elseif e%2~=0 then e=(e*0x2e2)%0x4c3d local e=10976 if not n[e]then n[e]=0x1 l=(not l)and _ENV or l;end else e=(e+0x2a6)%0xaa3e d=d+1 local e=20851 if not n[e]then n[e]=0x1 end end end elseif e%2~=0 then e=(e*0x2bb)%0xfb4 while d<0x2c2 and e%0x2614<0x130a do d=d+1 e=(e-558)%26241 local b=d+e if(e%0x3712)>0x1b89 then e=(e-0x255)%0x8047 local e=37253 if not n[e]then n[e]=0x1 f=function(n)local e=0x01 local function d(d)e=e+d return n:sub(e-d,e-0x01)end while true do local n=d(0x01)if(n=="\5")then break end local e=r.byte(d(0x01))local e=d(e)if n=="\2"then e=o.XtikGKkA(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then l[e]=function(e,d)return k(8,nil,k,d,e)end elseif n=="\4"then e=l[e]elseif n=="\0"then e=l[e][d(r.byte(d(0x01)))];end local d=d(0x08)o[d]=e end end end elseif e%2~=0 then e=(e*0x29d)%0x6787 local e=61551 if not n[e]then n[e]=0x1 o={};end else e=(e-0x36a)%0xb052 d=d+1 local e=89200 if not n[e]then n[e]=0x1 r=string;end end end else e=(e+0x36a)%0x5c48 d=d+1 while d<0x1b0 and e%0x42f2<0x2179 do d=d+1 e=(e-556)%40605 local l=d+e if(e%0x283a)<0x141d then e=(e-0x72)%0x4976 local e=5011 if not n[e]then n[e]=0x1 s=tonumber;end elseif e%2~=0 then e=(e+0x3d1)%0x7284 local e=30692 if not n[e]then n[e]=0x1 b="\4\8\116\111\110\117\109\98\101\114\88\116\105\107\71\75\107\65\0\6\115\116\114\105\110\103\4\99\104\97\114\73\121\122\68\83\115\80\117\0\6\115\116\114\105\110\103\3\115\117\98\109\111\71\112\122\97\76\72\0\6\115\116\114\105\110\103\4\98\121\116\101\116\81\85\122\67\81\103\116\0\5\116\97\98\108\101\6\99\111\110\99\97\116\74\119\121\87\71\80\81\70\0\5\116\97\98\108\101\6\105\110\115\101\114\116\85\66\79\87\95\105\114\79\5";end else e=(e-0x356)%0x17b6 d=d+1 local e=1788 if not n[e]then n[e]=0x1 end end end end end e=(e+703)%23376 end f(b);local d={};for e=0x0,0xff do local n=o.IyzDSsPu(e);d[e]=n;d[n]=e;end local function t(e)return d[e];end local r=(function(b,r)local k,n=0x01,0x10 local d={{},{},{}}local l=-0x01 local e=0x01 local f=b while true do d[0x03][o.moGpzaLH(r,e,(function()e=k+e return e-0x01 end)())]=(function()l=l+0x01 return l end)()if l==(0x0f)then l=""n=0x000 break end end local l=#r while e<l+0x01 do d[0x02][n]=o.moGpzaLH(r,e,(function()e=k+e return e-0x01 end)())n=n+0x01 if n%0x02==0x00 then n=0x00 o.UBOW_irO(d[0x01],(t((((d[0x03][d[0x02][0x00]]or 0x00)*0x10)+(d[0x03][d[0x02][0x01]]or 0x00)+f)%0x100)));f=b+f;end end return o.JwyWGPQF(d[0x01])end);f(r(7,"=:L&/}{K*I^Bsyg;;g"));f(r(66,"wx!Ib{G#v+TnHqCsnCv!TqGH!vqqTt{#n!q(+s{{xGnx+H!siT+Cv!{^kC{vx#bJsxTq#GIbqvn#bb!!HsT+{q<s##I+G!!!q#+T{Cs;qCv#I{OHHG#nb#+v{Hv#bGR!n##TIxvqnIG{IGCITGGC}HqC#Hbx!TC{+TCHTCq{v#{vUTG{vTb}ssq-vGbnCHn!GIIICxnv{vHvvCnIGIIDC#+qGTx{CG+x{/xvHs+IIG/nHq+T!7x!nCxHqqCTn##Ib!snnHIn!#qOvG#T!HH+vT#fnT#vT+{xx#CS+x{+x{nxv#bH;sHsxHq+Hs+T#HInC!Hbv3x!H+bvLTIbCqTsGC!TqsT!{+sxnC+!ITxbqg#xIxTaGI+UInsTH!#+qv6{nH#H!nCnnx{{>ssTTvb!!nnnTIsvnvC{+H{HrnHn+xIv_+nEGvbnCbTQGEqv+#H}vUI{svnHG#<GHCnGbGxqqsv+sTnTC{+{{TxxHq+HIHivTH+bI!a!Hq#CqG+vns#xb!sbbsGCI!sInx#!j{q{vq{!3Cq##I{xnI"));local e=(-10494+(function()local l,e=0,1;(function(e,d)e(d(d,e),d(e,e))end)(function(n,d)if l>265 then return d end l=l+1 e=(e+269)%28883 if(e%646)<=323 then e=(e-28)%19550 return d else return d(n(n,n),n(d,d))end return n(n(d,d),d(n,n and d))end,function(n,d)if l>186 then return n end l=l+1 e=(e-565)%2334 if(e%700)>350 then e=(e*711)%3567 return d(n(d and n,n),d(d,d))else return d end return d end)return e;end)())local t=o.TgPJoJHJ or o.QMzjFqCm;local fe=(getfenv)or(function()return _ENV end);local b=4;local l=2;local f=3;local g=1;local function ee(u,...)local a=r(e,"4rf5V.dblP:QLqNkdPb:QbkV5Vbf:QNlf.:kjKV.lb.P:fq{MqV:LQ55dkQfLdfddV:PL5rV.fPPQUHrVqrq.kPVqrMNPlNPfLdk:ELPr:dd5.bZ:qN:fbdVlrVq.Q.QPqqfpkVLqL5:dVQfkrWb.l:VbVQQNQfld.,r..dk:,kL5:.bQfTpEQd.PPNhQN6z5.bf:k5NPlqP*QVPd:QQ,bqbrlVNlQLl.l:5NqfwVdPbN5Q5krf:db:VfqlqLf3bqlrPVklLLP.PQrNk5VVbPlNVQVklfQdl:.VNlNQqkqVPlbLfkd5ldNVdlrQNkQ5lb.QfqkdQdL:qN5f .qNqV.lPLlqQfLblVllPQkkL5PqLf..kP:QLNNfdfVdVPQqlr.:.k:V..d:bk5L5^f5:bbQV5VPqqbrb.bf.bQPLqPrdPVa.VrbPdbqdffdbPkPlqqVrPqqlffodbgL.&P5kbLl,NVV.b:Q:NPNQpfV.bPQdk5bdNfrN.LPdLdNQ5Lll.lPlLkxLVPq:5fdb:VNdrLkb5rdN:QNlfldQPkqLrPPLkk5klV:kkPrrdf:NbNQqk.5fdkk}.Lb5LVrzN1fr.bPVqrdh:LkrfPVk:TNLQLkN55b6:qfqPPL.=b.fdkQPkbq.r5VLlPLdVlQdNdfdk:5lbr:NNQlkLdwkVVrkPLPdq5r;Q.kN5QbVQVQlN:fb:5qbfd.LlLLNrQrfVQl:&kVAb:QbQP5:d:QfNQN:.L:.:fkr.PPdQLNqr}dNLqebVPbbQf^UfNd::fQPkrf:dL:PN5ffdC:rqQr5.fP6qrZNVlbNkP5kdlVblbQNkQ5lQbfbd5:IqlrVNdfl.qP:qbdlQdk:5CblQVkV55kkVgbdQ5k>PPq5/P.dlfqwrVqQrq.flkLL.b:bkUf.VllbqlfVkV5#dQ:lN.lr:dPkkfrd.5P>r:bPQdkfrVd5PNqbuldd:rq.rbVqPd:lxd5NbQQPkkEkbkQLkbL.Zd5LbPQd5Q:VNrr:fNlPq.:rNqrl..Pfr:b.Q.kfN5.:PNNbrldb:dlNq5rP..PfLVC.rL.kP5q06qlqkPf.dbQfLQrP.LPbbfQPNPfdd5NQVdldL5q.Vdl7:L:lrbd5:lNCQL5b55bR:q5NlkLqrVkNlrLr;r5bfkL5N:5Pf5Q;NkfPdQPPqVff.ilLl.rPVlPjLrQdfubkQLklr:dP:VPNrrfQ..qVfl{LlkLQubV.lkQQK5tqV:lbLVNlbVQ-Pkf df:Pqdrk.klNdP:VNr5N)Grf:NrQPrlNLPidV5lyQqk:5bbVQVklfQdl:.5.lVQqqQ5QbVLVq:fQbbVblbQNkQ5lQlfr.QPQqQqPNdfQ.qP:qb.dLOFr5Ndf:dNkf6VPP:NdQdk:fqd::bflP5Qk<fVbl5bfqbVrdQ.ll5LJkqV{bbQVkr5rb5:lN.ff:brrVdbbLrkk5ddNV:lkLrkN5QQNf:d.PVq&J5VbPwLrrBVkrP.VPrLN/QVll.Lfkk5kbqQdk55FqVyQ.VlPdV:VqQrl..q:5VdqQ.k:fQ,5Vdb:QbkVllqqrq.5Plqf}75kbN.dP5qB)q.jlbLV8r.CQ.Qlk.5fb5:LNPfdl5:lqqr:.bPVqrrVVQ:lqqaf5kbLQPkd5.bRLqkVfbdV:rqNrQ.PP.7frLVLlPLd2lVAlAQ:kbVkbr:NNQfPd.:fqkrLdQPdq5rx.3P:Lb>VVrLd5nd.PdN%rN..lqQlrfVkPr::klVdl..prUVQyQ:f.bdqqQb.bdQQNqf:dbkT.0lrQLwVf.bNQeK.fNblV.rL55NrbdVNdLVidQd:d:dfNLkQL.5lVVlNlk5PPV.5UrdVk5fr5VQVk:6b5dl.bk:rqfqlqP.N.rdrf:dL:fNPbqkN5PbdQ5kFfqd:Pbf5f5m:dvbkr.f:PPdqVPVPlLL1kq5:Q:rL.f:GLLhQ.PlbqrPkN/rd.5Pcrqbd:lkqfdb0:NbQQQkffkdLNLfLP.Lrx:5krPrVqrqNfQLQdbVdQk5NL:Nbr.b9VPLJ.PdfdV:rqQrl..ie5Vl5VLl:L5;#5qNrrldrPdb{5zdQfQLfbblqkQr.P5qUUqV:PqLVur5Nlqa:k.5fdkQqNPfdd5L2NVr:.bPVqrvN.bllN.?P5kbLQPkd55b5:q(:fqdV:rqNrQ.l:Yqffkd.lPLd65VGbqQQkbVdlq:NNLflbf:fqkrLbP:dq5rrVqlQLbrVVrPMNQkl5bbfQqNLfPddQ.Nbrq.qPbqlrrVNlQq:^QVfl5QL}55db5Qikk5qdb:PNrfV.QPlq.fVd.lLLkjdVQl-Qqk:VPlQQrk.fQd::.NfrkdNQ_qdrQ.MPfL:SbVVP5qlkQVrb.QQNkfLdPQlkqf6dbP:qNrV.rlNqql:V.lqQk6N5PbdQ5gfVPd:Q5NV5A.NPQqlfbd5lkqPnPVLl5LYkq5:lLQVkffNbl:lNbffdkQ.qPrd.5PqLq9QVblVqLkN5QblQdkffkdL:Pklf5d>PqqLdNb5QffN5N.Lb5lr,fVzbPQdk5PbLNrbVLfdN5kfL:qb.PbQ5PV:VQbfQQq.kL:qQk.Pdkb1.qqbfL:frfrllPPVP.rdi5LbldQjfLP5QPQQo.5fdk:L5rPQq^ rVQlPL*klf5bqQ:kLr.d5QrkgQLkk55bv:qfqlkL.r55kbNLLk:VVrr..L0L5zfPd.VlkQd5dNfLPkl+llf5Plq.L.QPk(:!qVLN/PNqPlxlrLfkl5.bfkk.ll:qkSl.fPo.LrlVLdNcqdQ:,PbsflfQkkP5db5rN.f:rdP:VNrrN.QPlq.aflNlN5k:PbbLjLQlPlQQVQVkPfQdl:.fNlNQkk:Vfd5QLNNV5dLQdlVLVkQ5lb.k.5.PNL:r5Vlfz.qP:qbf:.rlNLQr:PblfQkkL5QbdQ5khVqb::bNVfr.NPQNVr.bf::LLEPVdl5LiDN5:PbL:krfNdQ:lN.f:.kQLq:rd.5P>LqD:VNlVq5jd5QbPQ.%VfkdL:P=dfQdtPNq:rl.VPkLNrqbll.LVkkVPbPQdk5Vfdk::N:fVbrPNqQrldbPdLkr3VPPvL5TJ5qlLLqkV5ddN:LNlf.dfQrNrrP.LP5qVyqV:lbqdrf5NlfQlkN5fdk:LkQ5rd5:lqqfi.bPVqrfvd.llLNSfVNbLQPkdV.l::qkVfbdP:rqNrQd:rbqfr:VLPVLdc5VMlkqrkbVsbrQrNQfld.QVNLrLddPdqVrxVql:Lbg:VrbkQQG.5.bV:kkL5qdd:5N)fk.:PlqVrr.rlQLl2.V5bkQLkP5db.Q-Nqf:d::PNrrN.Q{QV.b5Ldk:LLAQV5l QqVLPlqqr..:fLdl:.NffL.LPPqdr..1lqL:Lb5NQV^kQQ5QbPQfNkfLN<#bVLPVd,PkqbrV.rNxfLbr:PNNLrkL5Pbdr5r(bbLQNbNbfV.NPQqll5QbadLkrcVdl5L%Vq:dqlfq.d:%qN:QNQff.kPLrL.LL.kr5:dkV:lPLrkN5QNlrl.5PQql:QNdf5dGbq5:.{PlqrqrCkVll.LfddPqNdrQkd5Pdq::NbdbLPkkVqbPQlBd5VbNVLPdL5T*5qLffLdrPfqLr:.rlPQV6NVQlq:dkVVflrVqPfLV2r5NLbfb.lP5qQkL..lbqLe.VkrQ.bPVqrAkVQllL._.VVbLQPkd:dN<FNdrP.d.:rqNrQ.qP.qf2kVklqLd#5VtNVrQdVPPbVQlNQfld.kV.Vl::LkQV.ldQdNqfLXbV:bNQQklbqqbr%.NPqLl{lVrPr.q:rqVrrVNqffqbPP.NVfNdkPkqdr.k!5rdb:VNrdrL:cdV5bbQfy_L:edV5lxL:k:5bbVQVkdfQdl:.f:PVLPk:VVlfQPkrLqWNVVlrQNVQ:VqdfQ.VPNqL:PNQfJ.qP:V:bPL.kV5rbV:dNPLffd5PbdQ55l:fqbFl.fP_LbkkflbdLVkW5lb.:QNkrfdf:bNdf:.dbLq:klVqPQqf6.5LlP:rkkfhb5QVkPfq.k:kqqNbk.5:dL:PNddkLkF#5Ql5:VkqfklV:qkbL.^V5LbPQd5PPrqPrqVLfbd:PNqQrlPlk:5EbN::NP5bd.:kbqLrkV5rdNkfVqPPQ.AVVNlkQkkd5.r}.llbLVmrlVNVfd.PblqlrN.LP::dtlVdldQQPbqL/NVQll-ld::UN:fm.QldNVxN.NlLdbL&qNrQ.lqqVbbL:qkb5.dL:VLqrQdPP.qqr:.WPVQb}bVLlQLkkQfrbkPqkfV2bb::NrfNkQ5Pbf:kNLPuLbryV.rk.:PbqVrrVNlQNNV.VfbkQLkP.Vb5QHNq5LQL:VNrrNdbPlq.rfdkPlLPTdV5l3QqTf5bldLmNNfqdl:bNfrk.LPPNfr5.3lqLLJbVdlrqNv.5lb.QfNkfLdN:d35fq.qP:qbrV.rP.LQfl.llfQkkL5PbdQLkn5klV:bNdfr.kPQqlr..fLlLLOPVdl.Likk5:bqLrkrfNdQL.N.f5.kPLqPr:QlP+LqG:dVlVLfkNVq:TQ.kffkdk:PNdf5bfkVq:rl.VPLLNmQVlPbqQkk5NbPQLk55Cdq::kLfVdrPNqqrl.dPfNrrqVPldL5a55qb:QbKdVLdN:LNlfPdfPkqLfQd5P5qfGq.+lbLVWr5NPVQlk.5fbr:LN:fdb.Llqqr:.b:+qr#NVQ:l55If5kbLQPkd5Qb_QkUdfbdd:rN(rQ.lP.qffPVLlPLdH.V0bkQ:rbV.br:NNQfld.:bqk5LdrPdq5rXVql:LNHVdrPbQQkl5.bf:kNqfPldQqNBrq.:PbqVrQVNPqNfp.VVbkLPkP5db5QJ.)f:db:VN5rN.LPlq.fJVklLLPIbV5lvQqk:VnbVQrNN5qPq:.Nfrk.qPPqdr5b7PkL:GbVVlrQNkk5llbLVNkfNdP:lN5fx.qP:NqrV.rlNLq/lVblfqkkk5PbdQ5kzfqdq:bBVfP.NPQqlr..fPVLL?QPNl5Lfkq5:bbQVkrfNq5:lN.ffdrPLq:rd.5PdLq):Vbl.LrkN5QblQPkffkdLQQ}Nf5dWPqqQrb.VPrq+d5VlldLfkk5LbPQdk5Vfdq::NbfddrPkqQrld5PfLkSLV:ldL5JX5qPfQbkV5rlRq5Nlf.df:rqLrP.dP5rLtqV:lbL.MrVwbQQN,f5fdk:LMDfddV:!qqr:.QkPqr(NVQPkL.355klNNrkd55b^Q,N:fbdV:bNQrQ.lP.qfHkVqlPLdH5VVNfQ:kb5Vbr:NNLflbbL:qkrL.P:2q5rAVq::qN-VVrbNQQkl5QbfLkkPfPdd:5NyrqdbPbkVrbVNlQLl<.Vfl:QLrPVfb5QtNqf:dbQUNr5id6Plqdrf.dlLLP,dd5lqQqkQ5bb.Qrk5fQb::bNffr.LP:qdr5.ZPkVP(bVblrLfkQ5lb.LVkbfLdq:dNLf .qP:qbrk.rlkLQCLV.lVQk{LV.bdQ5ke5Vd::lNV55bdPQqlr..:lkLLhPVlqQL2kN5:bbQVkrfNdQQ:N.ff.kPNqPrb.5PV5f0:VblVLrkN5LblQ.2/fkdL:PNbf5dmPqq:rL.VPrLNrqQql.Lfkk5NbPQdk5VfP.::NlfVdfPNqQrl.bN:LktNVPldL5WJ5qb:LPkV5fdN:qNlfddfPkN:rP.dP5qrMqV:lbL.r55NbQQlkb&nN.kP:PflqL+5PQrLq5qfrqfN5dNlrqVsVflbQPkd55QLrLVqllq6krV:bLqrk:VVrfVklPLdc5:NNf5rkPPrfkqbL:ddrqeyPqrN:/bLdVVkk.lLdbLVVVlVQQkl5.Q.k..Nl:q5slNfrrrbbrQ5.blPbdlbHblql5ddblVdqdfVfqfL.lLf:Nbq5kS:Cbqn.fPuLPjdV5NbrNdbPLbdQrNNfQdl:.Nf8kPQPLqqr5.!lqr:b5:.k:f5dq:Qbb:d:LKdVlNLrNtQPLPLd5bkfldqQll:PbLfLf_L5PbdQ55l:fqb>l.fP(Lbkkf:lVLrB5rLd:QlkbL5/d5:bbQV5VPdLLr:Vdl.q5_rVQrlLbd5Ld<PPN.f:r5q5QblQ.kfV.dL:PNd5.QfPqq:rb.kPrLNOQdlPqLfkk5LbPQd+C5UlqL.NbfVdrPNqQrQ..QfNlULVPldL5XgVNb:qbkQ5rdN:QNlf.bfPkNNff.dPVqmrVV:lbLVfrVqbQQPk.55dkQ8NP5lP5:Yqkr:d&PVqr{N.q:fL.s.5klQQPkd55lfLrN:fQdV:bqNrQ.l:bNfMk.rlPql)5V_bqLLkN5Vbb:NkXfld.:fkr5V.PPqq5rlVql:Lbrd.PbNL5kl5kbf:kNL5QlA:5NPrqddPbqVrrdB:.LlWkVflCQLkP5dl.5fNq5.dbQfNrrN.Q::Nqrf.QlLLQ-dV5lFLka:5blrQrR}fQdl:.NffL.LP:qdfn.;lkL:rbVdlrQNkQ5kb.Q5NkfLbq:dN5f=.NP:qbrV.rPFLQ8lV.l.LVkL5PbdfddIlNNrr.NbfP.NPQqldnQQkQ5ld:QQk.frkN5:bbQVkNfNdQ:lNlf:.kPLqP.NLlkqfNblQdNqf.WrVQblQ.kfbbNrrdVbPrLkXd5NdPL5ReVf.Q:Pkb5d)r5LbPQdk557dq::NbfbdkPNqQrlPQkQ5qb<lkNk5.b5QrQqrk.qPqqf:NNNf.dfPkfVbNQbkkVVb.VqPmLV r5NqffbdbPqNfrLV:lPLl:5N.r:.bPVrLbbQbkVfdbbQrqqQLk:55b7:qdrllLqr.Nrf&.lP.qfbk:qkf5lbdV5lbQ:kb5VLVrNVLPkq5NbVqlrLdzkqdrVVql:LbdQ:fNQf)kQV5bf:kNLbpLQrbfVlfLqk:5PbkQfNL5dbPQ.lfLrkP5db5fI.-lQq5r8NfrN.QPlNqrfVklLLLryV5l3Qq5qPlNfkV.qPbqVeNVdlV.k:rqdr5.zq.5kbV:.NkfqdVPLbbQfNkfLdP:dN5dPPqPqqQrV.rlN55bq:LNbLfzL5PbdQ55l:fqbXl.fPuLbkkf:lVLrn5rLd:QlkbLfkq5:bbQVkrdNk:NlNbff.kPLqPrd.5P2LqDqVNlVLrkNlQNVrddQPVqNrLNlf5dgPqq:rb.VlraqHN.ll.LfkklkNff5dlPLLNrN.HP5Lkkn5LbLQNabVfHNN5rk.LPPqdr5b}555Vbf:QNlf.Lk2W.?lr.PPPq)HqV:LkfPdf::Nkf?kl5Ndk:LNPb:q.0rVQlqLbk.V5b5QPNQ5NCf5kbkQkkd55b/kqVQPPLP&k.frN.LP.qf;kPkkfVAdlV5llQ:kb5VQqrqVNlPqrkfVQbqqfkQV.r5.rl:LbBV:lqkfl.q5ll5:kNLfPqP}l.Vl.L5kQ5lbdQLkQ5:bVQfNVfNdq:kbdQlNqf:dbNkV:l:LbkPV:lVQ9lkLL+dV5lWfQ.k:NbbQlNNfQdlkQVblfq2clVlVd.5PrL:6bVVklrkdV:Lb.QfNkfLPV:dN5f7dkLfqbrV.r:dLQ0lV.PVkqkL5:bdQNkhfqd::bkffr.NPQq:r..5lkqNrQVdl5L&rr5:bbQV&5VPdQ:PN.5..kPLqP5d.lPOLNM:VllVLPkN.QldQ.k5fkdq:Pklf5bf:fq:rP.VPQLN8QVlPbN:kk5kbPLfk55YdqL:rkfVdVPNqNrl.PPfLkr5VPldL5H55qbQQbkVVVdN:QNlf.dfPkqL5PbfP5qR0qV:lbLdsrdNPfQlk.5fbL:Lkcfdd5:Nqqr:.bPVqrYNVQ:lqVIf5kbLQPkd5lbWqq.VfbdV:rqkrQdbP.qfPbVLlPLdv5VJbqQ:rbV:br:NNQfld.:bqkfN.LPdqVrTdVl:LbaVdrPfQQkP5.b5:kCffPblQNN_rk.:P:qVrrVNPqqPE.V.bkQkkP5db5LfkNf:dQ:VNVrN.QPlq.VQVklqLPW:V5lfQqT:L{bVQrNN5Ldl:dNfrkbPPPqdr5.mlqL:ubdVPVQNkQ5lb.QfkVfLPP:lN5f/.q:lqbr:.r:tqqclV.lfqVkL5PbdQPkdfqd::b<.fr.kPQqPr..dkVLLIPVd:VL)kN5:bQrPkrfNdQqfN.f5.kPLVqrd.5P1Lqt:VblVNr5f5QblQ.kffkbL:PNL5>d3Pqq:Vr.VPfLN2QVllPfbkk5LbPN1k55rdq::.QfVdrPNqQrl..PfNkV#VPldL5ih5qbLQbrVd.dN:QNlf.df:LqL5kbqP5qv,qV:lbL.xrVbbQQL.:5fdk:LNPfddV:cqqfl.bPVqrYkVQllL.XfdlbLQPkdV.Pl:qN:fbdL:rqNrQ.lNrqfnkVLl:Ld2.VKl5qqkb5VbrQ5NQfPd.:5qkf{QNPdq5r%.fl:LlTVV.N5QQkl5.P::kNqfPblLQNyrq.:PNqVrrVNPrq.=.VfbkQLkP5bb5QWNqfNLL:VNrrN.QPlqdrfdrQVLPcdV5lPQqk:5bldQlNNfLdlQDNfrk.LQPqLr5.rlqLQzbV:lrqNrd5lbdQfk{fLb5:dB5fL.qPQqbr..rP:LQml.5lfL8kL5QbdQ5k6fqbl:bNVfr.NPQq:r..dP(LLJPVd:lLRkN5:Pbqqkr55dQ:LN.fd.k:Nk5rd.:PxLNY:VblVLr5b5QbqQ.kPfkdN:PNLVddz:fq:fq.VPfLNOLVllPfbkk5LbPLLk55rdq:NVLfVdrPNkkrl.dPfNk5.VPlQL5EV5qbNQbndVQdNQfNlfbdfPkqLrPlkP5q.Yq.rlbLdSrVVPNQlk:5flQ:LN:fddV:3Nrbk.bPVqrf:VQlPL.Rd:VbLQPkd.bbw:NN:VbPl:rN5rQ.LP.q5DkdLQqLd>lVGlfQ:kL5VbkkNNQfQd.Ldqkrq.PPQq5rVQfl:LbTVd.bNQLklVbP::kkrfPb5:5Nwrqd)qNqVrbVNlQLl3dVfl!QLkPblb5QmNqfNdb:VNrrNdqPlq:rf.rlLL:-dV5z.Qqkq5bbVQrNNfQdNGfNfrk.L:PqdrV.?lkL:YQ:PlrQNkQVlb.Q5Nk5!LN:dN5f1.qP:qlrV.rPLLQHlV.l5QkkL5PbdQlk-fqd:QP.Pfr.NPQq:r..flkqN5rVdlVLgkN5:bbQVk5lddQ::N.ff.kPLqPrdd.P{LNK:VPlVLfkN5QldQ.kffkdq:PNdf5dr:kq:rb.VPVqN)QVll.1:bV:Pq:fVdfPPqrkL.dP5q.NN5Ll:LPPVQxQdLkVdQPfkPQQlQ:k:5rdN:QfQdQqV{^VPbN.lP5q0OqV:lbLVkrbqbqlk:ld5fkkQ.kr.:f:5NVr:.bPVfrb::LWrf:bVQfbNlkf:rqNk5lVlNN:5:5lk.bdfq.l5kqQkVbLlVd;.Q.5P::5D/.dNNNfQd.:fqkl:QN,qq.dplrPPfb..lL05bQkQ5Nbf:kNLdLLNnV.fbNQqnQ5Pl5.j5bVPkLNrV.bfVPbdb.ldfrrVNdfk5kN.r:P:q:PffrlQkQ5NQ.QNLgg.5bbVQr5:P:LQ1dVNdkLlk:VkblLfP8LNebVVlrf..L:.q:QVNQd:5rG.fd5NL5.lqbrV.rlNNr0lV.lfqrVN5PbdQ5{rfqd::bAVf5.NPQqlr..fP.LLfPVll5L3kq5:bbLVkrVNbl:lN.ff.kPLN.rdb5PLLq_:VblVLrkk5Ql:Lbkf5vdL:LNdf5d#QqN.rb..PrLk!Q.fl.qVfk5LbQQdkN5&dq::kPVJdr:rqQf...PfLkrN.NldLbA%Vdb:QbkVV5ld:QNqf.dbPkqLrPdl:Vq{r5V:PPLVjr5NlqLLk.5PdkQ:NPfdd5QfqNr:.kPVq5JNVQllqbrL5kl.QPk:55bW:qkLVrdV:QqNf5.lP.qffrLNlPqr)5VbbqQ:kbVdlq:NkbflbV:fqkrLdQPLq5rqVqlkLbGVVrbNqfkl5dbfQLNLfQddQ5kVrq.:PbqbrrVklQLlxqVfbkQLk:5db5QENq5Ldb:VNrfa.QPlq.rfVklLQPV.V.dN5lLNPd:5bq.bdQdQQJNfrk.LN.V.bdQrkPr:b5:.k:f5dq5QblQfNkfLqbDQ.:ffb:krqfb5dbdkOrLdVb:V:55PQPrQT5qddLdL5NbPkLrq:rLlr:PnPfq5BPVdl5radPPQkArPd5:rdqL:LP.kqkVrfPkLrfP5qd :VblV}VddPLN:rd..:5qrrQNP55dRPqq:.kLPkNfkbPQbNNfd.r:QNlf:V5PrqkrNNPPll.5.q:blqr5:lk_NdbblPNbkQqdPPqQ555..Vl:UVVVbPbzlqb.lLbkQrLd:rd:k5fbLbq QLQkLVNLVVVbb:5:5N5r:.bPVrV.VQqNP5fdbVflwQPkd55qb,N.blLdV:rqNrQdNP.qf(k.NqQLd25V6lkQ:kb5VPrL_NQfld.:fqkfV.PQdNQr0Vql:LbTVVVbNqQkq5.bf:kNLfPbA:5hYfQ.:PbqVrrVNPdLlrbV.bkQqkPVbb5QeNqV:bk:VNfrN.LPlqPrfdrQLLP!lV5lLQqk:5bldLfNNfNdlQ.Nfrk.L:Qqkr5.VlqLL*bVVlrqYU55lb:QfkLfLdP:dk.5V.q:%qbf5.rlNLQr:.flfLdkL5kbdQ5k!5kbV:bNLfrd.PQqlr.dV:PLLrfVdlVLgkq5:lPLNkr5ldQ:qN.ff.k:N.Qrd.NPOqdx:VblVq5wV5QlVQ.AcfkdL:Pkl5:d_::q:fV.VPrLNZQV:l.L5kkVPbPQlk5VwbQ::NbfVbfPNqLrl..:kLk/LVPlbL5Xu5qb:LrkV5rdN:Nk5f.dfPkflllQPkV5L.qQdNl5qddQ6bNQkk.5fdkkL..lbqLT.Vklq.:Pbqr#NVQkdf:bPVrbLQPkdQ5lPqPb:dbdd:rqNrQblqkJlQVgLlLLL_5V+bqkq5q:dqfrQ.sfQdP:fqkrLLckbVTb..KP:LbtVVrLd5*d.PdNirN..lqQlrfVkPr::klVdl..{lQLlJ.dfqNQ5P:kdbdQPNqf:dbNbVPbkLqkP5lldQVkNLPDdV5l!L:k:5bbVL5VHfQdl:.NPrk.LPPkdfP.RlqL:BbVVl5QNrQV,b.QfNkfLdP:bN5VodqP:qbrV.rlNq.)ld.lkQkkL5PbdQ5klfqbL:NNVff.N:rqlr..f:kq.MPVbl5Lrkq5qbbLdb5fNdq:lNNff.kPLNQfl.5P5Lq0NVblVLrrn.lblQPkf5VdL:PNdf5d5PqqQrb.lPrqIvQ.llQLfkk5LbkQdkV5TdqLrNbfVdrPkqQrl..PfNr^LVPldL.NlrNdkPdV:bbLrdPN:::NbkVrLkb:rQVpNr(.5lbLVTrlrN5rPdbP5qffuVNPld.VdblqNbbNV5k:r0Ql:dlNVbrkLodLfrLfk:krbrNrdVi5qdq:Nq5qVLPLPlV:.5PrLqrk:kP5Vbr:NNQfld.PfrNrk.LPdq5rZQQNk5NSb.rbNQQklbqNbrLVqPbq.?LVVdkLPOdVldr:kkq5LmlVdbkQLkPPqqVrq.ffLrL)Pff5kqdl.rQq;.fPbLPudV5LLfL.qPlNjEr.:lLNrR:.VfrkkbQylP5Pq.PQ5VdVdVkdb.k5lrq:r.kNLdL:LN5f2.qqqrqldQfkQ5Wh:roVb:PrQr.dVP.fk5Jbr:bNVfr:N9b5PlNQbjr5k9PVdl5L_r55:bbQVh5lOdQ:lN.fq.kPLqP5d.bPsLq>:VblVq5kN.QlQQ.kffkdL:Pk5f5l{Qbq:rb.VPrLN?NVl:.qfkk5LbPQdk55:dqQLaVfVdfPNNQrl..PfNkrdVPlbL5cr5ql5QbTddrdN:qNlfPdfPkqLfQb5P5q51q.rlbLV{r.xlWQlkP5fbN:LNPfdb.Q.qqrk.b:.qr8NVQP:Lb>fV.bLQ:kd55b!Qku.fbdQ:rNLrQ.lP.NVrkVLPrLdD.VmbqQ:=PVNbrQbNQ5Od.:fqkfNb5Pdqqr%.5l:Lb<V.53uQQE55.bb:kNLfPbl:LNcfP.::5qVrrVNPqql,.VkbkLqkP5db5QSkrf:dl:VNNrN.qPlN.fqVklLLPrdV5lrQqk:VdbVQrNNfLdl:.NfrkdNPPqdr5.frb.:LNf5NNlVb5bdbbPfrLQL{PqNQqLQPqPLQdfkPVlNbQ6kQPLfLr:rr5P.Q5QL5&LNd.Nbf..NPQqlbLQ5kL5r9QkqcqNrqqr:5b:m595TdQ:lN.ff.kPLLP...dP5LqG:Vbkffdb.5NlrQ.kffk:krrVbP.LrIwVNbLLdP5l.P.dPd.:fQkfl5lQlQ_VkPkd:bL=fqfqLqNrN..PfLkVklkklfVdq:fbqQNkV5rdNkQ.VldqQ(VVNlL.lNdrWQLLPfQq:qqkqbqPbkff5Lq:rLfQl:5:5Nqr:.bPVrPl5QlNP55br:lNJ_Qd.:fNVkqVQPPql:5CV.rf:bVdzNLQkLbLPxNVObqQ:V5:5qVvk.bblqrJ5.llrLQPdq5r_Vq:gLbnVVrPIGqkl5.bfQVNLfPddL5k.rq.:PbqVrr.QlQNlpbVfbkQLkP5dl.Q%Oq55db:VNrrN.Q:rq.5f.QlLLPmdV5lxLqk:VPbNQrNkfQbV:.NfrkbLQ+qdrV.JlNL:<kVVP5NNkQ5:b.QVNkfLdPQlkVfedoP:q:rV.rlNqqrrV.ldQk6Q5PbdQ5!ffkd::LNVfk.NPQqlfb.5lkqf=PV:l5LskqVLlbQVklfNbr:lN.ffbr:bqPrN.5PQLqZ:VbPdqQkNVVblQLkffkdLQQ9gf5d:PqNQrb.VPrNelqVlPBLf,P5LbPQdF.VddqQdNbf.drPNqQf:.:PfqLHL.bldL5x+5qbqQbk.5rbQ:QN:f.bf::qLrP.dPkq2CNV:lbL.9r5NbQQPk.5fdk:LkQfdd5:FNGf:.bPVqr.dL#k.fdb=:NN.rqVl:fqkfr5:llqdr.N;kdVqQrkfQ:5bkk}VG.PV:LNfqbl:rqrk:Pf:k:QoQ.rQQfr/lr.;Vk:frqqlL+qQ:Pddk5b.QdNLfPddk5VLbNq5kLVdlV.nNQLlkqfrbqq5N.b.bdQQNqf:dbk8.slrQLTVf.bNQWC.fNblV.5qQblk.bf5fbVfdPdQ:NNfrk.LqL5NbVLfNNfqbQ:Pk5LSV.qlPrrf5D5.Q:NdN.fI.qP:qbrV.rbNo:^:L5krPfPQbdkR5d5D5wdN:bNVfrL.kLV.b:.V.P5qPVd.?VdVqQkPbPbNdfQPl:fPlPK;PNPkqLrd.5P_5QdkQNlbLbkN5Qblkl5l:rLqrdVQf5dTPqq:fq.VPrLNrqP:l.LfkkV:bPQdk5.+b.::NbfVdrPNNrrlb.:LLkcLVPldL5Ml5qP:QlkV5rdN:QNlfkdfQkklrP.dP5qX,qVQlbqdrb5NbLQlEb5fdk:LoP5dd5:rqqrQ.b:.qrfnbQllLb7fVLbLQPkdV.lf:qNqfbdk:rqNrQd::bqfr5VLlqLd)5VslkQkkb5PbrQ.NQfld.QVk.rL.kPdqLr7Vql:qP)kVrl.QQwb5.bf:kkNfQdd:QNJff.:PbqVf5dllQqr&.VNbkQLkPVllqQFkbf:d::VNrrNdqr:q.rqVkPLLP_dV5PfL.k:V5bVQ5NNfQdlQbkqrkdPPPqqr5.wlqL:rtVVlfQNMl5lbbQfkk5:dP:dN55f.qPQqbrVdVlNLQylVdlfQkkL5PllQ5kYfqdLLrlL:qqqb::QQlPfPryQqlP5lfNrkNPfQ.Qb}rfNdQ:lfqPbLLkqVbl.QLkVrkbPQdklrr.k:qNLQlkPfkdL:P5dlkLrrd5klPLbP5LN=QVll.LfkkfLQlQPkL5wdq::f:lLLfrc5LbQLPkbVr?kVqldL5sm:VqQfV.P55fLlQ:Vf.:P.dPLql.lkrdqbDl:NqlJ:fkNbqffV5QVLNVVdNbQ:r:5N5r:.bPVrV.VQqNP5fdbVr5:PPQf55QbdV::ddddkL.d5lqlP:dNdPn:lQ:VL5PqPL:jf:ldfkQEkPQbV5LrQbq.Vlq.qdr5Vql:Lbbf:dk.QqbkQr.5lNPqMkQbN5N5fl.:PbqV.qQqNNfPbrPfNQrqbfPQN.QYNqf:dbQ:NrrN.Q::fbrfVklLqz2dV5luqqkk5bbVQrNNfQdL:.sffq.LPPqdr5.KPkL:fbVNlrQNkQ5lb.QlNkVLbQ:dN5f%.qP:q:rVd5PqLQiPV.lqQkkL5PPdQ:kwfNd::lNV5r.N:q{lr..VlkLqzPVdl5qf6P5:b:QVvffNdQ:lkb5q.k:eqPrk.5P)LqrL.NlVLdkNV:blQ.kfVrdk:PNLf5dNPqq:rbddP5LNrfVllqLfkk5LlQQNk55ldqQVNbfVdrQ-k.rl.NPfqVHLVPldq.r:5qlVQbkd5rdN:Qk::bdf::qLf..dP5q+rkdblbqD}rVQbQQlk.VVld:Lkdfdbf:Kqqr:.b:fqr+kVQP.L.eV5klLLdkd55bsQlN:fldV:rk-rQ.lP.q5CkVLlPLdr.V(bqQ:kPV:TVqlfQqN:kq:rqrN?Ll..qkFVLlVbUVVVVlNQQkl5.Q:fV.Pl:qVrfVPlr:L*dV5l.PNNL5:bPVVNQL.kfqdq:V5lfN:dPPQLffd.Q:df.dlwqlkqV8dV5lwmPdPP:q.rq5NPbLPrNVbPr.N.LPkNqVkQqNNkd85lVL.kQ5lb.;f.QlqNfEQ..P5.kLkbqf:.r:blV.:l.lVrrkqrLq.:ldqlffl:P:bN:5lP:Cl5PVrLNLkrfVdl5L_V,:fqlfd.fPrqk%q.bfV.kPLqPrd.5P>QqVPV:llLrkN5Qqkrd.kPVdNf:VQP)kkdbVqNVP5PVqrsQVll.5ndVQ5bQVPdfNlLLrkLd5frk:rNrrl..Pfrf.fQQNb5ed.5qb:QbkVVbdN:QNl5bQVPkqLrPdVP5qF?qd:PVLV;r5NbQQlkq5flkLdNPfdd5:AqqfC.bQVqbKNVQllL.ufVQbLqPkk55b?:qN:fbdb:rkyrL.lPdqffrVLlPLdf5V:bqQQkb5.brQNNQ5:P.:fNrrL.QPdq5r+.klqLbzbVrlbQQkl5.lVQqNLfqdd:bNZrq.::PN_rr.5lQqbx.VfbkLNkL5dbPQOkNf:db:Vk55F.QPkq.rqVklLLPrl.5lTL.k:VrbVQrNN5qlf:.NQrkdPPPqdr5df:bL:rrVVlfQNkQ5llb5VNk5bdP:qN5fR.q:LN:rV.qlNq<hlV.lfqr0b5Pl5Q5kkfqd::bNVfb.NPLqlff.fPrLLrPVql5LTkqVLbbQ.krfNdk:lN.ffd%PLqPrd.5:fLqF:VbldQdLQ5drbL:lkPv:::Qk5QNQqrqqlb5:PLkq#NorrQ::rdPqV5qk.k.f5rlN5fb.VQrrNrQr:bL:5QHdQlqq;5PVoVUl5QbkV5rQrr5VPPbL5Sf.abNLlPdq5MqV:lb5fddQ.bq.V:Q*NlNNkbNr.ff:frd :S.5V55br:dLdLl-l5kbLQP5PbPNfpN.blLdb:.qNrQ.lkL55bLQrlQPQLLb..LfVlkkl5AQrkdfld.:ffQlQQLkb5kd#QPNQVRdPQ5loQQkl5.bf:kNLrP:.:.vVLrfrrd5Q:bQrLPLQr.VfbkQLVr:QNBrr.QPPq&,l55lqL:mLf.b5LrIoLLOqV5lWQqV::5q.f:.5PqqQ:bN.kkV.blP.N::xLqL:9bVVlrqVkQ5lb.LVVrfLdP:dNNfw.qP:kbrP.rlNLQwlV.P5QkrLV5bdQ5k<fqd:QVNVVrbEPQqlr..flkqfhPddPdL^kq5:bbQVzrfNbqQVN.f5.k:dqPrd.5QXqP!:VllVLfkNVfblLbfffkdN:PNQf5d,PqNLfl.VPVLNrqVll.LfrrVabPQ:k55Vdq::Nb5dbVPNN!rl.qPfLkcL.QlNL51d5ql5QbkV5rlTLfNlfLdf:QqLrP.d:.NVOq.flbLd;r5NbQL:Fk5fbl:Lkbfdd5:iNk5V.bPNqrrqVQllL.rVLrbLLVkd5dbv:qN:5PdN:rN:rQ.PP.qfck.NPNLdrSVpl.Q:kb5VbrQkNQfPd.:kqkrN.P:dN5rRVql:qr{VVfbNQQD:5.bf:kNqfPdd:5N,5).:PbqVrV.VlQLl3.l.L.fN.::5qlQ5kqf:db:VfPP5LlkPV5lrQlk%rQb.QfkV?q.Q:PNlQ5frqV5N:VbrVQVQqlqlrqPP.dNPqrV5b6kqkqrqkl.:fNV:V:bfffffLdbLlfr5NQlbVbLbVbLlNN:g.b.qQuVfNLdq:NNVfr.NNQVVbdLQkV5NbLVPlNLGkq5:L5f5.Vlkqbkl.rl5ql+rVQrP.dP3Lqu:Q.NP5lZOV.:b:NbrQbQkakf.f..lQbkVrbrfQqQqV:V:bbfks:rLk_PfVbbhdkq5qP5PdrQ565P5PVPVQfVfd5VdVNdNN<5:QP5fkLdrlQrdN.k.qkqNrb:krLLkPLfQ.5l5YVVbbQQlk.b.qb>q.QlbLdrVVflL.:Plqr>NVQNkfddk:VbLQPkd55ld:qN:fbbdk5qNrQ.l:lqf kVL:PqPj5V>bqQ:kb5LbrLNNkfld.:fqkrLdfPdk5f.Vql:LbiVVrP;QQrl5lbf:kNLfPdd:.N%fk.kPbq.rrVklQLlH.dfldQLk:5dbVQ}kbf:bPqVNrfH.Q:bq.rfVkPNNVKdVdlBL:k:5bbVL5kPfQdL:.kfrk.LPPNlfr.%PfL:r5VVlrQNIqVPb.QlNk5bdP:dN55fdDP:qNrV.dlNLQ,l.bl.QkhV5PbqQ5kpfqbLLrNVf:.NPkqlr..f:rNdYP.tl5Ldkq5:bbLdb5fNbd:lkdff.kPLNQrP.5PLLqrlVblVLrrI.bblLfkf5fdL:PNdf5bbPqqQrbdrPrqMYQ.lPdLfkk5Lb:QdkV5(dqQdNbfVdrPkqQrl..PfNr<LVPldLd?V5qb:Qb.QPfqQr6NQfQdfPkqL.LPL3.5rb::klPl.fb.qQQbd.ddf:q:NPlq.5bqkr.qL}qq5qVrrVQllL.b;:Vk5QQbb:k5fNLb:nd.5d,NrfV.lP.qf.fQVN:5ldV:5krrkdP5bbl:NNQflQ.wNV2P.QN}lVdrfkL5PPQV5bPV6brQb5bNbVfd.d:5l:Pfk.Q.q:bqVrrVNq55qbf:5NqfQdfP:L.rk.LPNQbH..5Pf.q55&qLQfNlqkq::-5lfdr5:bbqVklN:da:d:bdbQlrfrlrQqkkfVqLLRbVVlrQNkQ5ld.krkr::qlbPlfkqP5f:rbrdVf0PrbVPqfd5-N5:5LlrQ5kKfqQdrdVblfL:NQVVbdLQkV5NBPVdl5L<r55:bbQV!5l(dQ:lN.f5.kPLqP5d.bP?Lq^:VblVLPkN.QbNQ.kffkdL:Pklf5l Q=q:rb.VPrLNrfVl:.LVkk5LbPQdk55QdqQLOrfVdfPNqqrl..PfNkrbVPlbL5zr5qbkQbYddrdN:qNl55dfPkqLfQdVP5q5hq.:lbLVGr.TPdQlkP5fbQ:LNPfdb.:rqqrk.bP:qr;NVQP:LNOfV.bLLdkd55b#QkkffbdQ:rNbrQ.lP.NVrdVLPrLd?dVXbqQ:#PVNbrQbNQ5bd.:fqkfNb5Pdqqru.Nl:LbGV.5H^QQS55.bd:kNLfPblQkNKfP.::rqVrrVNPqqVR.VkbkLfkP5db5QUvff:dl:VNNrN.qPlN.flVklLLPtlV5lrQqk:.fbVQrNNfLdl:.NfrkdNPPqdr5.5PlL:^bVVLqfq.NPPNrUf.QlqNf)Q..ffN.Nq:f5f:lf:qkLdVllPQkkL5PLdrk.r:dLkrP.bf5>dQNLfPVQbkdQQVlVlNVqffl.:b5Vd5eNLdN:LN.ff.k 55:l5QlPfb.fq5r;5fdd.f:5bQbdrhfb5lP5lQ::vqQqL5VrqbdyqNk;:fNlfJfVfbPQdk5b5Q5rLVlPrLd:Uk:)5DQPrfl:5rrL.L.XJ5qb:QbkV5r.NN:N:kQdqP5rQLl:fNQr9r/.5lbLVmrlrN5rPdbP5qffmVNPldd:5qqr:.b?f5dl.VqVPVQQkPNbPP.rLkrbfLqQLPdL5flLl:NPlPlNfmkVLlP>Nbl:qqNflddPqq.cw.:PbqPkfVElNLqPdq5r;Vq:oLbiVVrPzJqkl5.bfQ.NLfPddL5Nlrq.:PbqVrr.rlQNlrOVfbkQLkP5dbVQvDqfkdb:VNrrN.Q:dq.5f..lLLP dV5lTLkk:VPbbQrNkfQbf:.NfrkbLPqqdrV.AlNL:rdVVP5NNkQ5:b.L5NkfLdPQlkQfad P:NVrV.rlNqqrqV.ldQkK.5PbdQ5BfVld::LNVfL.NPQqlfbdllkqfnPVNl5LIkqVLbPQVklfNdk:lN.ffbr:dqPrN.5:<LqC:VbPdqQkNVVblLrkffkdLQQ8!f5d:Pqqkrb.VPrNylqVlP,Lf d5LbPQdx.VPdqQdNbfddrPNqQf:.LPfqLML.VldL5;&5qlrQbk.5rbQ:QN:f.bf:5qLrP.dPqq28NV:lbq}Sr5NbQQPk.5fdk:Ldrfdd5:0qqdQ.bPVqrSkVQllL.rVVqbLQPkd.Vb0:qN:5PbQ:rqNrQ.NP.qf3kbfl:Ldy5V-l5Q:kl5VPb:NNklqd.:fqkff.PPbq5rVQfl:LbYVVlbNQLkl5.l2:kNLfPdb:5N9rqdLQkqVrrVN:QLlh.VfPrfPkP5bb5q:Nqf:dbLVNqrN.LPlqdrf.qlLqQrqV5lfQqkN5bbVQrSo5Pdl:lNfVb.LPPqdf...lqLN#bdLlrQNkQ5lbdQfk(fLdq:dN.f(dq:kqbrV.rPNLQ-PV.PVNbkL5Pbdq5k?fqd:qb.Vfr.NPQNrr.bPlkqNrcVdl5L{ l5:bbQVM5VfdQ:PN.5L.kPLqP5dd:P1LN_:VllVN5kNVqbLQ.k.fklb:PNdf5d(QVq:rl.VPVLNhQVll.LPkk5LbPQdk55fdq::55fVdrPNqLrl.bPfNrfqVPlbL5rN5qb:QbrVVVdN:LNlfddfQlqLfQddP5q5oqbdlbLV;r._P.QlkP5fl5:LNPfdb.Qdqqrk.bQVqrKNVQ:lqNFfVVbLQNkd5LbG:qk.fbd.:rN5rQ.:P.kfdqVLlQLd}VVGP.Q:0P5kbrQfNQfPd.:fqkrLPfPdq.rs.rl:LPEVdrqLQQkQ5.bV:krKfPblQrNAff.:PlqVrrVNPqNfo.VlbkLlkP5db5QAfdf:d::VNbrN.qPlk.bOVkPZLP;PV5P5QqULVkbVQbNN.Ddl:.Nfrk:VPPqqr5.blqL:%bVdqPQN755lb:QfNkfLdP:bN5fV.q:fqbr..r:NNbJlVPlfLfkLVLbdL.-dfqbw:bk.fr.NPQql.q.fPdLLr6Vdl5L_kkPfbbQLkr5rdQ:lN.ffdiPLqqrd.QP}LN{:dbPbLr;f5QbQQ.}NfkbNQ5NdfPdiL/q:rb.VP5fd,QVkl.Lfkk5LbPQdkV5*br::NNfVdfPNkQff..PdLkAqVPPNL5rf5kb:QqkVVNdN:QNlf.PQPkNJrP.LP5qfGqd:N.LV?d5NbkQlrP5flrQ:NPfqd5:rqqr:.b:dNQ_N.5llqrCf5kbLQPfk55b.:qkffbdd:rkNbP.lPQqfrVVL:.Ldr.V5bqLfkb5Pbr:NNQf:Qq:fNlrLdbPdq5r{VqlQLbJ:VrlbQQkP5.PfLrNLfkdd:lNE5P.::PNbrr.dlQqn9.VfbkQN.r5dbLQekdf:db:VNrrk.QPNq.rQVklqLPfdVqlaL5k:5LbVLqNN5qb.:.N:rkddPPqdr5.fN.L:rKVVl.QNkQ5lb.Q5Nk5fdP:kN5fr.qQ:NQrV.blNq63ldrlfqrpQ5PbNQ5kbfqd::bNdbP.N:VqlrQ.flkLLjPVbl5LdkqV5bbQ.krVNbL:lNQffdVPLk.rdd.:QLqrfVbPPLrkN5Qb:Oqkf5ldLQ.Ndf5dwPqqQrb.:PrqbUQVPl.NfrQ5LbkQdkl5 lP::kP5bdr:dqQ5b..PfLkWN:rldLLK_5Nb:QbkV5rdk:QNNf.dQPkqqrPbdP.q?r5V:lLLVrq5NlqLCk.5:dkQNNPfdd5:f5.r:d8PVqLaNVQllL.K55klfQPkk55br:qz:f:dV:bqNf).lQrqffr.flPLNj5VfbqQ:kb5dLP:NkVflbf:fqkrL.PPbq5rdVqP5Lb^.VrPNL}kl5QbfQVNLV.ddQ.NNrqdfPbN5rrVNlQL:.qVfllQL8P5db5QTNqfQdb::Nrfb.QPPq.5f.5lLLk%dVll*qPk:VPlQQrkdfQdQ:.Nfrk.NkrqdrL.9PNL:ybVVlrQkkQ5Nb.QQNkfqdPLdkqf d5P:qLrVdqlNqqU:V.l:Qkrf5PbdQ5kfl.d:Q+NVfl.NPQqlr..5lkqf,PVkl5Lrkq.:bPQVkbfNbG:l{rffbr:fqPrN.5PqLqW:VbldrPkNVVblQbkffkdL:PNbf5ddPqN5rb..PrNNr5VllQLf_V5LP.Qd>.VddqQfNb5QdrPNqQr::qPfqlML.rldL5<z5qbQQbk:5rbb:QNPf.lf:qqLrk.dPlq=fPV:PPLQErVdbQNrk.5fdk:NVrfddL:ANLr:.bPVqrekVQlNL.3Q5kbqQPrdVrb_Q5N:fLdVQqqNfq.qP.q: kbblPLd 5Vfq.Q:(p5VbQ:NNQfld.}:qkff.PPkq5rrVql:N53VVrbNQLkl5.bf:k");local d=0;o.RsBbQmcW(function()o.gqoMelqs()d=d+1 end)local function e(e,n)if n then return d end;d=e+d;end local n,d,h=k(0,k,e,a,o.tQUzCQgt);local function r()local n,d=o.tQUzCQgt(a,e(1,3),e(5,6)+2);e(2);return(d*256)+n;end;local c=true;local c=0 local function z()local l=d();local e=d();local f=1;local l=(n(e,1,20)*(2^32))+l;local d=n(e,21,31);local e=((-1)^n(e,32));if(d==0)then if(l==c)then return e*0;else d=1;f=0;end;elseif(d==2047)then return(l==0)and(e*(1/0))or(e*(0/0));end;return o.wZbUgWpR(e,d-1023)*(f+(l/(2^52)));end;local _=d;local function p(d)local n;if(not d)then d=_();if(d==0)then return'';end;end;n=o.moGpzaLH(a,e(1,3),e(5,6)+d-1);e(d)local e=""for d=(1+c),#n do e=e..o.moGpzaLH(n,d,d)end return e;end;local c=#o.APfPljMO(s('\49.\48'))~=1 local e=d;local function le(...)return{...},o.VdJtTfsf('#',...)end local function ne()local k={};local a={};local e={};local s={a,k,nil,e};local e=d()local t={}for l=1,e do local n=h();local e;if(n==0)then e=(h()~=#{});elseif(n==2)then local d=z();if c and o.rRfFMxul(o.APfPljMO(d),'.(\48+)$')then d=o.GYSZXcAa(d);end e=d;elseif(n==3)then e=p();end;t[l]=e;end;for e=1,d()do k[e-(#{1})]=ne();end;for o=1,d()do local e=h();if(n(e,1,1)==0)then local k=n(e,2,3);local h=n(e,4,6);local e={r(),r(),nil,nil};if(k==0)then e[f]=r();e[b]=r();elseif(k==#{1})then e[f]=d();elseif(k==u[2])then e[f]=d()-(2^16)elseif(k==u[3])then e[f]=d()-(2^16)e[b]=r();end;if(n(h,1,1)==1)then e[l]=t[e[l]]end if(n(h,2,2)==1)then e[f]=t[e[f]]end if(n(h,3,3)==1)then e[b]=t[e[b]]end a[o]=e;end end;s[3]=h();return s;end;local function ee(n,d,e)local l=d;local l=e;return s(o.rRfFMxul(o.rRfFMxul(({o.RsBbQmcW(n)})[2],d),e))end local function _(y,u,h)local function ne(...)local r,p,z,ee,c,d,a,de,j,m,s,n;local e=0;while-1<e do if e<3 then if e<1 then r=k(6,27,1,93,y);p=k(6,24,2,99,y);else if-1<e then for n=27,63 do if e~=2 then z=k(6,89,3,31,y);c=le ee=0;break;end;d=-41;a=-1;break;end;else z=k(6,89,3,31,y);c=le ee=0;end end else if e<5 then if-1<e then repeat if e~=4 then de={};j={...};break;end;m=o.VdJtTfsf('#',...)-1;s={};until true;else m=o.VdJtTfsf('#',...)-1;s={};end else if 1<e then repeat if e~=5 then e=-2;break;end;n=k(7);until true;else n=k(7);end end end e=e+1;end;for e=0,m do if(e>=z)then de[e-z]=j[e+1];else n[e]=j[e+1];end;end;local e=m-z+1 local e;local k;local function z(...)while true do end end while true do if d<-40 then d=d+42 end e=r[d];k=e[g];if k<=68 then if 33>=k then if k<=16 then if 8<=k then if 12<=k then if 13>=k then if 11<=k then repeat if k>12 then if n[e[l]]then d=d+1;else d=e[f];end;break;end;local h,o,a,u,s,p,c,k;for k=0,2 do if 1>k then h=e[l]n[h](t(n,h+1,e[f]))d=d+1;e=r[d];else if 0~=k then for t=38,73 do if 1<k then k=0;while k>-1 do if 3>k then if k<=0 then a=e;else if k~=0 then for e=37,84 do if 2>k then u=l;break;end;s=f;break;end;else s=f;end end else if k<5 then if k>-1 then repeat if k>3 then c=a[u];break;end;p=a[s];until true;else c=a[u];end else if 4<k then repeat if k<6 then n(c,p);break;end;k=-2;until true;else k=-2;end end end k=k+1 end break;end;h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];break;end;else h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];end end end until true;else local h,o,a,u,c,p,s,k;for k=0,2 do if 1>k then h=e[l]n[h](t(n,h+1,e[f]))d=d+1;e=r[d];else if 0~=k then for t=38,73 do if 1<k then k=0;while k>-1 do if 3>k then if k<=0 then a=e;else if k~=0 then for e=37,84 do if 2>k then u=l;break;end;c=f;break;end;else c=f;end end else if k<5 then if k>-1 then repeat if k>3 then s=a[u];break;end;p=a[c];until true;else s=a[u];end else if 4<k then repeat if k<6 then n(s,p);break;end;k=-2;until true;else k=-2;end end end k=k+1 end break;end;h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];break;end;else h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];end end end end else if 14<k then if 16>k then local r,h,t,b,k;local d=0;while d>-1 do if 3<=d then if 4<d then if d~=3 then for e=46,64 do if 5<d then d=-2;break;end;n(k,b);break;end;else d=-2;end else if d==4 then k=r[h];else b=r[t];end end else if 0<d then if 1==d then h=l;else t=f;end else r=e;end end d=d+1 end else n[e[l]]=(e[f]~=0);end else do return end;end end else if 9<k then if k~=11 then for b=0,6 do if b>=3 then if 4<b then if b==5 then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);end else if 1~=b then for k=46,68 do if b>3 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);d=d+1;e=r[d];end end else if 0>=b then n(e[l],e[f]);d=d+1;e=r[d];else if b~=1 then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end end end end else local k,h;for o=0,2 do if o<1 then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if o~=2 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);end end end end else if k~=4 then repeat if k~=8 then local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;break;end;local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;until true;else local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end end end else if k>=4 then if 5<k then if 4<k then repeat if 6~=k then local k,_,s,p,o,u;for s=0,6 do if s<=2 then if 0<s then if s>0 then for k=43,58 do if 2>s then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end else if 4>=s then if 1<=s then repeat if s~=4 then k=e[l];_=n[e[f]];n[k+1]=_;n[k]=_[e[b]];d=d+1;e=r[d];break;end;k=e[l]u,p=c(n[k](n[k+1]))a=p+k-1 o=0;for e=k,a do o=o+1;n[e]=u[o];end;d=d+1;e=r[d];until true;else k=e[l]u,p=c(n[k](n[k+1]))a=p+k-1 o=0;for e=k,a do o=o+1;n[e]=u[o];end;d=d+1;e=r[d];end else if s~=2 then for h=35,57 do if s<6 then k=e[l]u={n[k](t(n,k+1,a))};o=0;for e=k,e[b]do o=o+1;n[e]=u[o];end d=d+1;e=r[d];break;end;d=e[f];break;end;else d=e[f];end end end end break;end;for b=0,6 do if b>=3 then if b>=5 then if 1<b then repeat if b<6 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);until true;else n(e[l],e[f]);d=d+1;e=r[d];end else if b>=0 then for k=21,81 do if 4~=b then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);d=d+1;e=r[d];end end else if 1<=b then if-3<=b then repeat if b~=1 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end else n(e[l],e[f]);d=d+1;e=r[d];end end end until true;else for b=0,6 do if b>=3 then if b>=5 then if 1<b then repeat if b<6 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);until true;else n(e[l],e[f]);d=d+1;e=r[d];end else if b>=0 then for k=21,81 do if 4~=b then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);d=d+1;e=r[d];end end else if 1<=b then if-3<=b then repeat if b~=1 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end else n(e[l],e[f]);d=d+1;e=r[d];end end end end else if k>1 then repeat if 5>k then if(e[l]<n[e[b]])then d=d+1;else d=e[f];end;break;end;local d=e[l]local l,e=c(n[d](t(n,d+1,e[f])))a=e+d-1 local e=0;for d=d,a do e=e+1;n[d]=l[e];end;until true;else if(e[l]<n[e[b]])then d=d+1;else d=e[f];end;end end else if 1<k then if 2~=k then for b=0,6 do if b<=2 then if b<=0 then n(e[l],e[f]);d=d+1;e=r[d];else if b~=1 then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end end else if b>=5 then if 2<=b then repeat if 6~=b then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);until true;else n(e[l],e[f]);end else if 3==b then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end end end end else local a,s,u,o,h,k,c;k=0;while k>-1 do if k>=3 then if 5<=k then if k>=4 then for e=32,77 do if 5<k then k=-2;break;end;n(h,o);break;end;else n(h,o);end else if k~=3 then h=a[s];else o=a[u];end end else if k>0 then if k>0 then for e=13,63 do if k~=1 then u=f;break;end;s=l;break;end;else u=f;end else a=e;end end k=k+1 end d=d+1;e=r[d];k=0;while k>-1 do if 3<=k then if k<=4 then if 4~=k then o=a[u];else h=a[s];end else if 4<=k then repeat if 5<k then k=-2;break;end;n(h,o);until true;else n(h,o);end end else if k<=0 then a=e;else if k>=0 then repeat if 1~=k then u=f;break;end;s=l;until true;else s=l;end end end k=k+1 end d=d+1;e=r[d];c=e[l]n[c]=n[c](t(n,c+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end else if 1==k then local k,h;for o=0,2 do if o>=1 then if o~=-2 then for t=18,84 do if o~=2 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);break;end;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end else k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];end end else local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end end end end else if k>24 then if k>28 then if 30<k then if k<=31 then local k,h;for o=0,2 do if o<=0 then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if 0~=o then for t=21,52 do if 2~=o then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);break;end;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end end end else if k~=29 then repeat if 33>k then local d=e[l]n[d](t(n,d+1,e[f]))break;end;local k,a;for o=0,6 do if 2>=o then if 1<=o then if o==1 then k=e[l];a=n[e[f]];n[k+1]=a;n[k]=a[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end else if o>4 then if 3~=o then repeat if o~=5 then k=e[l]n[k]=n[k](t(n,k+1,e[f]))break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else k=e[l]n[k]=n[k](t(n,k+1,e[f]))end else if o~=0 then repeat if 4>o then n(e[l],e[f]);d=d+1;e=r[d];break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];until true;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end end until true;else local k,a;for o=0,6 do if 2>=o then if 1<=o then if o==1 then k=e[l];a=n[e[f]];n[k+1]=a;n[k]=a[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end else if o>4 then if 3~=o then repeat if o~=5 then k=e[l]n[k]=n[k](t(n,k+1,e[f]))break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else k=e[l]n[k]=n[k](t(n,k+1,e[f]))end else if o~=0 then repeat if 4>o then n(e[l],e[f]);d=d+1;e=r[d];break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];until true;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end end end end else if k~=26 then repeat if k>29 then n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);break;end;local k,o,a,t,h,b;for b=0,6 do if 2<b then if b<5 then if 2<b then for s=21,79 do if 4>b then b=0;while b>-1 do if b>2 then if b<=4 then if 4==b then h=k[o];else t=k[a];end else if 2<=b then repeat if b~=6 then n(h,t);break;end;b=-2;until true;else n(h,t);end end else if b>0 then if-3<b then repeat if b<2 then o=l;break;end;a=f;until true;else o=l;end else k=e;end end b=b+1 end d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else b=0;while b>-1 do if b>2 then if b<=4 then if 4==b then h=k[o];else t=k[a];end else if 2<=b then repeat if b~=6 then n(h,t);break;end;b=-2;until true;else n(h,t);end end else if b>0 then if-3<b then repeat if b<2 then o=l;break;end;a=f;until true;else o=l;end else k=e;end end b=b+1 end d=d+1;e=r[d];end else if b==6 then b=0;while b>-1 do if 2>=b then if b>0 then if b~=0 then for e=33,86 do if 2>b then o=l;break;end;a=f;break;end;else a=f;end else k=e;end else if b<5 then if 1~=b then repeat if 4~=b then t=k[a];break;end;h=k[o];until true;else t=k[a];end else if b>=1 then repeat if 5~=b then b=-2;break;end;n(h,t);until true;else n(h,t);end end end b=b+1 end else b=0;while b>-1 do if 2<b then if 4>=b then if b>=0 then for e=22,59 do if b~=4 then t=k[a];break;end;h=k[o];break;end;else h=k[o];end else if 6>b then n(h,t);else b=-2;end end else if b<1 then k=e;else if 1<b then a=f;else o=l;end end end b=b+1 end d=d+1;e=r[d];end end else if 0<b then if b~=2 then n(e[l],e[f]);d=d+1;e=r[d];else b=0;while b>-1 do if 3<=b then if 5<=b then if 4<b then for e=47,95 do if b>5 then b=-2;break;end;n(h,t);break;end;else n(h,t);end else if 2<=b then repeat if 4>b then t=k[a];break;end;h=k[o];until true;else t=k[a];end end else if b>0 then if b>=-3 then repeat if b~=1 then a=f;break;end;o=l;until true;else o=l;end else k=e;end end b=b+1 end d=d+1;e=r[d];end else n(e[l],e[f]);d=d+1;e=r[d];end end end until true;else local k,o,a,t,h,b;for b=0,6 do if 2<b then if b<5 then if 2<b then for s=21,79 do if 4>b then b=0;while b>-1 do if b>2 then if b<=4 then if 4==b then h=k[o];else t=k[a];end else if 2<=b then repeat if b~=6 then n(h,t);break;end;b=-2;until true;else n(h,t);end end else if b>0 then if-3<b then repeat if b<2 then o=l;break;end;a=f;until true;else o=l;end else k=e;end end b=b+1 end d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else b=0;while b>-1 do if b>2 then if b<=4 then if 4==b then h=k[o];else t=k[a];end else if 2<=b then repeat if b~=6 then n(h,t);break;end;b=-2;until true;else n(h,t);end end else if b>0 then if-3<b then repeat if b<2 then o=l;break;end;a=f;until true;else o=l;end else k=e;end end b=b+1 end d=d+1;e=r[d];end else if b==6 then b=0;while b>-1 do if 2>=b then if b>0 then if b~=0 then for e=33,86 do if 2>b then o=l;break;end;a=f;break;end;else a=f;end else k=e;end else if b<5 then if 1~=b then repeat if 4~=b then t=k[a];break;end;h=k[o];until true;else t=k[a];end else if b>=1 then repeat if 5~=b then b=-2;break;end;n(h,t);until true;else n(h,t);end end end b=b+1 end else b=0;while b>-1 do if 2<b then if 4>=b then if b>=0 then for e=22,59 do if b~=4 then t=k[a];break;end;h=k[o];break;end;else h=k[o];end else if 6>b then n(h,t);else b=-2;end end else if b<1 then k=e;else if 1<b then a=f;else o=l;end end end b=b+1 end d=d+1;e=r[d];end end else if 0<b then if b~=2 then n(e[l],e[f]);d=d+1;e=r[d];else b=0;while b>-1 do if 3<=b then if 5<=b then if 4<b then for e=47,95 do if b>5 then b=-2;break;end;n(h,t);break;end;else n(h,t);end else if 2<=b then repeat if 4>b then t=k[a];break;end;h=k[o];until true;else t=k[a];end end else if b>0 then if b>=-3 then repeat if b~=1 then a=f;break;end;o=l;until true;else o=l;end else k=e;end end b=b+1 end d=d+1;e=r[d];end else n(e[l],e[f]);d=d+1;e=r[d];end end end end end else if 27>k then if 23~=k then repeat if 25<k then n(e[l],e[f]);break;end;for e=e[l],e[f]do n[e]=nil;end;until true;else n(e[l],e[f]);end else if 24~=k then repeat if k~=27 then local k,o,h,t,a,b;for b=0,6 do if b<3 then if 1<=b then if b==1 then b=0;while b>-1 do if 3>b then if b>0 then if b>1 then h=f;else o=l;end else k=e;end else if 4>=b then if-1<b then for e=34,77 do if 4>b then t=k[h];break;end;a=k[o];break;end;else t=k[h];end else if 4~=b then for e=20,67 do if b>5 then b=-2;break;end;n(a,t);break;end;else n(a,t);end end end b=b+1 end d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end else n(e[l],e[f]);d=d+1;e=r[d];end else if b>=5 then if b<6 then n(e[l],e[f]);d=d+1;e=r[d];else b=0;while b>-1 do if 3<=b then if 5>b then if 3==b then t=k[h];else a=k[o];end else if 2<=b then repeat if 5<b then b=-2;break;end;n(a,t);until true;else b=-2;end end else if 0<b then if b<2 then o=l;else h=f;end else k=e;end end b=b+1 end end else if 4==b then b=0;while b>-1 do if b<3 then if b>0 then if b>-1 then repeat if b~=2 then o=l;break;end;h=f;until true;else o=l;end else k=e;end else if 5>b then if b>3 then a=k[o];else t=k[h];end else if 1<b then for e=24,98 do if 5<b then b=-2;break;end;n(a,t);break;end;else n(a,t);end end end b=b+1 end d=d+1;e=r[d];else b=0;while b>-1 do if b>=3 then if b>=5 then if b==6 then b=-2;else n(a,t);end else if 1~=b then repeat if b>3 then a=k[o];break;end;t=k[h];until true;else t=k[h];end end else if b<1 then k=e;else if b>=-1 then repeat if 1~=b then h=f;break;end;o=l;until true;else o=l;end end end b=b+1 end d=d+1;e=r[d];end end end end break;end;local d=e[l]local f={n[d](t(n,d+1,a))};local l=0;for e=d,e[b]do l=l+1;n[e]=f[l];end until true;else local l=e[l]local f={n[l](t(n,l+1,a))};local d=0;for e=l,e[b]do d=d+1;n[e]=f[d];end end end end else if k<21 then if k<19 then if 17~=k then local e=e[l]n[e](n[e+1])else local k,h;for o=0,2 do if o>0 then if-1~=o then for t=45,69 do if 2~=o then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);break;end;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end else k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];end end end else if k>=16 then repeat if k~=20 then if n[e[l]]then d=d+1;else d=e[f];end;break;end;local k,h;for o=0,2 do if 1<=o then if o~=2 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);end else k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];end end until true;else local k,h;for o=0,2 do if 1<=o then if o~=2 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);end else k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];end end end end else if k<=22 then if 20~=k then for h=25,84 do if 21<k then local k,h;for o=0,2 do if o>=1 then if o~=2 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);end else k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];end end break;end;local d=e[l];local l=n[e[f]];n[d+1]=l;n[d]=l[e[b]];break;end;else local l=e[l];local d=n[e[f]];n[l+1]=d;n[l]=d[e[b]];end else if k>22 then repeat if 23<k then local h,o,a,s,u,p,c,k;for k=0,2 do if k>0 then if k>-3 then repeat if 2>k then h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];break;end;k=0;while k>-1 do if k>2 then if k<=4 then if 3<k then c=a[s];else p=a[u];end else if 5~=k then k=-2;else n(c,p);end end else if k>0 then if k>1 then u=f;else s=l;end else a=e;end end k=k+1 end until true;else h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];end else h=e[l]n[h](t(n,h+1,e[f]))d=d+1;e=r[d];end end break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n(e[l],e[f]);until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n(e[l],e[f]);end end end end end else if k>=51 then if 59>=k then if 55<=k then if 57<=k then if 57>=k then local d=e[l]n[d]=n[d](t(n,d+1,e[f]))else if k<59 then n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]][e[f]]=e[b];d=d+1;e=r[d];do return end;else local d=e[l]local f={n[d](t(n,d+1,a))};local l=0;for e=d,e[b]do l=l+1;n[e]=f[l];end end end else if k~=53 then for o=39,90 do if k>55 then local k;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]]=u[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]][e[f]]=e[b];d=d+1;e=r[d];n[e[l]]=u[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];break;end;for k=0,6 do if k>=3 then if k>=5 then if k~=4 then repeat if 6~=k then n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];until true;else n[e[l]]=n[e[f]][e[b]];end else if k~=-1 then for t=42,65 do if 3~=k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end else if 0<k then if-2<k then for t=10,87 do if 1<k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end break;end;else local k;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]]=u[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]][e[f]]=e[b];d=d+1;e=r[d];n[e[l]]=u[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];end end else if k>=53 then if 54>k then local k,o;for a=0,5 do if 2<a then if 3<a then if a==4 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];else k=e[l];o=n[e[f]];n[k+1]=o;n[k]=o[e[b]];end else k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];end else if 1>a then n[e[l]]=h[e[f]];d=d+1;e=r[d];else if 1<a then n(e[l],e[f]);d=d+1;e=r[d];else k=e[l];o=n[e[f]];n[k+1]=o;n[k]=o[e[b]];d=d+1;e=r[d];end end end end else h[e[f]]=n[e[l]];end else if k>48 then repeat if 52>k then for k=0,6 do if 3<=k then if k<5 then if k>=1 then repeat if k~=4 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else if k<6 then n[e[l]]=h[e[f]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];end end else if 0<k then if k==2 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end break;end;n[e[l]]=n[e[f]][e[b]];until true;else for k=0,6 do if 3<=k then if k<5 then if k>=1 then repeat if k~=4 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else if k<6 then n[e[l]]=h[e[f]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];end end else if 0<k then if k==2 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end end end end else if k<=63 then if 62<=k then if 61~=k then repeat if k~=63 then local k;n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k](n[k+1])d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n(e[l],e[f]);break;end;local d=e[l]local l,e=c(n[d](t(n,d+1,e[f])))a=e+d-1 local e=0;for d=d,a do e=e+1;n[d]=l[e];end;until true;else local k;n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k](n[k+1])d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n(e[l],e[f]);end else if k>=57 then for a=14,95 do if k~=60 then local a=p[e[f]];local t;local k={};t=o.kPgkzBvd({},{__index=function(d,e)local e=k[e];return e[1][e[2]];end,__newindex=function(n,e,d)local e=k[e]e[1][e[2]]=d;end;});for l=1,e[b]do d=d+1;local e=r[d];if e[g]==66 then k[l-1]={n,e[f]};else k[l-1]={u,e[f]};end;s[#s+1]=k;end;n[e[l]]=_(a,t,h);break;end;local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;break;end;else local a=p[e[f]];local t;local k={};t=o.kPgkzBvd({},{__index=function(d,e)local e=k[e];return e[1][e[2]];end,__newindex=function(n,e,d)local e=k[e]e[1][e[2]]=d;end;});for l=1,e[b]do d=d+1;local e=r[d];if e[g]==66 then k[l-1]={n,e[f]};else k[l-1]={u,e[f]};end;s[#s+1]=k;end;n[e[l]]=_(a,t,h);end end else if 65<k then if k<67 then local r,t,o,h,k,b;local d=0;while d>-1 do if 3<d then if 5>=d then if d<5 then k=h[r[o]];else b=r[t];end else if 2<=d then for e=23,55 do if 7>d then n[b]=k;break;end;d=-2;break;end;else n[b]=k;end end else if 2>d then if d>=-3 then for n=24,79 do if 0<d then t=l;break;end;r=e;break;end;else r=e;end else if 3==d then h=n;else o=f;end end end d=d+1 end else if k>63 then for o=19,94 do if k~=68 then n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];break;end;local k,h;for o=0,3 do if 2>o then if-3<=o then for a=20,59 do if 1~=o then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];break;end;k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end else if 2==o then n(e[l],e[f]);d=d+1;e=r[d];else for e=e[l],e[f]do n[e]=nil;end;end end end break;end;else local k,h;for o=0,3 do if 2>o then if-3<=o then for a=20,59 do if 1~=o then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];break;end;k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end else if 2==o then n(e[l],e[f]);d=d+1;e=r[d];else for e=e[l],e[f]do n[e]=nil;end;end end end end end else if 61<=k then repeat if k~=64 then local k,h;for o=0,2 do if 0>=o then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if-2<=o then repeat if o<2 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);until true;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end end end break;end;n[e[l]]=u[e[f]];until true;else local k,h;for o=0,2 do if 0>=o then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if-2<=o then repeat if o<2 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);until true;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end end end end end end end else if 42>k then if 37<k then if k<=39 then if 37<k then repeat if k>38 then if(n[e[l]]<=e[b])then d=d+1;else d=e[f];end;break;end;local k,h;for o=0,2 do if o<=0 then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if-2<o then for t=26,82 do if 2>o then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);break;end;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end end end until true;else if(n[e[l]]<=e[b])then d=d+1;else d=e[f];end;end else if 36~=k then repeat if 41~=k then n[e[l]]=h[e[f]];break;end;local d=e[l];local l=n[e[f]];n[d+1]=l;n[d]=l[e[b]];until true;else n[e[l]]=h[e[f]];end end else if 35>=k then if 35>k then local k,o,t,h,a,b;for b=0,6 do if b>=3 then if b>4 then if b~=4 then repeat if 5<b then b=0;while b>-1 do if b<3 then if 1>b then k=e;else if b~=-2 then for e=10,81 do if 1<b then t=f;break;end;o=l;break;end;else o=l;end end else if b<5 then if b>3 then a=k[o];else h=k[t];end else if b<6 then n(a,h);else b=-2;end end end b=b+1 end break;end;b=0;while b>-1 do if b<=2 then if b<1 then k=e;else if-3<=b then for e=27,57 do if 1~=b then t=f;break;end;o=l;break;end;else t=f;end end else if b>=5 then if 2<=b then repeat if 5~=b then b=-2;break;end;n(a,h);until true;else b=-2;end else if b~=3 then a=k[o];else h=k[t];end end end b=b+1 end d=d+1;e=r[d];until true;else b=0;while b>-1 do if b<=2 then if b<1 then k=e;else if-3<=b then for e=27,57 do if 1~=b then t=f;break;end;o=l;break;end;else t=f;end end else if b>=5 then if 2<=b then repeat if 5~=b then b=-2;break;end;n(a,h);until true;else b=-2;end else if b~=3 then a=k[o];else h=k[t];end end end b=b+1 end d=d+1;e=r[d];end else if b>-1 then for s=23,72 do if 3<b then b=0;while b>-1 do if b<3 then if b<1 then k=e;else if b>-3 then for e=32,95 do if 2~=b then o=l;break;end;t=f;break;end;else t=f;end end else if 4>=b then if 1<b then repeat if 3~=b then a=k[o];break;end;h=k[t];until true;else h=k[t];end else if b>=3 then repeat if 5<b then b=-2;break;end;n(a,h);until true;else b=-2;end end end b=b+1 end d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else b=0;while b>-1 do if b<3 then if b<1 then k=e;else if b>-3 then for e=32,95 do if 2~=b then o=l;break;end;t=f;break;end;else t=f;end end else if 4>=b then if 1<b then repeat if 3~=b then a=k[o];break;end;h=k[t];until true;else h=k[t];end else if b>=3 then repeat if 5<b then b=-2;break;end;n(a,h);until true;else b=-2;end end end b=b+1 end d=d+1;e=r[d];end end else if b<=0 then b=0;while b>-1 do if b<3 then if 1>b then k=e;else if-3<=b then repeat if b~=2 then o=l;break;end;t=f;until true;else t=f;end end else if b<=4 then if 1~=b then for e=44,91 do if b~=3 then a=k[o];break;end;h=k[t];break;end;else h=k[t];end else if b==6 then b=-2;else n(a,h);end end end b=b+1 end d=d+1;e=r[d];else if b>=0 then for k=22,72 do if b<2 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);d=d+1;e=r[d];end end end end else if not n[e[l]]then d=d+1;else d=e[f];end;end else if 32<k then for o=20,57 do if 36~=k then local h,c,a,o,s,k,u;n(e[l],e[f]);d=d+1;e=r[d];k=0;while k>-1 do if 3<=k then if 5>k then if 2~=k then repeat if 3~=k then s=h[c];break;end;o=h[a];until true;else o=h[a];end else if k==6 then k=-2;else n(s,o);end end else if 1<=k then if k>=0 then for e=16,82 do if k~=1 then a=f;break;end;c=l;break;end;else a=f;end else h=e;end end k=k+1 end d=d+1;e=r[d];k=0;while k>-1 do if 3>k then if k<1 then h=e;else if 1==k then c=l;else a=f;end end else if k>4 then if k>=4 then repeat if k<6 then n(s,o);break;end;k=-2;until true;else n(s,o);end else if 3~=k then s=h[c];else o=h[a];end end end k=k+1 end d=d+1;e=r[d];u=e[l]n[u]=n[u](t(n,u+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;break;end;for k=0,6 do if 3>k then if 0>=k then n[e[l]]=h[e[f]];d=d+1;e=r[d];else if-2<=k then repeat if k~=2 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end else if k<=4 then if k==4 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else if 2<=k then for t=18,54 do if k>5 then n[e[l]]=n[e[f]][e[b]];break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end end break;end;else local h,c,a,o,s,k,u;n(e[l],e[f]);d=d+1;e=r[d];k=0;while k>-1 do if 3<=k then if 5>k then if 2~=k then repeat if 3~=k then s=h[c];break;end;o=h[a];until true;else o=h[a];end else if k==6 then k=-2;else n(s,o);end end else if 1<=k then if k>=0 then for e=16,82 do if k~=1 then a=f;break;end;c=l;break;end;else a=f;end else h=e;end end k=k+1 end d=d+1;e=r[d];k=0;while k>-1 do if 3>k then if k<1 then h=e;else if 1==k then c=l;else a=f;end end else if k>4 then if k>=4 then repeat if k<6 then n(s,o);break;end;k=-2;until true;else n(s,o);end else if 3~=k then s=h[c];else o=h[a];end end end k=k+1 end d=d+1;e=r[d];u=e[l]n[u]=n[u](t(n,u+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end end end else if 45>=k then if 43>=k then if 41~=k then repeat if 43>k then local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];until true;else local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end else if k>43 then repeat if 45>k then n[e[l]][e[f]]=e[b];break;end;local e=e[l]n[e](n[e+1])until true;else n[e[l]][e[f]]=e[b];end end else if k>47 then if k>48 then if 50>k then n[e[l]][e[f]]=n[e[b]];else n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];end else n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);end else if 46==k then if(n[e[l]]==e[b])then d=d+1;else d=e[f];end;else local h,a,o,s,u,c,p,k;h=e[l]n[h](t(n,h+1,e[f]))d=d+1;e=r[d];h=e[l];a=n[e[f]];n[h+1]=a;n[h]=a[e[b]];d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];h=e[l];a=n[e[f]];n[h+1]=a;n[h]=a[e[b]];d=d+1;e=r[d];k=0;while k>-1 do if k>2 then if 4>=k then if-1<k then repeat if k>3 then p=o[s];break;end;c=o[u];until true;else c=o[u];end else if k~=5 then k=-2;else n(p,c);end end else if 0>=k then o=e;else if-3~=k then for e=15,78 do if k~=1 then u=f;break;end;s=l;break;end;else s=l;end end end k=k+1 end d=d+1;e=r[d];k=0;while k>-1 do if 3<=k then if k<5 then if 2<=k then repeat if 3<k then p=o[s];break;end;c=o[u];until true;else p=o[s];end else if 1~=k then repeat if 5~=k then k=-2;break;end;n(p,c);until true;else k=-2;end end else if k<1 then o=e;else if-1~=k then for e=28,75 do if k<2 then s=l;break;end;u=f;break;end;else u=f;end end end k=k+1 end end end end end end end else if 104>k then if 85<k then if k>=95 then if 98<k then if k>100 then if k<=101 then d=e[f];else if k~=102 then for k=0,6 do if k>=3 then if 5>k then if 1<k then for t=12,96 do if 3~=k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else if k~=4 then for t=10,77 do if k<6 then n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];break;end;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end else if 1>k then n[e[l]]=h[e[f]];d=d+1;e=r[d];else if-2~=k then repeat if 1~=k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end end end else local a,c,o,u,s,k,h;n(e[l],e[f]);d=d+1;e=r[d];k=0;while k>-1 do if 3<=k then if 4<k then if k>5 then k=-2;else n(s,u);end else if k==4 then s=a[c];else u=a[o];end end else if 1<=k then if k~=0 then for e=34,82 do if 2~=k then c=l;break;end;o=f;break;end;else o=f;end else a=e;end end k=k+1 end d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end end else if k>98 then repeat if k<100 then local d=e[l]n[d](t(n,d+1,e[f]))break;end;if(n[e[l]]<=e[b])then d=d+1;else d=e[f];end;until true;else local d=e[l]n[d](t(n,d+1,e[f]))end end else if 96>=k then if k~=91 then for h=33,63 do if k<96 then local k,h;for o=0,2 do if 0>=o then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if o==1 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);end end end break;end;local h,c,o,s,p,u,a,k;for k=0,2 do if k<=0 then h=e[l]n[h](t(n,h+1,e[f]))d=d+1;e=r[d];else if k==2 then k=0;while k>-1 do if 2<k then if 5<=k then if k~=1 then for e=27,93 do if k~=6 then n(a,u);break;end;k=-2;break;end;else n(a,u);end else if-1<=k then repeat if 4>k then u=o[p];break;end;a=o[s];until true;else a=o[s];end end else if k<=0 then o=e;else if 2~=k then s=l;else p=f;end end end k=k+1 end else h=e[l];c=n[e[f]];n[h+1]=c;n[h]=c[e[b]];d=d+1;e=r[d];end end end break;end;else local k,h;for o=0,2 do if 0>=o then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if o==1 then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];else n(e[l],e[f]);end end end end else if 93<k then repeat if 98~=k then n[e[l]]=(e[f]~=0);break;end;local k,h;for o=0,2 do if 0<o then if-1<=o then repeat if o>1 then n(e[l],e[f]);break;end;k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];until true;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end else k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];end end until true;else n[e[l]]=(e[f]~=0);end end end else if 90>k then if k<=87 then if 86~=k then local b;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];b=e[l]n[b](t(n,b+1,e[f]))d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];b=e[l]n[b](t(n,b+1,e[f]))else local h,s,o,a,c,k,u;k=0;while k>-1 do if k<3 then if 1>k then h=e;else if k>=-1 then repeat if 2~=k then s=l;break;end;o=f;until true;else s=l;end end else if 4>=k then if 4~=k then a=h[o];else c=h[s];end else if 2<=k then for e=26,74 do if 6>k then n(c,a);break;end;k=-2;break;end;else k=-2;end end end k=k+1 end d=d+1;e=r[d];k=0;while k>-1 do if k>2 then if k>4 then if 5==k then n(c,a);else k=-2;end else if 1~=k then repeat if k~=4 then a=h[o];break;end;c=h[s];until true;else a=h[o];end end else if k>=1 then if k~=0 then for e=49,54 do if 1<k then o=f;break;end;s=l;break;end;else o=f;end else h=e;end end k=k+1 end d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];u=e[l]n[u]=n[u](t(n,u+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end else if 84~=k then for t=47,73 do if k~=89 then n[e[l]]=_(p[e[f]],nil,h);break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];break;end;else n[e[l]]=_(p[e[f]],nil,h);end end else if k<92 then if 86<=k then repeat if k~=90 then n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];break;end;local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;until true;else local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end else if 92>=k then local e=e[l]n[e]=n[e](t(n,e+1,a))else if 91<k then for t=44,64 do if k>93 then local t,k;for h=0,1 do if-1~=h then for o=40,84 do if 1>h then t=e[l];k=n[e[f]];n[t+1]=k;n[t]=k[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);break;end;else n(e[l],e[f]);end end break;end;local l=e[l];local b=e[b];local r=l+2 local l={n[l](n[l+1],n[r])};for e=1,b do n[r+e]=l[e];end;local l=l[1]if l then n[r]=l d=e[f];else d=d+1;end;break;end;else local l=e[l];local b=e[b];local r=l+2 local l={n[l](n[l+1],n[r])};for e=1,b do n[r+e]=l[e];end;local l=l[1]if l then n[r]=l d=e[f];else d=d+1;end;end end end end end else if k>76 then if 80>=k then if 78<k then if 77~=k then repeat if 79<k then if(e[l]<n[e[b]])then d=d+1;else d=e[f];end;break;end;local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;until true;else local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end else if k>76 then repeat if 77<k then for b=0,6 do if 3>b then if 1>b then n(e[l],e[f]);d=d+1;e=r[d];else if-2<b then repeat if 2~=b then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end end else if 4<b then if b>=1 then for k=10,82 do if b~=5 then n(e[l],e[f]);break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);end else if b>2 then repeat if b~=3 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end end end end break;end;local r=e[l];local b=e[b];local l=r+2 local r={n[r](n[r+1],n[l])};for e=1,b do n[l+e]=r[e];end;local r=r[1]if r then n[l]=r d=e[f];else d=d+1;end;until true;else for b=0,6 do if 3>b then if 1>b then n(e[l],e[f]);d=d+1;e=r[d];else if-2<b then repeat if 2~=b then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end end else if 4<b then if b>=1 then for k=10,82 do if b~=5 then n(e[l],e[f]);break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);end else if b>2 then repeat if b~=3 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end end end end end end else if k<=82 then if 80<k then for t=33,93 do if 81~=k then for k=0,6 do if 2<k then if k<=4 then if k~=2 then repeat if 3<k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else if 4~=k then for t=26,79 do if 5<k then n[e[l]]=n[e[f]][e[b]];break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end else if 1<=k then if k>=0 then for t=47,93 do if k~=2 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end break;end;for k=0,3 do if k<2 then if k~=-1 then for b=37,52 do if 0<k then h[e[f]]=n[e[l]];d=d+1;e=r[d];break;end;n[e[l]]=(e[f]~=0);d=d+1;e=r[d];break;end;else h[e[f]]=n[e[l]];d=d+1;e=r[d];end else if-1<=k then repeat if k~=3 then n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;if(n[e[l]]==e[b])then d=d+1;else d=e[f];end;until true;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end break;end;else for k=0,3 do if k<2 then if k~=-1 then for b=37,52 do if 0<k then h[e[f]]=n[e[l]];d=d+1;e=r[d];break;end;n[e[l]]=(e[f]~=0);d=d+1;e=r[d];break;end;else h[e[f]]=n[e[l]];d=d+1;e=r[d];end else if-1<=k then repeat if k~=3 then n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;if(n[e[l]]==e[b])then d=d+1;else d=e[f];end;until true;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end end else if k>=84 then if k>82 then for o=26,70 do if 85~=k then n[e[l]]=n[e[f]][e[b]];break;end;local k,o;n[e[l]]=h[e[f]];d=d+1;e=r[d];k=e[l];o=n[e[f]];n[k+1]=o;n[k]=o[e[b]];d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];k=e[l];o=n[e[f]];n[k+1]=o;n[k]=o[e[b]];break;end;else n[e[l]]=n[e[f]][e[b]];end else for k=0,6 do if k>=3 then if 5>k then if 3==k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else if k>1 then repeat if 5~=k then n[e[l]]=n[e[f]][e[b]];break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];end end else if k>=1 then if 2>k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end end end end end else if 73>k then if k>=71 then if k==71 then local a=p[e[f]];local t;local k={};t=o.kPgkzBvd({},{__index=function(d,e)local e=k[e];return e[1][e[2]];end,__newindex=function(n,e,d)local e=k[e]e[1][e[2]]=d;end;});for l=1,e[b]do d=d+1;local e=r[d];if e[g]==66 then k[l-1]={n,e[f]};else k[l-1]={u,e[f]};end;s[#s+1]=k;end;n[e[l]]=_(a,t,h);else for e=e[l],e[f]do n[e]=nil;end;end else if 66~=k then for b=18,96 do if 70>k then n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);break;end;do return end;break;end;else do return end;end end else if 74>=k then if k>71 then repeat if k~=74 then for k=0,6 do if k>2 then if k<5 then if k>1 then repeat if k>3 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else if 3<k then for t=24,94 do if 6~=k then n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];break;end;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end end else if 0>=k then n[e[l]]=h[e[f]];d=d+1;e=r[d];else if k>0 then repeat if k~=2 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end end end break;end;n[e[l]][e[f]]=n[e[b]];until true;else n[e[l]][e[f]]=n[e[b]];end else if 73~=k then for h=39,52 do if 75<k then local e=e[l]n[e]=n[e]()break;end;local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;break;end;else local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end end end end end else if 121>k then if 111>=k then if k>=108 then if k>109 then if k~=107 then for h=44,98 do if k<111 then local k,h;k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];break;end;local h,o,c,p,s,u,a,k;for k=0,2 do if 1<=k then if k>=-2 then repeat if k~=1 then k=0;while k>-1 do if 2>=k then if 1<=k then if-1~=k then repeat if 1<k then s=f;break;end;p=l;until true;else s=f;end else c=e;end else if k>=5 then if 1<=k then for e=46,76 do if k~=6 then n(a,u);break;end;k=-2;break;end;else n(a,u);end else if k==3 then u=c[s];else a=c[p];end end end k=k+1 end break;end;h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];until true;else h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];end else h=e[l]n[h](t(n,h+1,e[f]))d=d+1;e=r[d];end end break;end;else local h,o,s,p,u,a,c,k;for k=0,2 do if 1<=k then if k>=-2 then repeat if k~=1 then k=0;while k>-1 do if 2>=k then if 1<=k then if-1~=k then repeat if 1<k then u=f;break;end;p=l;until true;else u=f;end else s=e;end else if k>=5 then if 1<=k then for e=46,76 do if k~=6 then n(c,a);break;end;k=-2;break;end;else n(c,a);end else if k==3 then a=s[u];else c=s[p];end end end k=k+1 end break;end;h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];until true;else h=e[l];o=n[e[f]];n[h+1]=o;n[h]=o[e[b]];d=d+1;e=r[d];end else h=e[l]n[h](t(n,h+1,e[f]))d=d+1;e=r[d];end end end else if k==108 then n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];else local k;n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];end end else if k>105 then if k~=105 then repeat if 106<k then local d=e[l]n[d]=n[d](t(n,d+1,e[f]))break;end;n[e[l]][e[f]]=e[b];until true;else n[e[l]][e[f]]=e[b];end else if 104==k then local b;b=e[l]n[b](t(n,b+1,e[f]))d=d+1;e=r[d];do return end;else n[e[l]]=_(p[e[f]],nil,h);end end end else if 116>k then if k>113 then if 113~=k then repeat if k>114 then local k,h;for o=0,2 do if 0>=o then k=e[l]n[k](t(n,k+1,e[f]))d=d+1;e=r[d];else if 0<=o then repeat if 2~=o then k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);until true;else k=e[l];h=n[e[f]];n[k+1]=h;n[k]=h[e[b]];d=d+1;e=r[d];end end end break;end;d=e[f];until true;else d=e[f];end else if 110~=k then for o=25,57 do if k~=112 then local h,p,o,a,c,u,s,k;for k=0,6 do if k<=2 then if 0>=k then n(e[l],e[f]);d=d+1;e=r[d];else if-1~=k then repeat if k>1 then h=e[l];p=n[e[f]];n[h+1]=p;n[h]=p[e[b]];d=d+1;e=r[d];break;end;h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];until true;else h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];end end else if 5<=k then if 5==k then h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];else h=e[l];p=n[e[f]];n[h+1]=p;n[h]=p[e[b]];end else if k~=2 then repeat if 4>k then k=0;while k>-1 do if 2>=k then if k<=0 then o=e;else if-2~=k then repeat if 1~=k then c=f;break;end;a=l;until true;else a=l;end end else if k>4 then if k>=1 then repeat if k<6 then n(s,u);break;end;k=-2;until true;else n(s,u);end else if 2<k then for e=41,83 do if k<4 then u=o[c];break;end;s=o[a];break;end;else u=o[c];end end end k=k+1 end d=d+1;e=r[d];break;end;k=0;while k>-1 do if 2>=k then if 1>k then o=e;else if 2>k then a=l;else c=f;end end else if k>4 then if 2~=k then for e=10,61 do if k<6 then n(s,u);break;end;k=-2;break;end;else k=-2;end else if k~=1 then for e=25,59 do if 3~=k then s=o[a];break;end;u=o[c];break;end;else s=o[a];end end end k=k+1 end d=d+1;e=r[d];until true;else k=0;while k>-1 do if 2>=k then if 1>k then o=e;else if 2>k then a=l;else c=f;end end else if k>4 then if 2~=k then for e=10,61 do if k<6 then n(s,u);break;end;k=-2;break;end;else k=-2;end else if k~=1 then for e=25,59 do if 3~=k then s=o[a];break;end;u=o[c];break;end;else s=o[a];end end end k=k+1 end d=d+1;e=r[d];end end end end break;end;local o,z,s,_,g,u,m,k,y,j,p;n[e[l]][e[f]]=e[b];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];o=e[l];z=n[e[f]];n[o+1]=z;n[o]=z[e[b]];d=d+1;e=r[d];k=0;while k>-1 do if 3<=k then if 5<=k then if k>=4 then for e=47,59 do if k>5 then k=-2;break;end;n(m,u);break;end;else n(m,u);end else if k~=-1 then for e=13,81 do if k<4 then u=s[g];break;end;m=s[_];break;end;else u=s[g];end end else if k<1 then s=e;else if k>=0 then repeat if 1<k then g=f;break;end;_=l;until true;else _=l;end end end k=k+1 end d=d+1;e=r[d];o=e[l]y,j=c(n[o](t(n,o+1,e[f])))a=j+o-1 p=0;for e=o,a do p=p+1;n[e]=y[p];end;d=d+1;e=r[d];o=e[l]n[o]=n[o](t(n,o+1,a))break;end;else local h,p,o,s,c,u,a,k;for k=0,6 do if k<=2 then if 0>=k then n(e[l],e[f]);d=d+1;e=r[d];else if-1~=k then repeat if k>1 then h=e[l];p=n[e[f]];n[h+1]=p;n[h]=p[e[b]];d=d+1;e=r[d];break;end;h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];until true;else h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];end end else if 5<=k then if 5==k then h=e[l]n[h]=n[h](t(n,h+1,e[f]))d=d+1;e=r[d];else h=e[l];p=n[e[f]];n[h+1]=p;n[h]=p[e[b]];end else if k~=2 then repeat if 4>k then k=0;while k>-1 do if 2>=k then if k<=0 then o=e;else if-2~=k then repeat if 1~=k then c=f;break;end;s=l;until true;else s=l;end end else if k>4 then if k>=1 then repeat if k<6 then n(a,u);break;end;k=-2;until true;else n(a,u);end else if 2<k then for e=41,83 do if k<4 then u=o[c];break;end;a=o[s];break;end;else u=o[c];end end end k=k+1 end d=d+1;e=r[d];break;end;k=0;while k>-1 do if 2>=k then if 1>k then o=e;else if 2>k then s=l;else c=f;end end else if k>4 then if 2~=k then for e=10,61 do if k<6 then n(a,u);break;end;k=-2;break;end;else k=-2;end else if k~=1 then for e=25,59 do if 3~=k then a=o[s];break;end;u=o[c];break;end;else a=o[s];end end end k=k+1 end d=d+1;e=r[d];until true;else k=0;while k>-1 do if 2>=k then if 1>k then o=e;else if 2>k then s=l;else c=f;end end else if k>4 then if 2~=k then for e=10,61 do if k<6 then n(a,u);break;end;k=-2;break;end;else k=-2;end else if k~=1 then for e=25,59 do if 3~=k then a=o[s];break;end;u=o[c];break;end;else a=o[s];end end end k=k+1 end d=d+1;e=r[d];end end end end end end else if k<118 then if k==116 then n[e[l]]=u[e[f]];else h[e[f]]=n[e[l]];end else if k>118 then if 116<k then for t=46,79 do if k~=120 then local e=e[l]local l,d=c(n[e](n[e+1]))a=d+e-1 local d=0;for e=e,a do d=d+1;n[e]=l[d];end;break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];n[e[l]]=h[e[f]];d=d+1;e=r[d];n[e[l]]=n[e[f]][e[b]];break;end;else local e=e[l]local l,d=c(n[e](n[e+1]))a=d+e-1 local d=0;for e=e,a do d=d+1;n[e]=l[d];end;end else for b=0,6 do if b>2 then if 5>b then if b~=-1 then for k=14,85 do if b>3 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);d=d+1;e=r[d];end else if 1<=b then for k=11,59 do if b>5 then n(e[l],e[f]);break;end;n(e[l],e[f]);d=d+1;e=r[d];break;end;else n(e[l],e[f]);end end else if 0>=b then n(e[l],e[f]);d=d+1;e=r[d];else if 1~=b then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end end end end end end end end else if 129>=k then if k<125 then if k>122 then if 119~=k then for r=38,84 do if k>123 then local e=e[l]n[e]=n[e]()break;end;if(n[e[l]]==e[b])then d=d+1;else d=e[f];end;break;end;else if(n[e[l]]==e[b])then d=d+1;else d=e[f];end;end else if 122>k then if not n[e[l]]then d=d+1;else d=e[f];end;else local r=e[l];local f={};for e=1,#s do local e=s[e];for d=0,#e do local e=e[d];local l=e[1];local d=e[2];if l==n and d>=r then f[d]=l[d];e[1]=f;end;end;end;end end else if k>126 then if 128>k then local o;for k=0,4 do if k>1 then if 2<k then if k~=-1 then for t=24,55 do if 4>k then n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];break;end;n[e[l]]=h[e[f]];break;end;else n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];end else o=e[l]n[o]=n[o](t(n,o+1,e[f]))d=d+1;e=r[d];end else if 0==k then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end end end else if k~=124 then repeat if 129~=k then n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);break;end;local e=e[l]n[e]=n[e](t(n,e+1,a))until true;else local e=e[l]n[e]=n[e](t(n,e+1,a))end end else if 124<=k then repeat if 125~=k then local h,s,a,o,u,k,c;k=0;while k>-1 do if 3<=k then if 4<k then if k<6 then n(u,o);else k=-2;end else if k>1 then for e=39,65 do if 3<k then u=h[s];break;end;o=h[a];break;end;else o=h[a];end end else if 0<k then if k~=-3 then repeat if 2~=k then s=l;break;end;a=f;until true;else a=f;end else h=e;end end k=k+1 end d=d+1;e=r[d];k=0;while k>-1 do if k>=3 then if k>4 then if k>=2 then repeat if 6>k then n(u,o);break;end;k=-2;until true;else n(u,o);end else if k==3 then o=h[a];else u=h[s];end end else if 1<=k then if k>-1 then for e=32,92 do if 2~=k then s=l;break;end;a=f;break;end;else s=l;end else h=e;end end k=k+1 end d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];c=e[l]n[c]=n[c](t(n,c+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;break;end;for k=0,6 do if k<3 then if 1>k then n[e[l]]=h[e[f]];d=d+1;e=r[d];else if k~=-2 then for t=18,86 do if k>1 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end else if 4<k then if 4<=k then for t=33,56 do if k<6 then n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];break;end;else n[e[l]]=n[e[f]][e[b]];end else if k>2 then repeat if 3<k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end end end until true;else for k=0,6 do if k<3 then if 1>k then n[e[l]]=h[e[f]];d=d+1;e=r[d];else if k~=-2 then for t=18,86 do if k>1 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end else if 4<k then if 4<=k then for t=33,56 do if k<6 then n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];break;end;else n[e[l]]=n[e[f]][e[b]];end else if k>2 then repeat if 3<k then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end end end end end end else if k>=134 then if 136>k then if k~=133 then for h=31,80 do if 135~=k then local a,u,h,s,c,k,o;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=0;while k>-1 do if k>2 then if k<=4 then if 2<=k then repeat if k<4 then s=a[h];break;end;c=a[u];until true;else s=a[h];end else if 5~=k then k=-2;else n(c,s);end end else if k>=1 then if 0<k then for e=47,54 do if 2~=k then u=l;break;end;h=f;break;end;else h=f;end else a=e;end end k=k+1 end d=d+1;e=r[d];o=e[l]n[o]=n[o](t(n,o+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;break;end;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);break;end;else n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);end else if k<137 then for k=0,6 do if 3<=k then if 5<=k then if 3<=k then repeat if k~=6 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);until true;else n(e[l],e[f]);end else if 2<=k then repeat if k~=4 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end end else if k>=1 then if k<2 then n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];else n[e[l]]=h[e[f]];d=d+1;e=r[d];end else n[e[l]]=u[e[f]];d=d+1;e=r[d];end end end else if k>=134 then for t=13,86 do if k<138 then for k=0,5 do if k<=2 then if 1<=k then if k<2 then n[e[l]]=u[e[f]];d=d+1;e=r[d];else n[e[l]]=n[e[f]][e[b]];d=d+1;e=r[d];end else n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];end else if 3<k then if 0<k then for b=38,95 do if k>4 then if not n[e[l]]then d=d+1;else d=e[f];end;break;end;n[e[l]]=h[e[f]];d=d+1;e=r[d];break;end;else n[e[l]]=h[e[f]];d=d+1;e=r[d];end else n[e[l]][e[f]]=e[b];d=d+1;e=r[d];end end end break;end;for b=0,6 do if b<3 then if b<1 then n(e[l],e[f]);d=d+1;e=r[d];else if b>-3 then repeat if b~=2 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end end else if 5>b then if 3<b then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end else if 6~=b then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);end end end end break;end;else for b=0,6 do if b<3 then if b<1 then n(e[l],e[f]);d=d+1;e=r[d];else if b>-3 then repeat if b~=2 then n(e[l],e[f]);d=d+1;e=r[d];break;end;n(e[l],e[f]);d=d+1;e=r[d];until true;else n(e[l],e[f]);d=d+1;e=r[d];end end else if 5>b then if 3<b then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);d=d+1;e=r[d];end else if 6~=b then n(e[l],e[f]);d=d+1;e=r[d];else n(e[l],e[f]);end end end end end end end else if 132>k then if 130~=k then n[e[l]]=h[e[f]];else local k;n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];n(e[l],e[f]);d=d+1;e=r[d];k=e[l]n[k]=n[k](t(n,k+1,e[f]))d=d+1;e=r[d];n[e[l]][e[f]]=n[e[b]];d=d+1;e=r[d];do return end;end else if k>130 then repeat if 133>k then local e=e[l]local l,d=c(n[e](n[e+1]))a=d+e-1 local d=0;for e=e,a do d=d+1;n[e]=l[d];end;break;end;local r=e[l];local f={};for e=1,#s do local e=s[e];for d=0,#e do local d=e[d];local l=d[1];local e=d[2];if l==n and e>=r then f[e]=l[e];d[1]=f;end;end;end;until true;else local e=e[l]local l,d=c(n[e](n[e+1]))a=d+e-1 local d=0;for e=e,a do d=d+1;n[e]=l[d];end;end end end end end end end d=1+d;end;end;return ne end;local l=0xff;local h={};local r=(1);local f='';(function(d)local n=d local b=0x00 local e=0x00 n={(function(r)if b>0x29 then return r end b=b+1 e=(e+0x44b-r)%0x2b return(e%0x03==0x0 and(function(n)if not d[n]then e=e+0x01 d[n]=(0x2d);f='\37';l={function()l()end};f=f..'\100\43';end return true end)'eHAIW'and n[0x2](0x251+r))or(e%0x03==0x1 and(function(n)if not d[n]then e=e+0x01 d[n]=(0xc4);end return true end)'XvTbk'and n[0x1](r+0x3da))or(e%0x03==0x2 and(function(n)if not d[n]then e=e+0x01 d[n]=(0xb8);end return true end)'JuPsK'and n[0x3](r+0x2a2))or r end),(function(k)if b>0x31 then return k end b=b+1 e=(e+0x1368-k)%0x25 return(e%0x03==0x2 and(function(n)if not d[n]then e=e+0x01 d[n]=(0x61);end return true end)'kThSG'and n[0x2](0x142+k))or(e%0x03==0x1 and(function(n)if not d[n]then e=e+0x01 d[n]=(0x61);end return true end)'GdRuU'and n[0x1](k+0x2b9))or(e%0x03==0x0 and(function(n)if not d[n]then e=e+0x01 d[n]=(0xa2);f={f..'\58 a',f};h[r]=ne();r=r+((not o.MzOlBhxx)and 1 or 0);f[1]='\58'..f[1];l[2]=0xff;end return true end)'HjPZk'and n[0x3](k+0x343))or k end),(function(k)if b>0x2f then return k end b=b+1 e=(e+0xd38-k)%0x4d return(e%0x03==0x2 and(function(n)if not d[n]then e=e+0x01 d[n]=(0x28);end return true end)'oLrnr'and n[0x2](0xf0+k))or(e%0x03==0x1 and(function(n)if not d[n]then e=e+0x01 d[n]=(0xa5);h[r]=fe();r=r+l;end return true end)'YUpgY'and n[0x1](k+0xe0))or(e%0x03==0x0 and(function(n)if not d[n]then e=e+0x01 d[n]=(0xda);l[2]=(l[2]*(ee(function()h()end,t(f))-ee(l[1],t(f))))+1;h[r]={};l=l[2];r=r+l;end return true end)'uDfDG'and n[0x3](k+0x29e))or k end)}n[0x1](0x1cd1)end){};local e=_(t(h));return e(...);end return ee((function()local d={}local e=0x01;local n;if o.MzOlBhxx then n=o.MzOlBhxx(ee)else n=''end if o.rRfFMxul(n,o.HxcSlh_m)then e=e+0;else e=e+1;end d[e]=0x02;d[d[e]+0x01]=0x03;return d;end)(),...)end)((function(e,n,d,f,l,r)local r;if 3>=e then if e>=2 then if e>=1 then repeat if 2~=e then do return n(1),n(4,l,f,d,n),n(5,l,f,d)end;break;end;do return 16777216,65536,256 end;until true;else do return 16777216,65536,256 end;end else if e~=-2 then repeat if 0<e then do return function(d,e,n)if n then local e=(d/2^(e-1))%2^((n-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(d%(e+e)>=e)and 1 or 0;end;end;end;break;end;do return n(1),n(4,l,f,d,n),n(5,l,f,d)end;until true;else do return function(n,e,d)if d then local e=(n/2^(e-1))%2^((d-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;end end else if 5<e then if 7<=e then if 5~=e then repeat if 8>e then do return setmetatable({},{['__\99\97\108\108']=function(e,l,f,n,d)if d then return e[d]elseif n then return e else e[l]=f end end})end break;end;do return d(e,nil,d);end until true;else do return d(e,nil,d);end end else do return l[d]end;end else if e==5 then local e=f;do return function()local d=n(d,e(e,e),e(e,e));e(1);return d;end;end;else local e=f;local f,l,r=l(2);do return function()local n,d,b,k=n(d,e(e,e),e(e,e)+3);e(4);return(k*f)+(b*l)+(d*r)+n;end;end;end end end end),...)
+--[[
+    SimpleSpy v2.2 SOURCE
+
+    Credits:
+        exx - basically everything
+        Frosty - GUI to Lua
+]]
+
+-- shuts down the previous instance of SimpleSpy
+if _G.SimpleSpyExecuted and type(_G.SimpleSpyShutdown) == "function" then
+    _G.SimpleSpyShutdown()
+end
+
+local Players = game:GetService("Players")
+local CoreGui = game:GetService("CoreGui")
+local Highlight = loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/highlight.lua"))()
+
+---- GENERATED (kinda sorta mostly) BY GUI to LUA ----
+
+-- Instances:
+
+local SimpleSpy2 = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local LeftPanel = Instance.new("Frame")
+local LogList = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local RemoteTemplate = Instance.new("Frame")
+local ColorBar = Instance.new("Frame")
+local Text = Instance.new("TextLabel")
+local Button = Instance.new("TextButton")
+local RightPanel = Instance.new("Frame")
+local CodeBox = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local FunctionTemplate = Instance.new("Frame")
+local ColorBar_2 = Instance.new("Frame")
+local Text_2 = Instance.new("TextLabel")
+local Button_2 = Instance.new("TextButton")
+local TopBar = Instance.new("Frame")
+local Simple = Instance.new("TextButton")
+local CloseButton = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local MaximizeButton = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local MinimizeButton = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local ToolTip = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+SimpleSpy2.Name = "SimpleSpy2"
+SimpleSpy2.ResetOnSpawn = false
+
+Background.Name = "Background"
+Background.Parent = SimpleSpy2
+Background.BackgroundColor3 = Color3.new(1, 1, 1)
+Background.BackgroundTransparency = 1
+Background.Position = UDim2.new(0, 500, 0, 200)
+Background.Size = UDim2.new(0, 450, 0, 268)
+
+LeftPanel.Name = "LeftPanel"
+LeftPanel.Parent = Background
+LeftPanel.BackgroundColor3 = Color3.new(0.207843, 0.203922, 0.215686)
+LeftPanel.BorderSizePixel = 0
+LeftPanel.Position = UDim2.new(0, 0, 0, 19)
+LeftPanel.Size = UDim2.new(0, 131, 0, 249)
+
+LogList.Name = "LogList"
+LogList.Parent = LeftPanel
+LogList.Active = true
+LogList.BackgroundColor3 = Color3.new(1, 1, 1)
+LogList.BackgroundTransparency = 1
+LogList.BorderSizePixel = 0
+LogList.Position = UDim2.new(0, 0, 0, 9)
+LogList.Size = UDim2.new(0, 131, 0, 232)
+LogList.CanvasSize = UDim2.new(0, 0, 0, 0)
+LogList.ScrollBarThickness = 4
+
+UIListLayout.Parent = LogList
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+RemoteTemplate.Name = "RemoteTemplate"
+RemoteTemplate.Parent = LogList
+RemoteTemplate.BackgroundColor3 = Color3.new(1, 1, 1)
+RemoteTemplate.BackgroundTransparency = 1
+RemoteTemplate.Size = UDim2.new(0, 117, 0, 27)
+
+ColorBar.Name = "ColorBar"
+ColorBar.Parent = RemoteTemplate
+ColorBar.BackgroundColor3 = Color3.new(1, 0.94902, 0)
+ColorBar.BorderSizePixel = 0
+ColorBar.Position = UDim2.new(0, 0, 0, 1)
+ColorBar.Size = UDim2.new(0, 7, 0, 18)
+ColorBar.ZIndex = 2
+
+Text.Name = "Text"
+Text.Parent = RemoteTemplate
+Text.BackgroundColor3 = Color3.new(1, 1, 1)
+Text.BackgroundTransparency = 1
+Text.Position = UDim2.new(0, 12, 0, 1)
+Text.Size = UDim2.new(0, 105, 0, 18)
+Text.ZIndex = 2
+Text.Font = Enum.Font.SourceSans
+Text.Text = "TEXT"
+Text.TextColor3 = Color3.new(1, 1, 1)
+Text.TextSize = 14
+Text.TextXAlignment = Enum.TextXAlignment.Left
+
+Button.Name = "Button"
+Button.Parent = RemoteTemplate
+Button.BackgroundColor3 = Color3.new(0, 0, 0)
+Button.BackgroundTransparency = 0.75
+Button.BorderColor3 = Color3.new(1, 1, 1)
+Button.Position = UDim2.new(0, 0, 0, 1)
+Button.Size = UDim2.new(0, 117, 0, 18)
+Button.AutoButtonColor = false
+Button.Font = Enum.Font.SourceSans
+Button.Text = ""
+Button.TextColor3 = Color3.new(0, 0, 0)
+Button.TextSize = 14
+
+RightPanel.Name = "RightPanel"
+RightPanel.Parent = Background
+RightPanel.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
+RightPanel.BorderSizePixel = 0
+RightPanel.Position = UDim2.new(0, 131, 0, 19)
+RightPanel.Size = UDim2.new(0, 319, 0, 249)
+
+CodeBox.Name = "CodeBox"
+CodeBox.Parent = RightPanel
+CodeBox.BackgroundColor3 = Color3.new(0.0823529, 0.0745098, 0.0784314)
+CodeBox.BorderSizePixel = 0
+CodeBox.Size = UDim2.new(0, 319, 0, 119)
+
+ScrollingFrame.Parent = RightPanel
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+ScrollingFrame.BackgroundTransparency = 1
+ScrollingFrame.Position = UDim2.new(0, 0, 0.5, 0)
+ScrollingFrame.Size = UDim2.new(1, 0, 0.5, -9)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+ScrollingFrame.ScrollBarThickness = 4
+
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 0, 0, 0)
+UIGridLayout.CellSize = UDim2.new(0, 94, 0, 27)
+
+FunctionTemplate.Name = "FunctionTemplate"
+FunctionTemplate.Parent = ScrollingFrame
+FunctionTemplate.BackgroundColor3 = Color3.new(1, 1, 1)
+FunctionTemplate.BackgroundTransparency = 1
+FunctionTemplate.Size = UDim2.new(0, 117, 0, 23)
+
+ColorBar_2.Name = "ColorBar"
+ColorBar_2.Parent = FunctionTemplate
+ColorBar_2.BackgroundColor3 = Color3.new(1, 1, 1)
+ColorBar_2.BorderSizePixel = 0
+ColorBar_2.Position = UDim2.new(0, 7, 0, 10)
+ColorBar_2.Size = UDim2.new(0, 7, 0, 18)
+ColorBar_2.ZIndex = 3
+
+Text_2.Name = "Text"
+Text_2.Parent = FunctionTemplate
+Text_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Text_2.BackgroundTransparency = 1
+Text_2.Position = UDim2.new(0, 19, 0, 10)
+Text_2.Size = UDim2.new(0, 69, 0, 18)
+Text_2.ZIndex = 2
+Text_2.Font = Enum.Font.SourceSans
+Text_2.Text = "TEXT"
+Text_2.TextColor3 = Color3.new(1, 1, 1)
+Text_2.TextSize = 14
+Text_2.TextStrokeColor3 = Color3.new(0.145098, 0.141176, 0.14902)
+Text_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Button_2.Name = "Button"
+Button_2.Parent = FunctionTemplate
+Button_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Button_2.BackgroundTransparency = 0.69999998807907
+Button_2.BorderColor3 = Color3.new(1, 1, 1)
+Button_2.Position = UDim2.new(0, 7, 0, 10)
+Button_2.Size = UDim2.new(0, 80, 0, 18)
+Button_2.AutoButtonColor = false
+Button_2.Font = Enum.Font.SourceSans
+Button_2.Text = ""
+Button_2.TextColor3 = Color3.new(0, 0, 0)
+Button_2.TextSize = 14
+
+TopBar.Name = "TopBar"
+TopBar.Parent = Background
+TopBar.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
+TopBar.BorderSizePixel = 0
+TopBar.Size = UDim2.new(0, 450, 0, 19)
+
+Simple.Name = "Simple"
+Simple.Parent = TopBar
+Simple.BackgroundColor3 = Color3.new(1, 1, 1)
+Simple.AutoButtonColor = false
+Simple.BackgroundTransparency = 1
+Simple.Position = UDim2.new(0, 5, 0, 0)
+Simple.Size = UDim2.new(0, 57, 0, 18)
+Simple.Font = Enum.Font.SourceSansBold
+Simple.Text = "SimpleSpy"
+Simple.TextColor3 = Color3.new(1, 1, 1)
+Simple.TextSize = 14
+Simple.TextXAlignment = Enum.TextXAlignment.Left
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = TopBar
+CloseButton.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
+CloseButton.BorderSizePixel = 0
+CloseButton.Position = UDim2.new(1, -19, 0, 0)
+CloseButton.Size = UDim2.new(0, 19, 0, 19)
+CloseButton.Font = Enum.Font.SourceSans
+CloseButton.Text = ""
+CloseButton.TextColor3 = Color3.new(0, 0, 0)
+CloseButton.TextSize = 14
+
+ImageLabel.Parent = CloseButton
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BackgroundTransparency = 1
+ImageLabel.Position = UDim2.new(0, 5, 0, 5)
+ImageLabel.Size = UDim2.new(0, 9, 0, 9)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=5597086202"
+
+MaximizeButton.Name = "MaximizeButton"
+MaximizeButton.Parent = TopBar
+MaximizeButton.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
+MaximizeButton.BorderSizePixel = 0
+MaximizeButton.Position = UDim2.new(1, -38, 0, 0)
+MaximizeButton.Size = UDim2.new(0, 19, 0, 19)
+MaximizeButton.Font = Enum.Font.SourceSans
+MaximizeButton.Text = ""
+MaximizeButton.TextColor3 = Color3.new(0, 0, 0)
+MaximizeButton.TextSize = 14
+
+ImageLabel_2.Parent = MaximizeButton
+ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_2.BackgroundTransparency = 1
+ImageLabel_2.Position = UDim2.new(0, 5, 0, 5)
+ImageLabel_2.Size = UDim2.new(0, 9, 0, 9)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=5597108117"
+
+MinimizeButton.Name = "MinimizeButton"
+MinimizeButton.Parent = TopBar
+MinimizeButton.BackgroundColor3 = Color3.new(0.145098, 0.141176, 0.14902)
+MinimizeButton.BorderSizePixel = 0
+MinimizeButton.Position = UDim2.new(1, -57, 0, 0)
+MinimizeButton.Size = UDim2.new(0, 19, 0, 19)
+MinimizeButton.Font = Enum.Font.SourceSans
+MinimizeButton.Text = ""
+MinimizeButton.TextColor3 = Color3.new(0, 0, 0)
+MinimizeButton.TextSize = 14
+
+ImageLabel_3.Parent = MinimizeButton
+ImageLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_3.BackgroundTransparency = 1
+ImageLabel_3.Position = UDim2.new(0, 5, 0, 5)
+ImageLabel_3.Size = UDim2.new(0, 9, 0, 9)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=5597105827"
+
+ToolTip.Name = "ToolTip"
+ToolTip.Parent = SimpleSpy2
+ToolTip.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+ToolTip.BackgroundTransparency = 0.1
+ToolTip.BorderColor3 = Color3.new(1, 1, 1)
+ToolTip.Size = UDim2.new(0, 200, 0, 50)
+ToolTip.ZIndex = 3
+ToolTip.Visible = false
+
+TextLabel.Parent = ToolTip
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0, 2, 0, 2)
+TextLabel.Size = UDim2.new(0, 196, 0, 46)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "This is some slightly longer text."
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel.TextYAlignment = Enum.TextYAlignment.Top
+
+-------------------------------------------------------------------------------
+-- init
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local ContentProvider = game:GetService("ContentProvider")
+local TextService = game:GetService("TextService")
+local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
+
+local selectedColor = Color3.new(0.321569, 0.333333, 1)
+local deselectedColor = Color3.new(0.8, 0.8, 0.8)
+--- So things are descending
+local layoutOrderNum = 999999999
+--- Whether or not the gui is closing
+local mainClosing = false
+--- Whether or not the gui is closed (defaults to false)
+local closed = false
+--- Whether or not the sidebar is closing
+local sideClosing = false
+--- Whether or not the sidebar is closed (defaults to true but opens automatically on remote selection)
+local sideClosed = false
+--- Whether or not the code box is maximized (defaults to false)
+local maximized = false
+--- The event logs to be read from
+local logs = {}
+--- The event currently selected.Log (defaults to nil)
+local selected = nil
+--- The blacklist (can be a string name or the Remote Instance)
+local blacklist = {}
+--- The block list (can be a string name or the Remote Instance)
+local blocklist = {}
+--- Whether or not to add getNil function
+local getNil = false
+--- Array of remotes (and original functions) connected to
+local connectedRemotes = {}
+--- True = hookfunction, false = namecall
+local toggle = false
+local gm = getrawmetatable(game)
+local original = gm.__namecall
+setreadonly(gm, false)
+--- used to prevent recursives
+local prevTables = {}
+--- holds logs (for deletion)
+local remoteLogs = {}
+--- used for hookfunction
+local remoteEvent = Instance.new("RemoteEvent")
+--- used for hookfunction
+local remoteFunction = Instance.new("RemoteFunction")
+local originalEvent = remoteEvent.FireServer
+local originalFunction = remoteFunction.InvokeServer
+--- the maximum amount of remotes allowed in logs
+_G.SIMPLESPYCONFIG_MaxRemotes = 500
+--- how many spaces to indent
+local indent = 4
+--- used for task scheduler
+local scheduled = {}
+--- RBXScriptConnect of the task scheduler
+local schedulerconnect
+local SimpleSpy = {}
+local topstr = ""
+local bottomstr = ""
+local remotesFadeIn
+local rightFadeIn
+local codebox
+local p
+local getnilrequired = false
+
+-- autoblock variables
+local autoblock = false
+local history = {}
+local excluding = {}
+
+-- function info variables
+local funcEnabled = true
+
+-- remote hooking/connecting api variables
+local remoteSignals = {}
+local remoteHooks = {}
+
+-- original mouse icon
+local oldIcon = Mouse.Icon
+
+-- if mouse inside gui
+local mouseInGui = false
+
+-- handy array of RBXScriptConnections to disconnect on shutdown
+local connections = {}
+
+-- whether or not SimpleSpy uses 'getcallingscript()' to get the script (default is false because detection)
+local useGetCallingScript = false
+
+-- functions
+
+--- Converts arguments to a string and generates code that calls the specified method with them, recommended to be used in conjunction with ValueToString (method must be a string, e.g. `game:GetService("ReplicatedStorage").Remote:FireServer`)
+--- @param method string
+--- @param args any[]
+--- @return string
+function SimpleSpy:ArgsToString(method, args)
+    assert(typeof(method) == "string", "string expected, got " .. typeof(method))
+    assert(typeof(args) == "table", "table expected, got " .. typeof(args))
+    return v2v({args = args}) .. "\n\n" .. method .. "(unpack(args))"
+end
+
+--- Converts a value to variables with the specified index as the variable name (if nil/invalid then the name will be assigned automatically)
+--- @param t any[]
+--- @return string
+function SimpleSpy:TableToVars(t)
+    assert(typeof(t) == "table", "table expected, got " .. typeof(t))
+    return v2v(t)
+end
+
+--- Converts a value to a variable with the specified `variablename` (if nil/invalid then the name will be assigned automatically)
+--- @param value any
+--- @return string
+function SimpleSpy:ValueToVar(value, variablename)
+    assert(variablename == nil or typeof(variablename) == "string", "string expected, got " .. typeof(variablename))
+    if not variablename then
+        variablename = 1
+    end
+    return v2v({[variablename] = value})
+end
+
+--- Converts any value to a string, cannot preserve function contents
+--- @param value any
+--- @return string
+function SimpleSpy:ValueToString(value)
+    return v2s(value)
+end
+
+--- Generates the simplespy function info
+--- @param func function
+--- @return string
+function SimpleSpy:GetFunctionInfo(func)
+    assert(typeof(func) == "function", "Instance expected, got " .. typeof(func))
+    return v2v{functionInfo = {
+        info = debug.getinfo(func),
+        constants = debug.getconstants(func)
+    }}
+end
+
+--- Gets the ScriptSignal for a specified remote being fired
+--- @param remote Instance
+function SimpleSpy:GetRemoteFiredSignal(remote)
+    assert(typeof(remote) == "Instance", "Instance expected, got " .. typeof(remote))
+    if not remoteSignals[remote] then
+        remoteSignals[remote] = newSignal()
+    end
+    return remoteSignals[remote]
+end
+
+--- Allows for direct hooking of remotes **THIS CAN BE VERY DANGEROUS**
+--- @param remote Instance
+--- @param f function
+function SimpleSpy:HookRemote(remote, f)
+    assert(typeof(remote) == "Instance", "Instance expected, got " .. typeof(remote))
+    assert(typeof(f) == "function", "function expected, got " .. typeof(f))
+    remoteHooks[remote] = f
+end
+
+--- Blocks the specified remote instance/string
+--- @param remote any
+function SimpleSpy:BlockRemote(remote)
+    assert(typeof(remote) == "Instance" or typeof(remote) == "string", "Instance | string expected, got " .. typeof(remote))
+    blocklist[remote] = true
+end
+
+--- Excludes the specified remote from logs (instance/string)
+--- @param remote any
+function SimpleSpy:ExcludeRemote(remote)
+    assert(typeof(remote) == "Instance" or typeof(remote) == "string", "Instance | string expected, got " .. typeof(remote))
+    blacklist[remote] = true
+end
+
+--- Creates a new ScriptSignal that can be connected to and fired
+--- @return table
+function newSignal()
+    local connected = {}
+    return {
+        Connect = function(self, f)
+            assert(connected, "Signal is closed")
+            connected[tostring(f)] = f
+            return setmetatable({
+                Connected = true,
+                Disconnect = function(self)
+                    if not connected then
+                        warn("Signal is already closed")
+                    end
+                    self.Connected = false
+                    connected[tostring(f)] = nil
+                end
+            },
+            {
+                __index = function(self, i)
+                    if i == "Connected" then
+                        return not not connected[tostring(f)]
+                    end
+                end
+            })
+        end,
+        Fire = function(self, ...)
+            for _, f in pairs(connected) do
+                coroutine.wrap(f)(...)
+            end
+        end
+    }
+end
+
+--- Prevents remote spam from causing lag (clears logs after `_G.SIMPLESPYCONFIG_MaxRemotes` or 500 remotes)
+function clean()
+    local max = _G.SIMPLESPYCONFIG_MaxRemotes
+    if not typeof(max) == "number" and math.floor(max) ~= max then
+        max = 500
+    end
+    if #remoteLogs > max then
+        for i = 100, #remoteLogs do
+            local v = remoteLogs[i]
+            if typeof(v[1]) == "RBXScriptConnection" then
+                v[1]:Disconnect()
+            end
+            if typeof(v[2]) == "Instance" then
+                v[2]:Destroy()
+            end
+        end
+        local newLogs = {}
+        for i = 1, 100 do
+            table.insert(newLogs, remoteLogs[i])
+        end
+        remoteLogs = newLogs
+    end
+end
+
+--- Scales the ToolTip to fit containing text
+function scaleToolTip()
+    local size = TextService:GetTextSize(TextLabel.Text, TextLabel.TextSize, TextLabel.Font, Vector2.new(196, math.huge))
+    TextLabel.Size = UDim2.new(0, size.X, 0, size.Y)
+    ToolTip.Size = UDim2.new(0, size.X + 4, 0, size.Y + 4)
+end
+
+--- Executed when the toggle button (the SimpleSpy logo) is hovered over
+function onToggleButtonHover()
+    if not toggle then
+        TweenService:Create(Simple, TweenInfo.new(0.5), {TextColor3 = Color3.fromRGB(252, 51, 51)}):Play()
+    else
+        TweenService:Create(Simple, TweenInfo.new(0.5), {TextColor3 = Color3.fromRGB(68, 206, 91)}):Play()
+    end
+end
+
+--- Executed when the toggle button is unhovered over
+function onToggleButtonUnhover()
+    TweenService:Create(Simple, TweenInfo.new(0.5), {TextColor3 = Color3.fromRGB(255, 255, 255)}):Play()
+end
+
+--- Executed when the X button is hovered over
+function onXButtonHover()
+    TweenService:Create(CloseButton, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(255, 60, 60)}):Play()
+end
+
+--- Executed when the X button is unhovered over
+function onXButtonUnhover()
+    TweenService:Create(CloseButton, TweenInfo.new(0.2), {BackgroundColor3 = Color3.fromRGB(37, 36, 38)}):Play()
+end
+
+--- Toggles the remote spy method (when button clicked)
+function onToggleButtonClick()
+    if toggle then
+        TweenService:Create(Simple, TweenInfo.new(0.5), {TextColor3 = Color3.fromRGB(252, 51, 51)}):Play()
+    else
+        TweenService:Create(Simple, TweenInfo.new(0.5), {TextColor3 = Color3.fromRGB(68, 206, 91)}):Play()
+    end
+    toggleSpyMethod()
+end
+
+--- Reconnects bringBackOnResize if the current viewport changes and also connects it initially
+function connectResize()
+    local lastCam = workspace.CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(bringBackOnResize)
+    workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
+        lastCam:Disconnect()
+        if workspace.CurrentCamera then
+            lastCam = workspace.CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(bringBackOnResize)
+        end
+    end)
+end
+
+--- Brings gui back if it gets lost offscreen (connected to the camera viewport changing)
+function bringBackOnResize()
+    local currentX = Background.AbsolutePosition.X
+    local currentY = Background.AbsolutePosition.Y
+    local viewportSize = workspace.CurrentCamera.ViewportSize
+    if (currentX < 0) or (currentX > (viewportSize.X - (sideClosed and 131 or TopBar.AbsoluteSize.X))) then
+        if currentX < 0 then
+            currentX = 0
+        else
+            currentX = viewportSize.X - (sideClosed and 131 or TopBar.AbsoluteSize.X)
+        end
+    end
+    if (currentY < 0) or (currentY > (viewportSize.Y - (closed and 19 or Background.AbsoluteSize.Y) - 36)) then
+        if currentY < 0 then
+            currentY = 0
+        else
+            currentY = viewportSize.Y - (closed and 19 or Background.AbsoluteSize.Y) - 36
+        end
+    end
+    TweenService.Create(TweenService, Background, TweenInfo.new(0.1), {Position = UDim2.new(0, currentX, 0, currentY)}):Play()
+end
+
+--- Drags gui (so long as mouse is held down)
+function onBarInput(input)
+    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+        local lastPos = UserInputService.GetMouseLocation(UserInputService)
+        local mainPos = Background.AbsolutePosition
+        local offset = mainPos - lastPos
+        local currentPos = offset + lastPos
+        RunService.BindToRenderStep(RunService, "drag", 1,
+            function()
+                local newPos = UserInputService.GetMouseLocation(UserInputService)
+                if newPos ~= lastPos then
+                    local currentX = (offset + newPos).X
+                    local currentY = (offset + newPos).Y
+                    local viewportSize = workspace.CurrentCamera.ViewportSize
+                    if (currentX < 0 and currentX < currentPos.X) or (currentX > (viewportSize.X - (sideClosed and 131 or TopBar.AbsoluteSize.X)) and currentX > currentPos.X) then
+                        if currentX < 0 then
+                            currentX = 0
+                        else
+                            currentX = viewportSize.X - (sideClosed and 131 or TopBar.AbsoluteSize.X)
+                        end
+                    end
+                    if (currentY < 0 and currentY < currentPos.Y) or (currentY > (viewportSize.Y - (closed and 19 or Background.AbsoluteSize.Y) - 36) and currentY > currentPos.Y) then
+                        if currentY < 0 then
+                            currentY = 0
+                        else
+                            currentY = viewportSize.Y - (closed and 19 or Background.AbsoluteSize.Y) - 36
+                        end
+                    end
+                    currentPos = Vector2.new(currentX, currentY)
+                    lastPos = newPos
+                    TweenService.Create(TweenService, Background, TweenInfo.new(0.1), {Position = UDim2.new(0, currentPos.X, 0, currentPos.Y)}):Play()
+                end
+                if not UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) then
+                    RunService.UnbindFromRenderStep(RunService, "drag")
+                end
+            end
+        )
+    end
+end
+
+--- Fades out the table of elements (and makes them invisible), returns a function to make them visible again
+function fadeOut(elements)
+    local data = {}
+    for _, v in pairs(elements) do
+        if typeof(v) == "Instance" and v:IsA("GuiObject") and v.Visible then
+            coroutine.wrap(function()
+                data[v] = {
+                    BackgroundTransparency = v.BackgroundTransparency
+                }
+                TweenService:Create(v, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play()
+                if v:IsA("TextBox") or v:IsA("TextButton") or v:IsA("TextLabel") then
+                    data[v].TextTransparency = v.TextTransparency
+                    TweenService:Create(v, TweenInfo.new(0.5), {TextTransparency = 1}):Play()
+                elseif v:IsA("ImageButton") or v:IsA("ImageLabel") then
+                    data[v].ImageTransparency = v.ImageTransparency
+                    TweenService:Create(v, TweenInfo.new(0.5), {ImageTransparency = 1}):Play()
+                end
+                wait(0.5)
+                v.Visible = false
+                for i, x in pairs(data[v]) do
+                    v[i] = x
+                end
+                data[v] = true
+            end)()
+        end
+    end
+    return function()
+        for i, _ in pairs(data) do
+            coroutine.wrap(function()
+                local properties = {
+                    BackgroundTransparency = i.BackgroundTransparency
+                }
+                i.BackgroundTransparency = 1
+                TweenService:Create(i, TweenInfo.new(0.5), {BackgroundTransparency = properties.BackgroundTransparency}):Play()
+                if i:IsA("TextBox") or i:IsA("TextButton") or i:IsA("TextLabel") then
+                    properties.TextTransparency = i.TextTransparency
+                    i.TextTransparency = 1
+                    TweenService:Create(i, TweenInfo.new(0.5), {TextTransparency = properties.TextTransparency}):Play()
+                elseif i:IsA("ImageButton") or i:IsA("ImageLabel") then
+                    properties.ImageTransparency = i.ImageTransparency
+                    i.ImageTransparency = 1
+                    TweenService:Create(i, TweenInfo.new(0.5), {ImageTransparency = properties.ImageTransparency}):Play()
+                end
+                i.Visible = true
+            end)()
+        end
+    end
+end
+
+--- Expands and minimizes the gui (closed is the toggle boolean)
+function toggleMinimize(override)
+    if mainClosing and not override or maximized then
+        return
+    end
+    mainClosing = true
+    closed = not closed
+    if closed then
+        if not sideClosed then
+            toggleSideTray(true)
+        end
+        LeftPanel.Visible = true
+        TweenService:Create(LeftPanel, TweenInfo.new(0.5), {Size = UDim2.new(0, 131, 0, 0)}):Play()
+        wait(0.5)
+        remotesFadeIn = fadeOut(LeftPanel:GetDescendants())
+        wait(0.5)
+    else
+        TweenService:Create(LeftPanel, TweenInfo.new(0.5), {Size = UDim2.new(0, 131, 0, 249)}):Play()
+        wait(0.5)
+        if remotesFadeIn then
+            remotesFadeIn()
+            remotesFadeIn = nil
+        end
+        bringBackOnResize()
+    end
+    mainClosing = false
+end
+
+--- Expands and minimizes the sidebar (sideClosed is the toggle boolean)
+function toggleSideTray(override)
+    if sideClosing and not override or maximized then
+        return
+    end
+    sideClosing = true
+    sideClosed = not sideClosed
+    if sideClosed then
+        rightFadeIn = fadeOut(RightPanel:GetDescendants())
+        wait(0.5)
+        minimizeSize(0.5)
+        wait(0.5)
+        RightPanel.Visible = false
+    else
+        if closed then
+            toggleMinimize(true)
+        end
+        RightPanel.Visible = true
+        maximizeSize(0.5)
+        wait(0.5)
+        if rightFadeIn then
+            rightFadeIn()
+        end
+        bringBackOnResize()
+    end
+    sideClosing = false
+end
+
+--- Expands code box to fit screen for more convenient viewing
+function toggleMaximize()
+    if not sideClosed and not maximized then
+        maximized = true
+        local disable = Instance.new("TextButton")
+        local prevSize = UDim2.new(0, CodeBox.AbsoluteSize.X, 0, CodeBox.AbsoluteSize.Y)
+        local prevPos = UDim2.new(0,CodeBox.AbsolutePosition.X, 0, CodeBox.AbsolutePosition.Y)
+        disable.Size = UDim2.new(1, 0, 1, 0)
+        disable.BackgroundColor3 = Color3.new()
+        disable.BorderSizePixel = 0
+        disable.Text = 0
+        disable.ZIndex = 3
+        disable.BackgroundTransparency = 1
+        disable.AutoButtonColor = false
+        CodeBox.ZIndex = 4
+        CodeBox.Position = prevPos
+        CodeBox.Size = prevSize
+        TweenService:Create(CodeBox, TweenInfo.new(0.5), {Size = UDim2.new(0.5, 0, 0.5, 0), Position = UDim2.new(0.25, 0, 0.25, 0)}):Play()
+        TweenService:Create(disable, TweenInfo.new(0.5), {BackgroundTransparency = 0.5}):Play()
+        disable.MouseButton1Click:Connect(function()
+            if UserInputService:GetMouseLocation().Y + 36 >= CodeBox.AbsolutePosition.Y and UserInputService:GetMouseLocation().Y + 36 <= CodeBox.AbsolutePosition.Y + CodeBox.AbsoluteSize.Y
+                and UserInputService:GetMouseLocation().X >= CodeBox.AbsolutePosition.X and UserInputService:GetMouseLocation().X <= CodeBox.AbsolutePosition.X + CodeBox.AbsoluteSize.X then
+                return
+            end
+            TweenService:Create(CodeBox, TweenInfo.new(0.5), {Size = prevSize, Position = prevPos}):Play()
+            TweenService:Create(disable, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play()
+            wait(0.5)
+            disable:Destroy()
+            CodeBox.Size = UDim2.new(1, 0, 0.5, 0)
+            CodeBox.Position = UDim2.new(0, 0, 0, 0)
+            CodeBox.ZIndex = 0
+            maximized = false
+        end)
+    end
+end
+
+--- Checks if cursor is within resize range
+--- @param p Vector2
+function isInResizeRange(p)
+    local relativeP = p - Background.AbsolutePosition
+    local range = 5
+    if relativeP.X >= TopBar.AbsoluteSize.X - range and relativeP.Y >= Background.AbsoluteSize.Y - range
+        and relativeP.X <= TopBar.AbsoluteSize.X and relativeP.Y <= Background.AbsoluteSize.Y then
+        return true, 'B'
+    elseif relativeP.X >= TopBar.AbsoluteSize.X - range and relativeP.X <= Background.AbsoluteSize.X then
+        return true, 'X'
+    elseif relativeP.Y >= Background.AbsoluteSize.Y - range and relativeP.Y <= Background.AbsoluteSize.Y then
+        return true, 'Y'
+    end
+    return false
+end
+
+--- Called when mouse enters SimpleSpy
+function mouseEntered()
+    local customCursor = Instance.new("ImageLabel")
+    customCursor.Size = UDim2.fromOffset(200, 200)
+    customCursor.ZIndex = 1e5
+    customCursor.BackgroundTransparency = 1
+    customCursor.Image = ""
+    customCursor.Parent = SimpleSpy2
+    UserInputService.OverrideMouseIconBehavior = Enum.OverrideMouseIconBehavior.ForceHide
+    RunService:BindToRenderStep("SIMPLESPY_CURSOR", 1, function()
+        if mouseInGui and _G.SimpleSpyExecuted then
+            local mouseLocation = UserInputService:GetMouseLocation() - Vector2.new(0, 36)
+            customCursor.Position = UDim2.fromOffset(mouseLocation.X - customCursor.AbsoluteSize.X / 2, mouseLocation.Y - customCursor.AbsoluteSize.Y / 2)
+            local inRange, type = isInResizeRange(mouseLocation)
+            if inRange and not sideClosed and not closed then
+                customCursor.Image = type == 'B' and "rbxassetid://6065821980" or type == 'X' and "rbxassetid://6065821086" or type == 'Y' and "rbxassetid://6065821596"
+            elseif inRange and not closed and type == 'Y' or type == 'B' then
+                customCursor.Image = "rbxassetid://6065821596"
+            elseif customCursor.Image ~= "rbxassetid://6065775281" then
+                customCursor.Image = "rbxassetid://6065775281"
+            end
+        else
+            UserInputService.OverrideMouseIconBehavior = Enum.OverrideMouseIconBehavior.None
+            customCursor:Destroy()
+            RunService:UnbindFromRenderStep("SIMPLESPY_CURSOR")
+        end
+    end)
+end
+
+--- Called when mouse moves
+function mouseMoved()
+    local mousePos = UserInputService:GetMouseLocation() - Vector2.new(0, 36)
+    if not closed
+    and mousePos.X >= TopBar.AbsolutePosition.X and mousePos.X <= TopBar.AbsolutePosition.X + TopBar.AbsoluteSize.X
+    and mousePos.Y >= Background.AbsolutePosition.Y and mousePos.Y <= Background.AbsolutePosition.Y + Background.AbsoluteSize.Y then
+        if not mouseInGui then
+            mouseInGui = true
+            mouseEntered()
+        end
+    else
+        mouseInGui = false
+    end
+end
+
+--- Adjusts the ui elements to the 'Maximized' size
+function maximizeSize(speed)
+    if not speed then
+        speed = 0.05
+    end
+    TweenService:Create(LeftPanel, TweenInfo.new(speed), { Size = UDim2.fromOffset(LeftPanel.AbsoluteSize.X, Background.AbsoluteSize.Y - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(RightPanel, TweenInfo.new(speed), { Size = UDim2.fromOffset(Background.AbsoluteSize.X - LeftPanel.AbsoluteSize.X, Background.AbsoluteSize.Y - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(TopBar, TweenInfo.new(speed), { Size = UDim2.fromOffset(Background.AbsoluteSize.X, TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(ScrollingFrame, TweenInfo.new(speed), { Size = UDim2.fromOffset(Background.AbsoluteSize.X - LeftPanel.AbsoluteSize.X, 110), Position = UDim2.fromOffset(0, Background.AbsoluteSize.Y - 119 - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(CodeBox, TweenInfo.new(speed), { Size = UDim2.fromOffset(Background.AbsoluteSize.X - LeftPanel.AbsoluteSize.X, Background.AbsoluteSize.Y - 119 - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(LogList, TweenInfo.new(speed), { Size = UDim2.fromOffset(LogList.AbsoluteSize.X, Background.AbsoluteSize.Y - TopBar.AbsoluteSize.Y - 18) }):Play()
+end
+
+--- Adjusts the ui elements to close the side
+function minimizeSize(speed)
+    if not speed then
+        speed = 0.05
+    end
+    TweenService:Create(LeftPanel, TweenInfo.new(speed), { Size = UDim2.fromOffset(LeftPanel.AbsoluteSize.X, Background.AbsoluteSize.Y - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(RightPanel, TweenInfo.new(speed), { Size = UDim2.fromOffset(0, Background.AbsoluteSize.Y - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(TopBar, TweenInfo.new(speed), { Size = UDim2.fromOffset(LeftPanel.AbsoluteSize.X, TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(ScrollingFrame, TweenInfo.new(speed), { Size = UDim2.fromOffset(0, 119), Position = UDim2.fromOffset(0, Background.AbsoluteSize.Y - 119 - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(CodeBox, TweenInfo.new(speed), { Size = UDim2.fromOffset(0, Background.AbsoluteSize.Y - 119 - TopBar.AbsoluteSize.Y) }):Play()
+    TweenService:Create(LogList, TweenInfo.new(speed), { Size = UDim2.fromOffset(LogList.AbsoluteSize.X, Background.AbsoluteSize.Y - TopBar.AbsoluteSize.Y - 18) }):Play()
+end
+
+--- Called on user input while mouse in 'Background' frame
+--- @param input InputObject
+function backgroundUserInput(input)
+    local inRange, type = isInResizeRange(UserInputService:GetMouseLocation() - Vector2.new(0, 36))
+    if input.UserInputType == Enum.UserInputType.MouseButton1 and inRange then
+        local lastPos = UserInputService:GetMouseLocation()
+        local offset = Background.AbsoluteSize - lastPos
+        local currentPos = lastPos + offset
+        RunService:BindToRenderStep("SIMPLESPY_RESIZE", 1, function()
+            local newPos = UserInputService:GetMouseLocation()
+            if newPos ~= lastPos then
+                local currentX = (newPos + offset).X
+                local currentY = (newPos + offset).Y
+                if currentX < 450 then
+                    currentX = 450
+                end
+                if currentY < 268 then
+                    currentY = 268
+                end
+                currentPos = Vector2.new(currentX, currentY)
+                Background.Size = UDim2.fromOffset((not sideClosed and not closed and (type == "X" or type == "B")) and currentPos.X or Background.AbsoluteSize.X, (--[[(not sideClosed or currentPos.X <= LeftPanel.AbsolutePosition.X + LeftPanel.AbsoluteSize.X) and]] not closed and (type == "Y" or type == "B")) and currentPos.Y or Background.AbsoluteSize.Y)
+                if sideClosed then
+                    minimizeSize()
+                else
+                    maximizeSize()
+                end
+                lastPos = newPos
+            end
+        end)
+        table.insert(connections, UserInputService.InputEnded:Connect(function(inputE)
+            if input == inputE then
+                RunService:UnbindFromRenderStep("SIMPLESPY_RESIZE")
+            end
+        end))
+    end
+end
+
+--- Gets the player an instance is descended from
+function getPlayerFromInstance(instance)
+    for _, v in pairs(Players:GetPlayers()) do
+        if v.Character and (instance:IsDescendantOf(v.Character) or instance == v.Character) then
+            return v
+        end
+    end
+end
+
+--- Runs on MouseButton1Click of an event frame
+function eventSelect(frame)
+    if selected and selected.Log  then
+        TweenService:Create(selected.Log.Button, TweenInfo.new(0.5), {BackgroundColor3 = Color3.fromRGB(0, 0, 0)}):Play()
+        selected = nil
+    end
+    for _, v in pairs(logs) do
+        if frame == v.Log then
+            selected = v
+        end
+    end
+    if selected and selected.Log then
+        TweenService:Create(frame.Button, TweenInfo.new(0.5), {BackgroundColor3 = Color3.fromRGB(92, 126, 229)}):Play()
+        codebox:setRaw(selected.GenScript)
+    end
+    if sideClosed then
+        toggleSideTray()
+    end
+end
+
+--- Updates the canvas size to fit the current amount of function buttons
+function updateFunctionCanvas()
+    ScrollingFrame.CanvasSize = UDim2.fromOffset(UIGridLayout.AbsoluteContentSize.X, UIGridLayout.AbsoluteContentSize.Y)
+end
+
+--- Updates the canvas size to fit the amount of current remotes
+function updateRemoteCanvas()
+    LogList.CanvasSize = UDim2.fromOffset(UIListLayout.AbsoluteContentSize.X, UIListLayout.AbsoluteContentSize.Y)
+end
+
+--- Allows for toggling of the tooltip and easy setting of le description
+--- @param enable boolean
+--- @param text string
+function makeToolTip(enable, text)
+    if enable then
+        if ToolTip.Visible then
+            ToolTip.Visible = false
+            RunService:UnbindFromRenderStep("ToolTip")
+        end
+        local first = true
+        RunService:BindToRenderStep("ToolTip", 1, function()
+            local topLeft = Vector2.new(Mouse.X + 20, Mouse.Y + 20)
+            local bottomRight = topLeft + ToolTip.AbsoluteSize
+            if topLeft.X < 0 then
+                topLeft = Vector2.new(0, topLeft.Y)
+            elseif bottomRight.X > workspace.CurrentCamera.ViewportSize.X then
+                topLeft = Vector2.new(workspace.CurrentCamera.ViewportSize.X - ToolTip.AbsoluteSize.X, topLeft.Y)
+            end
+            if topLeft.Y < 0 then
+                topLeft = Vector2.new(topLeft.X, 0)
+            elseif bottomRight.Y > workspace.CurrentCamera.ViewportSize.Y - 35 then
+                topLeft = Vector2.new(topLeft.X, workspace.CurrentCamera.ViewportSize.Y - ToolTip.AbsoluteSize.Y - 35)
+            end
+            if topLeft.X <= Mouse.X and topLeft.Y <= Mouse.Y then
+                topLeft = Vector2.new(Mouse.X - ToolTip.AbsoluteSize.X - 2, Mouse.Y - ToolTip.AbsoluteSize.Y - 2)
+            end
+            if first then
+                ToolTip.Position = UDim2.fromOffset(topLeft.X, topLeft.Y)
+                first = false
+            else
+                ToolTip:TweenPosition(UDim2.fromOffset(topLeft.X, topLeft.Y), "Out", "Linear", 0.1)
+            end
+        end)
+        TextLabel.Text = text
+        ToolTip.Visible = true
+    else
+        if ToolTip.Visible then
+            ToolTip.Visible = false
+            RunService:UnbindFromRenderStep("ToolTip")
+        end
+    end
+end
+
+--- Creates new function button (below codebox)
+--- @param name string
+---@param description function
+---@param onClick function
+function newButton(name, description, onClick)
+    local button = FunctionTemplate:Clone()
+    button.Text.Text = name
+    button.Button.MouseEnter:Connect(function()
+        makeToolTip(true, description())
+    end)
+    button.Button.MouseLeave:Connect(function()
+        makeToolTip(false)
+    end)
+    button.AncestryChanged:Connect(function()
+        makeToolTip(false)
+    end)
+    button.Button.MouseButton1Click:Connect(function(...)
+        onClick(button, ...)
+    end)
+    button.Parent = ScrollingFrame
+    updateFunctionCanvas()
+end
+
+--- Adds new Remote to logs
+--- @param name string The name of the remote being logged
+--- @param type string The type of the remote being logged (either 'function' or 'event')
+--- @param gen_script any
+--- @param remote any
+--- @param function_info string
+--- @param blocked any
+function newRemote(type, name, gen_script, remote, function_info, blocked, src)
+    local remoteFrame = RemoteTemplate:Clone()
+    remoteFrame.Text.Text = name
+    remoteFrame.ColorBar.BackgroundColor3 = type == "event" and Color3.new(255, 242, 0) or Color3.fromRGB(99, 86, 245)
+    local id = Instance.new("IntValue")
+    id.Name = "ID"
+    id.Value = #logs + 1
+    id.Parent = remoteFrame
+    logs[#logs + 1] = {
+        Name = name,
+        GenScript = gen_script,
+        Function = function_info,
+        Remote = remote,
+        Log = remoteFrame,
+        Blocked = blocked,
+        Source = src
+    }
+    if blocked then
+        logs[#logs].GenScript = "-- THIS REMOTE WAS PREVENTED FROM FIRING THE SERVER BY SIMPLESPY\n\n" .. logs[#logs].GenScript
+    end
+    local connect = remoteFrame.Button.MouseButton1Click:Connect(function()
+        eventSelect(remoteFrame)
+    end)
+    if layoutOrderNum < 1 then
+        layoutOrderNum = 999999999
+    end
+    remoteFrame.LayoutOrder = layoutOrderNum
+    layoutOrderNum = layoutOrderNum - 1
+    remoteFrame.Parent = LogList
+    table.insert(remoteLogs, 1, {connect, remoteFrame})
+    clean()
+    updateRemoteCanvas()
+end
+
+--- Generates a script from the provided arguments (first has to be remote path)
+function genScript(remote, ...)
+    prevTables = {}
+    local gen = ""
+    local args = {...}
+    if #args > 0 then
+        if not pcall(function()
+                gen = v2v({args = args}) .. "\n"
+            end)
+        then
+            gen = gen .. "-- TableToString failure! Reverting to legacy functionality (results may vary)\nlocal args = {"
+            if
+                not pcall(
+                    function()
+                        for i, v in pairs(args) do
+                            if type(i) ~= "Instance" and type(i) ~= "userdata" then
+                                gen = gen .. "\n    [" .. tostring(i) .. "] = "
+                            elseif type(i) == "string" then
+                                gen = gen .. '\n    ["' .. tostring(i) .. '"] = '
+                            elseif type(i) == "userdata" and typeof(i) ~= "Instance" then
+                                gen = gen .. "\n    [" .. typeof(i) .. ".new(" .. tostring(i) .. ")] = "
+                            elseif type(i) == "userdata" then
+                                gen = gen .. "\n    [game." .. i:GetFullName() .. ")] = "
+                            end
+                            if type(v) ~= "Instance" and type(v) ~= "userdata" then
+                                gen = gen .. tostring(v)
+                            elseif type(v) == "string" then
+                                gen = gen .. '"' .. tostring(v) .. '"'
+                            elseif type(v) == "userdata" and typeof(v) ~= "Instance" then
+                                gen = gen .. typeof(v) .. ".new(" .. tostring(v) .. ")"
+                            elseif type(v) == "userdata" then
+                                gen = gen .. "game." .. v:GetFullName()
+                            end
+                        end
+                        gen = gen .. "\n}\n\n"
+                    end
+                )
+             then
+                gen = gen .. "}\n-- Legacy tableToString failure! Unable to decompile."
+            end
+        end
+        if not remote:IsDescendantOf(game) and not getnilrequired then
+            gen = "function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end\n\n" .. gen
+        end
+        if remote:IsA("RemoteEvent") then
+            gen = gen .. v2s(remote) .. ":FireServer(unpack(args))"
+        elseif remote:IsA("RemoteFunction") then
+            gen = gen .. v2s(remote) .. ":InvokeServer(unpack(args))"
+        end
+    else
+        if remote:IsA("RemoteEvent") then
+            gen = gen .. v2s(remote) .. ":FireServer()"
+        elseif remote:IsA("RemoteFunction") then
+            gen = gen .. v2s(remote) .. ":InvokeServer()"
+        end
+    end
+    gen = "" .. gen
+    prevTables = {}
+    return gen
+end
+
+--- value-to-string: value, string (out), level (indentation), parent table, var name, is from tovar
+function v2s(v, l, p, n, vtv, i, pt, path, tables)
+    if typeof(v) == "number" then
+        if v == math.huge then
+            return "math.huge"
+        elseif tostring(v):match("nan") then
+            return "0/0 --[[NaN]]"
+        end
+        return tostring(v)
+    elseif typeof(v) == "boolean" then
+        return tostring(v)
+    elseif typeof(v) == "string" then
+        return formatstr(v)
+    elseif typeof(v) == "function" then
+        return f2s(v)
+    elseif typeof(v) == "table" then
+        return t2s(v, l, p, n, vtv, i, pt, path, tables)
+    elseif typeof(v) == "Instance" then
+        return i2p(v)
+    elseif typeof(v) == "userdata" then
+        return "newproxy(true)"
+    elseif type(v) == "userdata" then
+        return u2s(v)
+    else
+        return "nil --[[" .. typeof(v) .. "]]"
+    end
+end
+
+--- value-to-variable
+--- @param t any
+function v2v(t)
+    topstr = ""
+    bottomstr = ""
+    getnilrequired = false
+    local ret = ""
+    local count = 1
+    for i, v in pairs(t) do
+        if type(i) == "string" and i:match("^[%a_]+[%w_]*$") then
+            ret = ret .. "local " .. i .. " = " .. v2s(v, nil, nil, i, true) .. "\n"
+        elseif tostring(i):match("^[%a_]+[%w_]*$") then
+            ret = ret .. "local " .. tostring(i):lower() .. "_" .. tostring(count) .. " = " .. v2s(v, nil, nil, tostring(i):lower() .. "_" .. tostring(count), true) .. "\n"
+        else
+            ret = ret .. "local " .. type(v) .. "_" .. tostring(count) .. " = " .. v2s(v, nil, nil, type(v) .. "_" .. tostring(count), true) .. "\n"
+        end
+        count = count + 1
+    end
+    if getnilrequired then
+        topstr = "function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end\n" .. topstr
+    end
+    if #topstr > 0 then
+        ret = topstr .. "\n" .. ret
+    end
+    if #bottomstr > 0 then
+        ret = ret .. bottomstr
+    end
+    return ret
+end
+
+--- table-to-string
+--- @param t table
+--- @param l number
+--- @param p table
+--- @param n string
+--- @param vtv boolean
+--- @param i any
+--- @param pt table
+--- @param path string
+--- @param tables table
+function t2s(t, l, p, n, vtv, i, pt, path, tables)
+    for k, x in pairs(getrenv()) do
+        local isgucci, gpath
+        if rawequal(x, t) then
+            isgucci, gpath = true, ""
+        elseif type(x) == "table" then
+            isgucci, gpath = v2p(t, x)
+        end
+        if isgucci then
+            if type(k) == "string" and k:match("^[%a_]+[%w_]*$") then
+                return k .. gpath
+            else
+                return "getrenv()[" .. v2s(k) .. "]" .. gpath
+            end
+        end
+    end
+    if not path then
+        path = ""
+    end
+    if not l then
+        l = 0
+        tables = {}
+    end
+    if not p then
+        p = t
+    end
+    for _, v in pairs(tables) do
+        if n and rawequal(v, t) then
+            bottomstr = bottomstr .. "\n" .. tostring(n) .. tostring(path) .. " = " .. tostring(n) .. tostring(({v2p(v, p)})[2])
+            return "{} --[[DUPLICATE]]"
+        end
+    end
+    table.insert(tables, t)
+    local s =  "{"
+    local size = 0
+    l = l + indent
+    for k, v in pairs(t) do
+        size = size + 1
+        if size > (_G.SimpleSpyMaxTableSize and _G.SimpleSpyMaxTableSize or 1000) then
+            break
+        end
+        if rawequal(k, t) then
+            bottomstr = bottomstr .. "\n" .. tostring(n) .. tostring(path) .. "[" .. tostring(n) .. tostring(path) .. "]" .. " = " .. (v == k and tostring(n) .. tostring(path) or v2s(v, l, p, n, vtv, k, t, path .. "[" .. tostring(n) .. tostring(path) .. "]", tables))
+            size -= 1
+            continue
+        end
+        local currentPath = ""
+        if type(k) == "string" and k:match("^[%a_]+[%w_]*$") then
+            currentPath = "." .. k
+        else
+            currentPath = "[" .. v2s(k, nil, p, n, vtv, i, pt, path) .. "]"
+        end
+        s = s .. "\n" .. string.rep(" ", l) .. "[" .. v2s(k, l, p, n, vtv, k, t, path .. currentPath, tables) .. "] = " .. v2s(v, l, p, n, vtv, k, t, path .. currentPath, tables) .. ","
+    end
+    if #s > 1 then
+        s = s:sub(1, #s - 1)
+    end
+    if size > 0 then
+        s = s .. "\n" .. string.rep(" ", l - indent)
+    end
+    return s .. "}"
+end
+
+--- function-to-string
+function f2s(f)
+    for k, x in pairs(getgenv()) do
+        local isgucci, gpath
+        if rawequal(x, f) then
+            isgucci, gpath = true, ""
+        elseif type(x) == "table" then
+            isgucci, gpath = v2p(f, x)
+        end
+        if isgucci then
+            if type(k) == "string" and k:match("^[%a_]+[%w_]*$") then
+                return k .. gpath
+            else
+                return "getgenv()[" .. v2s(k) .. "]" .. gpath
+            end
+        end
+    end
+    -- uwu some cool stuff here once bork finishes up
+    -- if SimpleSpy.GetExternalLoader then
+    --     local ExternalLoader = SimpleSpy:GetExternalLoader()
+    --     local loaded, path = pcall(function() ExternalLoader:LoadAsset("Bork_Functions") end)
+    --     if loaded then
+    --         local functions = loadfile(path .. "functions.lua")
+    --         local out = functions[f]
+    --         if out then
+    --             return out
+    --         end
+    --     end
+    -- end
+    -- local isgucci, gpath = v2p(f, getgc())
+    -- if isgucci then
+    --     return "getgc()" .. gpath
+    -- end
+    if debug.getinfo(f).name:match("^[%a_]+[%w_]*$") then
+        return "function()end --[[" .. debug.getinfo(f).name .. "]]"
+    end
+    return "function()end --[[" .. tostring(f) .. "]]"
+end
+
+--- instance-to-path
+--- @param i userdata
+function i2p(i)
+    local player = getplayer(i)
+    local parent = i
+    local out = ""
+    if parent == nil then
+        return "nil"
+    elseif player then
+        while true do
+            if parent and parent == player.Character then
+                if player == Players.LocalPlayer then
+                    return 'game:GetService("Players").LocalPlayer.Character' .. out
+                else
+                    return i2p(player) .. ".Character" .. out
+                end
+            else
+                if parent.Name:match("[%a_]+[%w+]*") ~= parent.Name then
+                    out = '[' .. formatstr(parent.Name) .. ']' .. out
+                else
+                    out = "." .. parent.Name .. out
+                end
+            end
+            parent = parent.Parent
+        end
+    elseif parent ~= game then
+        while true do
+            if parent and parent.Parent == game then
+                if game:GetService(parent.ClassName) then
+                    if parent.ClassName == "Workspace" then
+                        return "workspace" .. out
+                    else
+                        return 'game:GetService("' .. parent.ClassName .. '")' .. out
+                    end
+                else
+                    if parent.Name:match("[%a_]+[%w_]*") then
+                        return "game." .. parent.Name .. out
+                    else
+                        return 'game[' .. formatstr(parent.Name) .. ']' .. out
+                    end
+                end
+            elseif parent.Parent == nil then
+                getnilrequired = true
+                return 'getNil(' .. formatstr(parent.Name) .. ', "' .. parent.ClassName .. '")' .. out
+            elseif parent == Players.LocalPlayer then
+                out = ".LocalPlayer" .. out
+            else
+                if parent.Name:match("[%a_]+[%w_]*") ~= parent.Name then
+                    out = '[' .. formatstr(parent.Name) .. ']' .. out
+                else
+                    out = "." .. parent.Name .. out
+                end
+            end
+            parent = parent.Parent
+        end
+    else
+        return "game"
+    end
+end
+
+--- userdata-to-string: userdata
+--- @param u userdata
+function u2s(u)
+    if typeof(u) == "TweenInfo" then
+        -- TweenInfo
+        return "TweenInfo.new(" ..tostring(u.Time) .. ", Enum.EasingStyle." .. tostring(u.EasingStyle) .. ", Enum.EasingDirection." .. tostring(u.EasingDirection) .. ", " .. tostring(u.RepeatCount) .. ", " .. tostring(u.Reverses) .. ", " .. tostring(u.DelayTime) .. ")"
+    elseif typeof(u) == "Ray" then
+        -- Ray
+        return "Ray.new(" .. u2s(u.Origin) .. ", " .. u2s(u.Direction) .. ")"
+    elseif typeof(u) == "NumberSequence" then
+        -- NumberSequence
+        local ret = "NumberSequence.new("
+        for i, v in pairs(u.KeyPoints) do
+            ret = ret .. tostring(v)
+            if i < #u.Keypoints then
+                ret = ret .. ", "
+            end
+        end
+        return ret .. ")"
+    elseif typeof(u) == "DockWidgetPluginGuiInfo" then
+        -- DockWidgetPluginGuiInfo
+        return "DockWidgetPluginGuiInfo.new(Enum.InitialDockState" .. tostring(u) .. ")"
+    elseif typeof(u) == "ColorSequence" then
+        -- ColorSequence
+        local ret = "ColorSequence.new("
+        for i, v in pairs(u.KeyPoints) do
+            ret = ret .. "Color3.new(" .. tostring(v) .. ")"
+            if i < #u.Keypoints then
+                ret = ret .. ", "
+            end
+        end
+        return ret .. ")"
+    elseif typeof(u) == "BrickColor" then
+        -- BrickColor
+        return "BrickColor.new(" .. tostring(u.Number) .. ")"
+    elseif typeof(u) == "NumberRange" then
+        -- NumberRange
+        return "NumberRange.new(" .. tostring(u.Min) .. ", " .. tostring(u.Max) .. ")"
+    elseif typeof(u) == "Region3" then
+        -- Region3
+        local center = u.CFrame.Position
+        local size = u.CFrame.Size
+        local vector1 = center - size / 2
+        local vector2 = center + size / 2
+        return "Region3.new(" .. u2s(vector1) .. ", " .. u2s(vector2) .. ")"
+    elseif typeof(u) == "Faces" then
+        -- Faces
+        local faces = {}
+        if u.Top then
+            table.insert(faces, "Enum.NormalId.Top")
+        end
+        if u.Bottom then
+            table.insert(faces, "Enum.NormalId.Bottom")
+        end
+        if u.Left then
+            table.insert(faces, "Enum.NormalId.Left")
+        end
+        if u.Right then
+            table.insert(faces, "Enum.NormalId.Right")
+        end
+        if u.Back then
+            table.insert(faces, "Enum.NormalId.Back")
+        end
+        if u.Front then
+            table.insert(faces, "Enum.NormalId.Front")
+        end
+        return "Faces.new(" .. table.concat(faces, ", ") .. ")"
+    elseif typeof(u) == "EnumItem" then
+        return tostring(u)
+    elseif typeof(u) == "Enums" then
+        return "Enum"
+    elseif typeof(u) == "Enum" then
+        return "Enum." .. tostring(u)
+    elseif typeof(u) == "RBXScriptSignal" then
+        return "nil --[[RBXScriptSignal]]"
+    elseif typeof(u) == "Vector3" then
+        return string.format("Vector3.new(%s, %s, %s)", v2s(u.X), v2s(u.Y), v2s(u.Z))
+    elseif typeof(u) == "CFrame" then
+        return string.format("CFrame.new(%s, %s)", v2s(u.Position), v2s(u.LookVector))
+    elseif typeof(u) == "DockWidgetPluginGuiInfo" then
+        return string.format("DockWidgetPluginGuiInfo(%s, %s, %s, %s, %s, %s, %s)", "Enum.InitialDockState.Right", v2s(u.InitialEnabled), v2s(u.InitialEnabledShouldOverrideRestore), v2s(u.FloatingXSize), v2s(u.FloatingYSize), v2s(u.MinWidth), v2s(u.MinHeight))
+    elseif typeof(u) == "RBXScriptConnection" then
+        return "nil --[[RBXScriptConnection " .. tostring(u) .. "]]"
+    elseif typeof(u) == "RaycastResult" then
+        return "nil --[[RaycastResult " .. tostring(u) .. "]]"
+    elseif typeof(u) == "PathWaypoint" then
+        return string.format("PathWaypoint.new(%s, %s)", v2s(u.Position), v2s(u.Action))
+    else
+        return typeof(u) .. ".new(" .. tostring(u) .. ")"
+    end
+end
+
+--- Gets the player an instance is descended from
+function getplayer(instance)
+    for _, v in pairs(Players:GetPlayers()) do
+        if v.Character and (instance:IsDescendantOf(v.Character) or instance == v.Character) then
+            return v
+        end
+    end
+end
+
+--- value-to-path (in table)
+function v2p(x, t, path, prev)
+    if not path then
+        path = ""
+    end
+    if not prev then
+        prev = {}
+    end
+    if rawequal(x, t) then
+        return true, ""
+    end
+    for i, v in pairs(t) do
+        if rawequal(v, x) then
+            if type(i) == "string" and i:match("^[%a_]+[%w_]*$") then
+                return true, (path .. "." .. i)
+            else
+                return true, (path .. "[" .. v2s(i) .. "]")
+            end
+        end
+        if type(v) == "table" then
+            local duplicate = false
+            for _, y in pairs(prev) do
+                if rawequal(y, v) then
+                    duplicate = true
+                end
+            end
+            if not duplicate then
+                table.insert(prev, t)
+                local found
+                found, p = v2p(x, v, path, prev)
+                if found then
+                    if type(i) == "string" and i:match("^[%a_]+[%w_]*$") then
+                        return true, "." .. i .. p
+                    else
+                        return true, "[" .. v2s(i) .. "]" .. p
+                    end
+                end
+            end
+        end
+    end
+    return false, ""
+end
+
+--- format s: string, byte encrypt (for weird symbols)
+function formatstr(s)
+    return '"' .. handlespecials(s) .. '"'
+end
+
+--- Adds \'s to the text as a replacement to whitespace chars and other things because string.format can't yayeet
+function handlespecials(s)
+    local i = 0
+    repeat
+        i = i + 1
+        local char = s:sub(i, i)
+        if string.byte(char) then
+            if char == "\n" then
+                s = s:sub(0, i - 1) .. "\\n" .. s:sub(i + 1, -1)
+                i = i + 1
+            elseif char == "\t" then
+                s = s:sub(0, i - 1) .. "\\t" .. s:sub(i + 1, -1)
+                i = i + 1
+            elseif char == "\\" then
+                s = s:sub(0, i - 1) .. "\\\\" .. s:sub(i + 1, -1)
+                i = i + 1
+            elseif char == '"' then
+                s = s:sub(0, i - 1) .. '\\"' .. s:sub(i + 1, -1)
+                i = i + 1
+            elseif string.byte(char) > 126 or string.byte(char) < 32 then
+                s = s:sub(0, i - 1) .. "\\" .. string.byte(char) .. s:sub(i + 1, -1)
+                i = i + #tostring(string.byte(char))
+            end
+        end
+    until char == ""
+    return s
+end
+
+--- finds script from 'src' from getinfo, returns nil if not found
+--- @param src string
+function getScriptFromSrc(src)
+    local realPath
+    local runningTest
+    --- @type number
+    local s, e
+    local match = false
+    if src:sub(1, 1) == "=" then
+        realPath = game
+        s = 2
+    else
+        runningTest = src:sub(2, e and e - 1 or -1)
+        for _, v in pairs(getnilinstances()) do
+            if v.Name == runningTest then
+                realPath = v
+                break
+            end
+        end
+        s = #runningTest + 1
+    end
+    if realPath then
+        e = src:sub(s, -1):find("%.")
+        local i = 0
+        repeat
+            i += 1
+            if not e then
+                runningTest = src:sub(s, -1)
+                local test = realPath.FindFirstChild(realPath, runningTest)
+                if test then
+                    realPath = test
+                end
+                match = true
+            else
+                runningTest = src:sub(s, e)
+                local test = realPath.FindFirstChild(realPath, runningTest)
+                local yeOld = e
+                if test then
+                    realPath = test
+                    s = e + 2
+                    e = src:sub(e + 2, -1):find("%.")
+                    e = e and e + yeOld or e
+                else
+                    e = src:sub(e + 2, -1):find("%.")
+                    e = e and e + yeOld or e
+                end
+            end
+        until match or i >= 50
+    end
+    return realPath
+end
+
+--- schedules the provided function (and calls it with any args after)
+function schedule(f, ...)
+    table.insert(scheduled, {f, ...})
+end
+
+--- the big (well tbh small now) boi task scheduler himself, handles p much anything as quicc as possible
+function taskscheduler()
+    if not toggle then
+        scheduled = {}
+        return
+    end
+    if #scheduled > 1000 then
+        table.remove(scheduled, #scheduled)
+    end
+    if #scheduled > 0 then
+        local currentf = scheduled[1]
+        table.remove(scheduled, 1)
+        if type(currentf) == "table" and type(currentf[1]) == "function" then
+            pcall(unpack(currentf))
+        end
+    end
+end
+
+--- Handles remote logs
+function remoteHandler(hookfunction, methodName, remote, args, func, calling)
+    if remote:IsA("RemoteEvent") or remote:IsA("RemoteFunction") then
+        if funcEnabled and not calling then
+            _, calling = pcall(getScriptFromSrc, debug.getinfo(func).source)
+        end
+        coroutine.wrap(function()
+            if remoteSignals[remote] then
+                remoteSignals[remote]:Fire(args)
+            end
+        end)()
+        if autoblock then
+            if excluding[remote] then
+                return
+            end
+            if not history[remote] then
+                history[remote] = {badOccurances = 0, lastCall = tick()}
+            end
+            if tick() - history[remote].lastCall < 1 then
+                history[remote].badOccurances += 1
+                return
+            else
+                history[remote].badOccurances = 0
+            end
+            if history[remote].badOccurances > 3 then
+                excluding[remote] = true
+                return
+            end
+            history[remote].lastCall = tick()
+        end
+        local functionInfoStr
+        local src
+        if func and islclosure(func) then
+            local functionInfo = {}
+            pcall(function() functionInfo.info = debug.getinfo(func) end)
+            pcall(function() functionInfo.constants = debug.getconstants(func) end)
+            pcall(function() functionInfoStr = v2v{functionInfo = functionInfo} end)
+            pcall(function() if type(calling) == "userdata" then src = calling end end)
+        end
+        if methodName:lower() == "fireserver" then
+            newRemote("event", remote.Name, genScript(remote, table.unpack(args)), remote, functionInfoStr, (blocklist[remote] or blocklist[remote.Name]), src)
+        elseif methodName:lower() == "invokeserver" then
+            newRemote("function", remote.Name, genScript(remote, table.unpack(args)), remote, functionInfoStr, (blocklist[remote] or blocklist[remote.Name]), src)
+        end
+    end
+end
+
+--- Used for hookfunction
+function hookRemote(remoteType, remote, ...)
+    local args = {...}
+    if remoteHooks[remote] then
+        args = remoteHooks[remote](args)
+    end
+    if typeof(remote) == "Instance" and not (blacklist[remote] or blacklist[remote.Name]) then
+        local func
+        local calling
+        if funcEnabled then
+            func = debug.getinfo(4).func
+            calling = useGetCallingScript and getcallingscript() or nil
+        end
+        schedule(remoteHandler, true, remoteType == "RemoteEvent" and "fireserver" or "invokeserver", remote, args, func, calling)
+        if (blocklist[remote] or blocklist[remote.Name]) then
+            return
+        end
+    end
+    if remoteType == "RemoteEvent" then
+        if remoteHooks[remote] then
+            return originalEvent(remote, unpack(args))
+        end
+        return originalEvent(remote, ...)
+    else
+        if remoteHooks[remote] then
+            return originalFunction(remote, unpack(args))
+        end
+        return originalFunction(remote, ...)
+    end
+end
+
+local newnamecall = newcclosure(function(...)
+    local args = {...}
+    local methodName = getnamecallmethod()
+    local remote = args[1]
+    if (methodName:lower() == "invokeserver" or methodName:lower() == "fireserver") and not (blacklist[remote] or blacklist[remote.Name]) then
+        if remoteHooks[remote] then
+            args = remoteHooks[remote]({args, unpack(args, 2)})
+        end
+        local func
+        local calling
+        if funcEnabled then
+            func = debug.getinfo(3).func
+            calling = useGetCallingScript and getcallingscript() or nil
+        end
+        coroutine.wrap(function()
+            schedule(remoteHandler, false, methodName, remote, {unpack(args, 2)}, func, calling)
+        end)()
+    end
+    if typeof(remote) == "Instance" and (methodName:lower() == "invokeserver" or methodName:lower() == "fireserver") and (blocklist[remote] or blocklist[remote.Name]) then
+        return nil
+    elseif (methodName:lower() == "invokeserver" or methodName:lower() == "fireserver") and remoteHooks[remote] then
+        return original(unpack(args))
+    else
+        return original(...)
+    end
+end)
+
+local newFireServer = newcclosure(function(...) return hookRemote("RemoteEvent", ...) end)
+
+local newInvokeServer = newcclosure(function(...) return hookRemote("RemoteFunction", ...) end)
+
+--- Toggles on and off the remote spy
+function toggleSpy()
+    if not toggle then
+        setreadonly(gm, false)
+        if not original then
+            original = gm.__namecall
+            if not original then
+                warn("SimpleSpy: namecall method not found!\n")
+                onToggleButtonClick()
+                return
+            end
+        end
+        gm.__namecall = newnamecall
+        originalEvent = hookfunction(remoteEvent.FireServer, newFireServer)
+        originalFunction = hookfunction(remoteFunction.InvokeServer, newInvokeServer)
+    else
+        setreadonly(gm, false)
+        gm.__namecall = original
+        hookfunction(remoteEvent.FireServer, originalEvent)
+        hookfunction(remoteFunction.InvokeServer, originalFunction)
+    end
+end
+
+--- Toggles between the two remotespy methods (hookfunction currently = disabled)
+function toggleSpyMethod()
+    toggleSpy()
+    toggle = not toggle
+end
+
+--- Shuts down the remote spy
+function shutdown()
+    if schedulerconnect then
+        schedulerconnect:Disconnect()
+    end
+    for _, connection in pairs(connections) do
+        coroutine.wrap(function()
+            connection:Disconnect()
+        end)()
+    end
+    setreadonly(gm, false)
+    SimpleSpy2:Destroy()
+    hookfunction(remoteEvent.FireServer, originalEvent)
+    hookfunction(remoteFunction.InvokeServer, originalFunction)
+    gm.__namecall = original
+    _G.SimpleSpyExecuted = false
+end
+
+-- main
+if not _G.SimpleSpyExecuted then
+    local succeeded, err = pcall(function()
+        _G.SimpleSpyShutdown = shutdown
+        ContentProvider:PreloadAsync({"rbxassetid://6065821980", "rbxassetid://6065774948", "rbxassetid://6065821086", "rbxassetid://6065821596", ImageLabel, ImageLabel_2, ImageLabel_3})
+        onToggleButtonClick()
+        RemoteTemplate.Parent = nil
+        FunctionTemplate.Parent = nil
+        codebox = Highlight.new(CodeBox)
+        codebox:setRaw("")
+        getgenv().SimpleSpy = SimpleSpy
+        TextLabel:GetPropertyChangedSignal("Text"):Connect(scaleToolTip)
+        TopBar.InputBegan:Connect(onBarInput)
+        MinimizeButton.MouseButton1Click:Connect(toggleMinimize)
+        MaximizeButton.MouseButton1Click:Connect(toggleSideTray)
+        Simple.MouseButton1Click:Connect(onToggleButtonClick)
+        CloseButton.MouseEnter:Connect(onXButtonHover)
+        CloseButton.MouseLeave:Connect(onXButtonUnhover)
+        Simple.MouseEnter:Connect(onToggleButtonHover)
+        Simple.MouseLeave:Connect(onToggleButtonUnhover)
+        CloseButton.MouseButton1Click:Connect(shutdown)
+        table.insert(connections, UserInputService.InputBegan:Connect(backgroundUserInput))
+        table.insert(connections, Mouse.Move:Connect(mouseMoved))
+        connectResize()
+        SimpleSpy2.Enabled = true
+        coroutine.wrap(function()
+            wait(1)
+            onToggleButtonUnhover()
+        end)()
+        schedulerconnect = RunService.Heartbeat:Connect(taskscheduler)
+        if syn and syn.protect_gui then pcall(syn.protect_gui, SimpleSpy2) end
+        SimpleSpy2.Parent = gethui and gethui() or CoreGui
+    end)
+    if succeeded then
+        _G.SimpleSpyExecuted = true
+    else
+        warn("A fatal error has occured, SimpleSpy was unable to launch properly.\nPlease DM this error message to @exx#9394:\n\n" .. tostring(err))
+        SimpleSpy2:Destroy()
+        hookfunction(remoteEvent.FireServer, originalEvent)
+        hookfunction(remoteFunction.InvokeServer, originalFunction)
+        gm.__namecall = original
+        return
+    end
+else
+    SimpleSpy2:Destroy()
+    return
+end
+
+----- ADD ONS ----- (easily add or remove additonal functionality to the RemoteSpy!)
+--[[
+    Some helpful things:
+        - add your function in here, and create buttons for them through the 'newButton' function
+        - the first argument provided is the TextButton the player clicks to run the function
+        - generated scripts are generated when the namecall is initially fired and saved in remoteFrame objects
+        - blacklisted remotes will be ignored directly in namecall (less lag)
+        - the properties of a 'remoteFrame' object:
+            {
+                Name: (string) The name of the Remote
+                GenScript: (string) The generated script that appears in the codebox (generated when namecall fired)
+                Source: (Instance (LocalScript)) The script that fired/invoked the remote
+                Remote: (Instance (RemoteEvent) | Instance (RemoteFunction)) The remote that was fired/invoked
+                Log: (Instance (TextButton)) The button being used for the remote (same as 'selected.Log')
+            }
+        - globals list: (contact @exx#9394 for more information or if you have suggestions for more to be added)
+            - closed: (boolean) whether or not the GUI is currently minimized
+            - logs: (table[remoteFrame]) full of remoteFrame objects (properties listed above)
+            - selected: (remoteFrame) the currently selected remoteFrame (properties listed above)
+            - blacklist: (string[] | Instance[] (RemoteEvent) | Instance[] (RemoteFunction)) an array of blacklisted names and remotes
+            - codebox: (Instance (TextBox)) the textbox that holds all the code- cleared often
+]]
+-- Copies the contents of the codebox
+newButton(
+    "Copy Code",
+    function() return "Click to copy code" end,
+    function()
+        setclipboard(codebox:getString())
+        TextLabel.Text = "Copied successfully!"
+    end
+)
+
+--- Copies the source script (that fired the remote)
+newButton(
+    "Copy Remote",
+    function() return "Click to copy the path of the remote" end,
+    function()
+        if selected then
+            setclipboard(v2s(selected.Remote))
+            TextLabel.Text = "Copied!"
+        end
+    end
+)
+
+-- Executes the contents of the codebox through loadstring
+newButton(
+    "Run Code",
+    function() return "Click to execute code" end,
+    function()
+        local orText = "Click to execute code"
+        TextLabel.Text = "Executing..."
+        local succeeded = pcall(function() return loadstring(codebox:getString())() end)
+        if succeeded then
+            TextLabel.Text = "Executed successfully!"
+        else
+            TextLabel.Text = "Execution error!"
+        end
+    end
+)
+
+--- Gets the calling script (not super reliable but w/e)
+newButton(
+    "Get Script",
+    function() return "Click to copy calling script to clipboard\nWARNING: Not super reliable, nil == could not find" end,
+    function()
+        if selected then
+            setclipboard(SimpleSpy:ValueToString(selected.Source))
+            TextLabel.Text = "Done!"
+        end
+    end
+)
+
+--- Decompiles the script that fired the remote and puts it in the code box
+newButton(
+    "Function Info",
+    function() return "Click to view calling function information" end,
+    function()
+        if selected then
+            if selected.Function then
+                codebox:setRaw("-- Calling function info\n-- Generated by the SimpleSpy serializer\n\n" .. tostring(selected.Function))
+            end
+            TextLabel.Text = "Done! Function info generated by the SimpleSpy Serializer."
+        end
+    end
+)
+
+--- Clears the Remote logs
+newButton(
+    "Clr Logs",
+    function() return "Click to clear logs" end,
+    function()
+        TextLabel.Text = "Clearing..."
+        logs = {}
+        for _, v in pairs(LogList:GetChildren()) do
+            if not v:IsA("UIListLayout") then
+                v:Destroy()
+            end
+        end
+        codebox:setRaw("")
+        selected = nil
+        TextLabel.Text = "Logs cleared!"
+    end
+)
+
+--- Excludes the selected.Log Remote from the RemoteSpy
+newButton(
+    "Exclude (i)",
+    function() return "Click to exclude this Remote" end,
+    function()
+        if selected then
+            blacklist[selected.Remote] = true
+            TextLabel.Text = "Excluded!"
+        end
+    end
+)
+
+--- Excludes all Remotes that share the same name as the selected.Log remote from the RemoteSpy
+newButton(
+    "Exclude (n)",
+    function() return "Click to exclude all remotes with this name" end,
+    function()
+        if selected then
+            blacklist[selected.Name] = true
+            TextLabel.Text = "Excluded!"
+        end
+    end
+)
+
+--- clears blacklist
+newButton(
+    "Clr Blacklist",
+    function() return "Click to clear the blacklist" end,
+    function()
+        blacklist = {}
+        TextLabel.Text = "Blacklist cleared!"
+    end
+)
+
+--- Prevents the selected.Log Remote from firing the server (still logged)
+newButton(
+    "Block (i)",
+    function() return "Click to stop this remote from firing" end,
+    function()
+        if selected then
+            blocklist[selected.Remote] = true
+            TextLabel.Text = "Excluded!"
+        end
+    end
+)
+
+--- Prevents all remotes from firing that share the same name as the selected.Log remote from the RemoteSpy (still logged)
+newButton(
+    "Block (n)",
+    function() return "Click to stop remotes with this name from firing" end,
+    function()
+        if selected then
+            blocklist[selected.Name] = true
+            TextLabel.Text = "Excluded!"
+        end
+    end
+)
+
+--- clears blacklist
+newButton(
+    "Clr Blocklist",
+    function() return "Click to stop blocking remotes" end,
+    function()
+        blocklist = {}
+        TextLabel.Text = "Blocklist cleared!"
+    end
+)
+
+--- Attempts to decompile the source script
+newButton(
+    "Decompile",
+    function() return "Attempts to decompile source script\nWARNING: Not super reliable, nil == could not find" end,
+    function()
+        if selected then
+            if selected.Source then
+                codebox:setRaw(decompile(selected.Source))
+                TextLabel.Text = "Done!"
+            else
+                TextLabel.Text = "Source not found!"
+            end
+        end
+    end
+)
+
+newButton(
+    "Disable Info",
+    function() return string.format("[%s] Toggle function info (because it can cause lag in some games)", funcEnabled and "ENABLED" or "DISABLED") end,
+    function()
+        funcEnabled = not funcEnabled
+        TextLabel.Text = string.format("[%s] Toggle function info (because it can cause lag in some games)", funcEnabled and "ENABLED" or "DISABLED")
+    end
+)
+
+newButton(
+    "Autoblock",
+    function() return string.format("[%s] [BETA] Intelligently detects and excludes spammy remote calls from logs", autoblock and "ENABLED" or "DISABLED") end,
+    function()
+        autoblock = not autoblock
+        TextLabel.Text = string.format("[%s] [BETA] Intelligently detects and excludes spammy remote calls from logs", autoblock and "ENABLED" or "DISABLED")
+        history = {}
+        excluding = {}
+    end
+)
+
+newButton(
+    "CallingScript",
+    function() return string.format("[%s] [UNSAFE] Uses 'getcallingscript' to get calling script for Decompile and GetScript. Much more reliable, but opens up SimpleSpy to detection and/or instability.", useGetCallingScript and "ENABLED" or "DISABLED") end,
+    function()
+        useGetCallingScript = not useGetCallingScript
+        TextLabel.Text = string.format("[%s] [UNSAFE] Uses 'getcallingscript' to get calling script for Decompile and GetScript. Much more reliable, but opens up SimpleSpy to detection and/or instability.", useGetCallingScript and "ENABLED" or "DISABLED")
+    end
+)
