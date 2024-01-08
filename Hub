@@ -67,7 +67,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/ma
 end)
 
 Section:NewButton("Spy v3", "ButtonInfo", function()
-    gloadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
 end)
 
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
