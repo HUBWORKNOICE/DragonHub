@@ -98,9 +98,6 @@ local Section = Tab4:NewSection("")
 Section:NewButton("Kill Zamasu (99%)", "ButtonInfo", function()
     game.Workspace.FusedZamasu.Humanoid.Health = 0
 end)
-Section:NewButton("Kill LastBoss (Raid)", "ButtonInfo", function()
-game.Workspace.SpawnEnemy.Wave5.LastBoss.Humanoid.Health = 0
-end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
