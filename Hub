@@ -101,10 +101,6 @@ end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
-Section:NewButton("Kill HMMM Wave4 (Raid)", "ButtonInfo", function()
-	game.Workspace.SpawnEnemy.Wave4.HMMM.Humanoid.Health = 0
-end)
-
 Section:NewButton("Kill LastBoss Wave5 (Raid)", "ButtonInfo", function()
 	game.Workspace.SpawnEnemy.Wave5.LastBoss.Humanoid.Health = 0
 end)
