@@ -3,7 +3,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Dragon Sea", "DarkTheme")
 
 local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("Auto")
+local Section = Tab:NewSection("")
 Section:NewToggle("Auto Attack Venom", "ToggleInfo", function(b)
 	autovenom = b
 end)
@@ -41,6 +41,22 @@ spawn(function()
 end
 end
 end)
+
+local Tab1 = Window:NewTab("Auto Quest")
+local Section = Tab1:NewSection("")
+Section:NewToggle("Auto Quest", "ToggleInfo", function(b)
+	autoquest = b
+	end)
+	
+	spawn(function()
+	while wait() do
+	if autoquest then
+	pcall(function()
+	game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept.RemoteEvent:FireServer()
+	end)
+	end
+	end
+	end)
 
 local Tab3 = Window:NewTab("Teleport")
 local Section = Tab3:NewSection("")
