@@ -93,9 +93,17 @@ end)
 Section:NewButton("Eleven", "ButtonInfo", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1237.99585, 75.389267, 3950.1853, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 end)
-
-local Tab4 = Window:NewTab("Setting")
+local Tab4 = Window:NewTab("Misc")
 local Section = Tab4:NewSection("")
+Section:NewButton("Kill Zamasu (99%)", "ButtonInfo", function()
+    game.Workspace.FusedZamasu.Humanoid.Health = 0
+end)
+Section:NewButton("Kill LastBoss (Raid)", "ButtonInfo", function()
+game.Workspace.SpawnEnemy.Wave5.LastBoss.Humanoid.Health = 0
+end)
+
+local Tab5 = Window:NewTab("Setting")
+local Section = Tab5:NewSection("")
 Section:NewButton("Dex", "ButtonInfo", function()
     getgenv().Key = "Bash"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
