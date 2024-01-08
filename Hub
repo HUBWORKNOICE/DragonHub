@@ -42,8 +42,8 @@ end
 end
 end)
 
-local Tab1 = Window:NewTab("Auto Quest")
-local Section = Tab1:NewSection("")
+local Tab2 = Window:NewTab("Auto Quest")
+local Section = Tab2:NewSection("")
 Section:NewToggle("Auto Quest", "ToggleInfo", function(b)
 	autoquest = b
 	end)
