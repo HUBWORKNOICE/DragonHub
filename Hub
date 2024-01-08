@@ -23,6 +23,25 @@ end
 end
 end)
 
+Section:NewToggle("Auto Attack Leopard", "ToggleInfo", function(b)
+	autoleopard = b
+end)
+
+spawn(function()
+	while wait() do
+	if autoleopard then
+	pcall(function()
+		local args = {
+			[1] = 1,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+	
+		game:GetService("Players").LocalPlayer.Character.Leopard.Attack.RemoteEvent:FireServer(unpack(args))
+		end)
+end
+end
+end)
+
 local Tab3 = Window:NewTab("Teleport")
 local Section = Tab3:NewSection("")
 Section:NewButton("One", "ButtonInfo", function()
