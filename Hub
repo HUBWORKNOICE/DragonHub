@@ -108,7 +108,7 @@ Section:NewButton("Kill LastBoss (Raid)", "ButtonInfo", function()
 	game.Workspace.SpawnEnemy.Wave5.LastBoss.Humanoid.Health = 0
 end)
 Section:NewButton("Raid", "ButtonInfo", function()
-		ame.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
 end)
 
 local Tab6 = Window:NewTab("Setting")
