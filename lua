@@ -4,20 +4,20 @@ local Window = Library.CreateLib("Viet Nam Piece", "DarkTheme")
 
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("")
-Section:NewToggle("Spam Skill", "ToggleInfo", function(b)
-	autospam = b
+Section:NewToggle("Spam Attack", "ToggleInfo", function(b)
+	autoattack = b
 end)
 
 spawn(function()
 	while wait() do
-	if autospam then
+	if autoattack then
 	pcall(function()
 		local args = {
-			[1] = 1,
-			[2] = game:GetService("Players").LocalPlayer
+			[1] = 8,
+			[2] = 1,
 		}
 	
-		game:GetService("Players").LocalPlayer.Character.Venom.HackerSo1TheGioi.RemoteEvent:FireServer(unpack(args))
+		game:GetService("Players").LocalPlayer:WaitForChild("Hitbox"):FireServer(unpack(args))
 		end)
 end
 end
