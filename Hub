@@ -111,6 +111,7 @@ spawn(function()
 		end
 	end)
 end)
+end
 end)
 
 OwO:Label("Scripr Free by Nguyen Huy", Color3.fromRGB(127, 143, 166))
