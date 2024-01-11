@@ -104,8 +104,8 @@ end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
-Section:NewToggle("Kill Aura", "ToggleInfo", function(b)
-	Killaura = b
+Section:NewToggle("Kill Aura", "ToggleInfo", function(state)
+	Killaura = state
 end)
 
 spawn(function()
