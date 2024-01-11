@@ -129,7 +129,7 @@ end)
 end)
 
 Section:NewToggle("Auto Raid (Fruit)", "ToggleInfo", function(b)
-Raidl = b
+	Raidl = b
     
     spawn(function()
         while wait() do
