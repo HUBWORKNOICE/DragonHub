@@ -42,7 +42,7 @@ end
 end
 end)
 
-local Tab2 = Window:NewTab("Auto Quest")
+local Tab2 = Window:NewTab("Auto")
 local Section = Tab2:NewSection("")
 Section:NewToggle("Auto Quest", "ToggleInfo", function(b)
 	autoquest = b
@@ -93,6 +93,9 @@ end)
 Section:NewButton("Eleven", "ButtonInfo", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1237.99585, 75.389267, 3950.1853, 0, 0, -1, 0, 1, 0, 1, 0, 0)
 end)
+Section:NewButton("Đảo treo kiếm", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1237.99585, 75.389267, 3950.1853, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
 local Tab4 = Window:NewTab("Misc")
 local Section = Tab4:NewSection("")
 Section:NewButton("Kill Zamasu (99%)", "ButtonInfo", function()
@@ -101,9 +104,53 @@ end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
-Section:NewButton("Kill LastBoss Wave5 (Raid)", "ButtonInfo", function()
-	game.Workspace.SpawnEnemy.Wave5.LastBoss.Humanoid.Health = 0
+Section:NewButton("Kill LastBoss Wave5 (Raid)", "ButtonInfo", function(b)
+	Killaura = b
+
+spawn(function()
+    while wait() do
+        if Killaura then
+            for i,v in pairs(game.Workspace.SpawnEnemy:GetDescendants()) do
+                if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+                    pcall(function()
+                        repeat wait(.1)
+                            sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
+                            v.Humanoid.Health = 0
+                            v.HumanoidRootPart.CanCollide = false
+                            v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+                            v.HumanoidRootPart.Transparency = 1000
+                        until not Killaura or not v.Parent or v.Humanoid.Health <= 1
+                    end)
+                end
+            end
+        end
+    end
 end)
+end)
+
+Section:NewButton("Auto raid (Fruit)", "ButtonInfo", function(b)
+Raidl = b
+    
+    spawn(function()
+        while wait() do
+            if Raidl then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-68.81217956542969, 138.3164520263672, 40.44826889038086)
+            pcall(function()
+    spawn(function()
+        game:GetService("RunService").Heartbeat:Connect(function()
+            if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+                setfflag("HumanoidParallelRemoveNoPhysics", "False")
+                setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+                game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+            end
+        end)
+    end)
+    end)
+    end
+    end
+    end)
+end)
+
 Section:NewButton("Raid", "ButtonInfo", function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
 end)
@@ -122,3 +169,4 @@ end)
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.G, function()
 	Library:ToggleUI()
 end)
+
