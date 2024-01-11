@@ -104,9 +104,113 @@ end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
-Section:NewToggle("Auto ", "ToggleInfo", function()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
+local Window = Library.CreateLib("Dragon Sea", "DarkTheme")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("")
+Section:NewToggle("Auto Attack Venom", "ToggleInfo", function(b)
+	autovenom = b
 end)
+
+spawn(function()
+	while wait() do
+	if autovenom then
+	pcall(function()
+		local args = {
+			[1] = 1,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+	
+		game:GetService("Players").LocalPlayer.Character.Venom.HackerSo1TheGioi.RemoteEvent:FireServer(unpack(args))
+		end)
+end
+end
+end)
+
+Section:NewToggle("Auto Attack Leopard", "ToggleInfo", function(b)
+	autoleopard = b
+end)
+
+spawn(function()
+	while wait() do
+	if autoleopard then
+	pcall(function()
+		local args = {
+			[1] = 1,
+			[2] = game:GetService("Players").LocalPlayer
+		}
+	
+		game:GetService("Players").LocalPlayer.Character.Leopard.Attack.RemoteEvent:FireServer(unpack(args))
+		end)
+end
+end
+end)
+
+local Tab2 = Window:NewTab("Auto")
+local Section = Tab2:NewSection("")
+Section:NewToggle("Auto Quest", "ToggleInfo", function(b)
+	autoquest = b
+	end)
+	
+	spawn(function()
+	while wait() do
+	if autoquest then
+	pcall(function()
+	game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept.RemoteEvent:FireServer()
+	end)
+	end
+	end
+	end)
+
+local Tab3 = Window:NewTab("Teleport")
+local Section = Tab3:NewSection("")
+Section:NewButton("One", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.545502, 62.7550697, 115.042297, -0.406715393, 0, -0.913554907, 0, 1, 0, 0.913554907, 0, -0.406715393)
+end)
+Section:NewButton("Two", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1213.05896, 67.5528946, -318.31369, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Three", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(388.079468, 70.6305237, -2101.01025, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Four", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2494.28076, 70.686058, -2252.46729, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Five", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-628.764893, 74.0166397, 2167.23389, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Six", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(617.642578, 82.2658997, 3924.5415, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Seven", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3342.10693, 73.9746628, -1435.45752, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Eight", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2261.39844, 1033.974, -2526.89404, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Nine", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1241.08032, 96.2886963, -3323.54443, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Ten", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3344.97827, 87.674675, 324.548096, -0.226463556, 0, -0.974019706, 0, 1, 0, 0.974019706, 0, -0.226463556)
+end)
+Section:NewButton("Eleven", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1237.99585, 75.389267, 3950.1853, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+Section:NewButton("Đảo treo kiếm", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1237.99585, 75.389267, 3950.1853, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+local Tab4 = Window:NewTab("Misc")
+local Section = Tab4:NewSection("")
+Section:NewButton("Kill Zamasu (99%)", "ButtonInfo", function()
+    game.Workspace.FusedZamasu.Humanoid.Health = 0
+end)
+
+local Tab5 = Window:NewTab("Raid")
+local Section = Tab5:NewSection("")
+
 Section:NewButton("Raid", "ButtonInfo", function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
 end)
@@ -126,3 +230,47 @@ Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.G, function()
 	Library:ToggleUI()
 end)
 
+local Tab7 = Window:NewTab("LOL")
+local Section = Tab57:NewSection("")
+Section:NewToggle("Kill Aura", "ToggleInfo", function(b)
+	Killaura = b
+end)
+
+spawn(function()
+    while wait() do
+        if Killaura then
+            for i,v in pairs(game.Workspace.SpawnEnemy:GetDescendants()) do
+                if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
+                    pcall(function()
+                        repeat wait(.1)
+                            sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
+                            v.Humanoid.Health = 0
+                            v.HumanoidRootPart.CanCollide = false
+                            v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+                            v.HumanoidRootPart.Transparency = 1000
+                        until not Killaura or not v.Parent or v.Humanoid.Health <= 1
+                    end)
+                end
+            end
+        end
+    end
+end)
+
+Section:NewButton("Raid", "ButtonInfo", function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
+end)
+
+local Tab6 = Window:NewTab("Setting")
+local Section = Tab6:NewSection("")
+Section:NewButton("Dex", "ButtonInfo", function()
+    getgenv().Key = "Bash"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
+end)
+
+Section:NewButton("Spy v3", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+end)
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.G, function()
+	Library:ToggleUI()
+end)
