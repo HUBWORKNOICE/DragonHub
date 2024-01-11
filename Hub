@@ -1,148 +1,618 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/HUBWORKNOICE/DragonHub/main/lua"))()
 
-local Window = Library.CreateLib("Dragon Sea", "DarkTheme")
+local OwO = library:Window("Settings")
 
-local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("")
-Section:NewToggle("Auto Attack Venom", "ToggleInfo", function(b)
-	autovenom = b
+    OwO:Toggle("Auto Quest", false, function(b)
+autoquest = b
 end)
 
 spawn(function()
-	while wait() do
-	if autovenom then
-	pcall(function()
-		local args = {
-			[1] = 1,
-			[2] = game:GetService("Players").LocalPlayer
-		}
-	
-		game:GetService("Players").LocalPlayer.Character.Venom.HackerSo1TheGioi.RemoteEvent:FireServer(unpack(args))
-		end)
+while wait() do
+if autoquest then
+pcall(function()
+game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept.RemoteEvent:FireServer()
+end)
 end
 end
 end)
 
-Section:NewToggle("Auto Attack Leopard", "ToggleInfo", function(b)
-	autoleopard = b
+OwO:Toggle("Auto Stat (Hp)", false, function(b)
+hp = b
 end)
 
 spawn(function()
-	while wait() do
-	if autoleopard then
-	pcall(function()
-		local args = {
-			[1] = 1,
-			[2] = game:GetService("Players").LocalPlayer
-		}
-	
-		game:GetService("Players").LocalPlayer.Character.Leopard.Attack.RemoteEvent:FireServer(unpack(args))
-		end)
+while wait() do
+if hp then
+pcall(function()
+local args = {
+    [1] = "MaxHealth"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("StatSystem"):WaitForChild("Points"):FireServer(unpack(args))
+end)
 end
 end
 end)
 
-local Tab2 = Window:NewTab("Auto")
-local Section = Tab2:NewSection("")
-Section:NewToggle("Auto Quest", "ToggleInfo", function(b)
-	autoquest = b
-	end)
-	
-	spawn(function()
-	while wait() do
-	if autoquest then
-	pcall(function()
-	game:GetService("Players").LocalPlayer.PlayerGui.QuestTake.Accept.RemoteEvent:FireServer()
-	end)
-	end
-	end
-	end)
-
-local Tab3 = Window:NewTab("Teleport")
-local Section = Tab3:NewSection("")
-Section:NewButton("One", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(288.545502, 62.7550697, 115.042297, -0.406715393, 0, -0.913554907, 0, 1, 0, 0.913554907, 0, -0.406715393)
-end)
-Section:NewButton("Two", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1213.05896, 67.5528946, -318.31369, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Three", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(388.079468, 70.6305237, -2101.01025, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Four", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2494.28076, 70.686058, -2252.46729, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Five", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-628.764893, 74.0166397, 2167.23389, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Six", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(617.642578, 82.2658997, 3924.5415, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Seven", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3342.10693, 73.9746628, -1435.45752, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Eight", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2261.39844, 1033.974, -2526.89404, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Nine", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1241.08032, 96.2886963, -3323.54443, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Ten", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3344.97827, 87.674675, 324.548096, -0.226463556, 0, -0.974019706, 0, 1, 0, 0.974019706, 0, -0.226463556)
-end)
-Section:NewButton("Eleven", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1237.99585, 75.389267, 3950.1853, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-Section:NewButton("Đảo treo kiếm", "ButtonInfo", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1237.99585, 75.389267, 3950.1853, 0, 0, -1, 0, 1, 0, 1, 0, 0)
-end)
-local Tab4 = Window:NewTab("Misc")
-local Section = Tab4:NewSection("")
-Section:NewButton("Kill Zamasu (99%)", "ButtonInfo", function()
-    game.Workspace.FusedZamasu.Humanoid.Health = 0
+OwO:Toggle("Auto Stat (Melee)", false, function(b)
+melee = b
 end)
 
-local Tab5 = Window:NewTab("Raid")
-local Section = Tab5:NewSection("")
-Section:NewToggle("Kill Aura", "ToggleInfo", function(b)
-	Killaura = b
+spawn(function()
+while wait() do
+if melee then
+pcall(function()
+local args = {
+    [1] = "Melee"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("StatSystem"):WaitForChild("Points"):FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("Auto Stat (Sword)", false, function(b)
+sw = b
+end)
+
+spawn(function()
+while wait() do
+if sw then
+pcall(function()
+local args = {
+    [1] = "Sword"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("StatSystem"):WaitForChild("Points"):FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("Auto Stat (DF)", false, function(b)
+df = b
+end)
+
+spawn(function()
+while wait() do
+if df then
+pcall(function()
+local args = {
+    [1] = "DevilFruit"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("StatSystem"):WaitForChild("Points"):FireServer(unpack(args))
+end)
+end
+end
+end)
+
+local OwO = library:Window("Auto Farm")
+
+OwO:Toggle("AutoFarm(Lv 50-200)", false, function(b)
+lv50 = b
 end)
 
 spawn(function()
     while wait() do
-        if Killaura then
-            for i,v in pairs(game.Workspace.SpawnEnemy:GetDescendants()) do
-                if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
-                    pcall(function()
-                        repeat wait(.1)
-                            sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
-                            v.Humanoid.Health = 0
-                            v.HumanoidRootPart.CanCollide = false
-                            v.HumanoidRootPart.Size = Vector3.new(50,50,50)
-                            v.HumanoidRootPart.Transparency = 1000
-                        until not Killaura or not v.Parent or v.Humanoid.Health <= 1
-                    end)
-                end
-            end
+        if lv50 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1011.9179077148438, 102.68099975585938, 87.22283935546875)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
         end
-    end
+    end)
+end)
+end)
+end
+end
 end)
 
-Section:NewButton("Raid", "ButtonInfo", function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
+OwO:Toggle("AutoFarm(Lv 200-250)", false, function(b)
+lv200 = b
 end)
 
-local Tab6 = Window:NewTab("Setting")
-local Section = Tab6:NewSection("")
-Section:NewButton("Dex", "ButtonInfo", function()
-    getgenv().Key = "Bash"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
+spawn(function()
+    while wait() do
+        if lv200 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1613.73193359375, 110.38077545166016, -404.14813232421875)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
 end)
 
-Section:NewButton("Spy v3", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+OwO:Toggle("AutoFarm(Lv 250-400)", false, function(b)
+lv250 = b
 end)
 
-Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.G, function()
-	Library:ToggleUI()
+spawn(function()
+    while wait() do
+        if lv250 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-687.111328125, 74.45208740234375, -1420.6668701171875)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("AutoFarm(Lv 400-500)", false, function(b)
+lv400 = b
+end)
+
+spawn(function()
+    while wait() do
+        if lv400 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(397.5084533691406, 130.0966033935547, -2568.49853515625)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("AutoFarm(Lv 500-600)", false, function(b)
+lv500 = b
+end)
+
+spawn(function()
+    while wait() do
+        if lv500 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2599.47900390625, 92.05569458007812, -2521.943359375)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("AutoFarm(Lv 600-750)", false, function(b)
+lv600 = b
+end)
+
+spawn(function()
+    while wait() do
+        if lv600 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-585.9785766601562, 105.14798736572266, 2490.77392578125)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("AutoFarm(750-1650)", false, function(b)
+lv750 = b
+end)
+
+spawn(function()
+    while wait() do
+        if lv750 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(661.8230590820312, 120.64655303955078, 4422.55810546875)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+
+
+OwO:Toggle("AutoFarm(1650-Max)", false, function(b)
+lv1650 = b
+end)
+
+spawn(function()
+    while wait() do
+        if lv1650 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1297.08447265625, 104.55435180664062, 4257.92138671875)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+local OwO = library:Window("Tp To Quest")
+
+OwO:Toggle("Tp Quest(Lv50-200)", false, function(b)
+qet50 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet50 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(892.8114624023438, 95.16143035888672, 129.168701171875)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("Tp Quest(Lv200-250)", false, function(b)
+qet200 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet200 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1436.1754150390625, 68.61587524414062, -361.2645568847656)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("Tp Quest(Lv250-400)", false, function(b)
+qet400 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet400 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-750.0012817382812, 67.03089141845703, -1379.77001953125)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("Tp Quest(Lv400-500)", false, function(b)
+qet400 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet400 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(415.32672119140625, 121.16875457763672, -2471.1337890625)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("Tp Quest(Lv500-600)", false, function(b)
+qet500 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet500 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2601.87451171875, 85.05583953857422, -2352.58251953125)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("Tp Quest(650-700)", false, function(b)
+qet650 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet650 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-487.3443908691406, 98.50886535644531, 2394.764892578125)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("Tp Quest(Lv750-1650)", false, function(b)
+qet750 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet750 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(704.2705078125, 113.63595581054688, 4256.083984375)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+OwO:Toggle("Tp Quest(Lv1650-Max)", false, function(b)
+qet1650 = b
+end)
+
+spawn(function()
+    while wait() do
+        if qet1650 then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1276.5157470703125, 96.36283111572266, 4194.52001953125)
+        pcall(function()
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function()
+        if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid") then
+            setfflag("HumanoidParallelRemoveNoPhysics", "False")
+            setfflag("HumanoidParallelRemoveNoPhysicsNoSimulate2", "False")
+            game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(11)
+        end
+    end)
+end)
+end)
+end
+end
+end)
+
+local OwO = library:Window("FastAttack")
+
+OwO:Toggle("FAT Combat", false, function(b)
+combat = b
+end)
+
+spawn(function()
+while wait() do
+if combat then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.Combat.XaiLaBiBanAcc.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("FAT BlackLeg", false, function(b)
+blackleg = b
+end)
+
+spawn(function()
+while wait() do
+if blackleg then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.BlackLeg.XaiLaBiBanAcc.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("FAT WaterCombat", false, function(b)
+water = b
+end)
+
+spawn(function()
+while wait() do
+if water then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.WaterCombat.XaiLaBiBanAcc.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("FAT Eletric", false, function(b)
+eletric = b
+end)
+
+spawn(function()
+while wait() do
+if eletric then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.Electro.Harmony.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
+end)
+
+
+OwO:Toggle("FAT DragonCombat", false, function(b)
+DragonCombatWorld = b
+end)
+
+spawn(function()
+while wait() do
+if DragonCombatWorld then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.DragonCombat.XaiLaBiBanAcc.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("FAT DarkSword", false, function(b)
+FastAttackDarkSwordWorld = b
+end)
+
+spawn(function()
+while wait() do
+if FastAttackDarkSwordWorld then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.DarkSword.XaiLaBiBanAcc.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("FAT YoruV2", false, function(b)
+FastAttackDB2World = b
+end)
+
+spawn(function()
+while wait() do
+if FastAttackDB2World then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.DarkBladeAwake.XaiLaBiBanAcc.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
+end)
+
+OwO:Toggle("FAT ML Legendary", false, function(b)
+CBLWorld = b
+end)
+
+spawn(function()
+while wait() do
+if CBLWorld then
+pcall(function()
+local args = {
+    [1] = 1,2,3,4,5,6,7,8,9,10,
+    [2] = game:GetService("Players").LocalPlayer
+}
+
+game:GetService("Players").LocalPlayer.Character.LegendaryCombat.XaiLaBiBanAcc.RemoteEvent:FireServer(unpack(args))
+end)
+end
+end
 end)
