@@ -86,4 +86,31 @@ getgenv().Key = "Bash"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
 end)
 
+OwO:Toggle("Grab Fruit", false, function(b)
+    grabtools = b
+    end)
+    
+    spawn(function()
+    while wait() do
+    if grabtools then
+    pcall(function()
+        local humanoid = speaker.Character:FindFirstChildWhichIsA("Humanoid")
+        for _, child in ipairs(workspace:GetChildren()) do
+            if speaker.Character and child:IsA("BackpackItem") and child:FindFirstChild("Handle") then
+                humanoid:EquipTool(child)
+            end
+        end
+    
+        if grabtoolsFunc then 
+            grabtoolsFunc:Disconnect() 
+        end
+    
+        grabtoolsFunc = workspace.ChildAdded:Connect(function(child)
+            if speaker.Character and child:IsA("BackpackItem") and child:FindFirstChild("Handle") then
+                humanoid:EquipTool(child)
+            end
+    end)
+    end)
+end)
+
 OwO:Label("Scripr Free by Nguyen Huy", Color3.fromRGB(127, 143, 166))
