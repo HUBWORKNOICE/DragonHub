@@ -110,6 +110,7 @@ spawn(function()
 			humanoid:EquipTool(child)
 		end
 	end)
+end
 end)
 end
 end)
