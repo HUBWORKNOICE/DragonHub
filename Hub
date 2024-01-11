@@ -286,5 +286,3 @@ OwO:Button("Dex", function()
 getgenv().Key = "Bash"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
 end)
-
-OwO:Label("Scripr Free by Nguyen Huy", Color3.fromRGB(127, 143, 166))
