@@ -104,7 +104,7 @@ end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
-Section:NewToggle("Kill Aura", "ToggleInfo", function(state)
+Section:NewToggle("Auto ", "ToggleInfo", function(state)
 	Killaura = state
 end)
 
