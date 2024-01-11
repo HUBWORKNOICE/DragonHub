@@ -104,7 +104,7 @@ end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
-Section:NewButton("Kill LastBoss Wave5 (Raid)", "ButtonInfo", function(b)
+Seection:NewToggle("Kill Aura", "ToggleInfo", function(b)
 	Killaura = b
 
 spawn(function()
@@ -128,7 +128,7 @@ spawn(function()
 end)
 end)
 
-Section:NewButton("Auto raid (Fruit)", "ButtonInfo", function(b)
+Section:NewToggle("Auto Raid (Fruit)", "ToggleInfo", function(b)
 Raidl = b
     
     spawn(function()
