@@ -110,6 +110,7 @@ OwO:Toggle("Grab Fruit", false, function(b)
                 humanoid:EquipTool(child)
             end
         end
+    end
     end)
     end)
 end)
