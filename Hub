@@ -104,29 +104,6 @@ end)
 
 local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
-Seection:NewToggle("Kill Aura", "ToggleInfo", function(b)
-	Killaura = b
-
-spawn(function()
-    while wait() do
-        if Killaura then
-            for i,v in pairs(game.Workspace.SpawnEnemy:GetDescendants()) do
-                if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
-                    pcall(function()
-                        repeat wait(.1)
-                            sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius", math.huge)
-                            v.Humanoid.Health = 0
-                            v.HumanoidRootPart.CanCollide = false
-                            v.HumanoidRootPart.Size = Vector3.new(50,50,50)
-                            v.HumanoidRootPart.Transparency = 1000
-                        until not Killaura or not v.Parent or v.Humanoid.Health <= 1
-                    end)
-                end
-            end
-        end
-    end
-end)
-end)
 
 Section:NewButton("Teleport Raid", "ButtonInfo", function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
