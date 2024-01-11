@@ -109,6 +109,7 @@ OwO:Toggle("Grab Fruit", false, function(b)
             if speaker.Character and child:IsA("BackpackItem") and child:FindFirstChild("Handle") then
                 humanoid:EquipTool(child)
             end
+        end
     end)
     end)
 end)
