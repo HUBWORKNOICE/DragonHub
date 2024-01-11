@@ -106,10 +106,12 @@ local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
 Section:NewToggle("Kill Aura", "ToggleInfo", function(b)
 	Killaura = b
+end)
 
 spawn(function()
     while wait() do
         if Killaura then
+			pcall(function()
             for i,v in pairs(game.Workspace.SpawnEnemy:GetDescendants()) do
                 if v:FindFirstChild("Humanoid") and v:FindFirstChild("HumanoidRootPart") and v.Humanoid.Health > 0 then
                     pcall(function()
