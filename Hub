@@ -1,5 +1,5 @@
 game.StarterGui:SetCore("SendNotification", {
-    Title = "LoadingScript FreeðŸ”®ðŸ¤“", 
+    Title = "Loading...“", 
     Text = "Thanh Cong!" ,
     Icon = "rbxassetid://13877859492",
     Duration = 10
