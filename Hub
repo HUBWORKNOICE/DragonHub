@@ -106,7 +106,6 @@ local Tab5 = Window:NewTab("Raid")
 local Section = Tab5:NewSection("")
 Section:NewToggle("Kill Aura", "ToggleInfo", function(b)
 	Killaura = b
-end)
 
 spawn(function()
     while wait() do
@@ -127,7 +126,7 @@ spawn(function()
         end
     end
 end)
-
+end)
 
 Section:NewButton("Teleport Raid", "ButtonInfo", function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2300.552, 1035.06726, -2714.14209, 0.832792997, -3.41492949e-08, 0.553584516, -1.77555641e-08, 1, 8.83984299e-08, -0.553584516, -8.34467997e-08, 0.832792997)
