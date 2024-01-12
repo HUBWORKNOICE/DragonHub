@@ -10,7 +10,7 @@ for i,v in pairs(keys) do
        game.Players.LocalPlayer:Kick("Invalid Key")
    else
        if v == getgenv().Key then   
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/HUBWORKNOICE/DragonHub/main/Hub"))()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/HUBWORKNOICE/DragonHub/main/Key%20System"))()
 return library, library_flags, library.subs
 
        else
