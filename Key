@@ -6,7 +6,7 @@ local counter = 1
 local keyCheck
 for i,v in pairs(keys) do
    if counter == #keys then
-       keys = ""
+       keys = "dragon1"
        game.Players.LocalPlayer:Kick("Invalid Key")
    else
        if v == getgenv().Key then   
