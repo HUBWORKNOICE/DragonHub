@@ -1,9 +1,279 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Loading...", 
-    Text = "Thanh Cong!" ,
-    Icon = "rbxassetid://13877859492",
-    Duration = 10
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local LoadUi = Instance.new("ScreenGui")
+local KeySytem = Instance.new("Folder")
+local Key = Instance.new("Frame")
+local Logo = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local Box = Instance.new("TextBox")
+local UICorner = Instance.new("UICorner")
+local Get = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Check = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Dis = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+
+--Properties:
+
+LoadUi.Name = "LoadUi"
+LoadUi.Parent = game.CoreGui
+LoadUi.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+KeySytem.Name = "KeySytem"
+KeySytem.Parent = LoadUi
+
+Key.Name = "Key"
+Key.Parent = LoadUi
+Key.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Key.Position = UDim2.new(0.287708133, 0, 0.411370039, 0)
+Key.Size = UDim2.new(0, 291, 0, 100)
+
+Logo.Name = "Logo"
+Logo.Parent = Key
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.Position = UDim2.new(-0.422680408, 0, 0, 0)
+Logo.Size = UDim2.new(0, 100, 0, 100)
+
+ImageLabel.Parent = Logo
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "rbxassetid://13930584887"
+
+Box.Name = "Box"
+Box.Parent = Key
+Box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Box.Position = UDim2.new(0.0137457047, 0, 0.0800000131, 0)
+Box.Size = UDim2.new(0, 283, 0, 26)
+Box.Font = Enum.Font.SourceSans
+Box.Text = "Type Key Here.."
+Box.TextColor3 = Color3.fromRGB(0, 0, 0)
+Box.TextSize = 14.000
+
+UICorner.Parent = Key
+
+Get.Name = "Get"
+Get.Parent = Key
+Get.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Get.Position = UDim2.new(0.0385778286, 0, 0.423076868, 0)
+Get.Size = UDim2.new(0, 80, 0, 45)
+Get.Font = Enum.Font.SciFi
+Get.Text = "Get Key"
+Get.TextColor3 = Color3.fromRGB(0, 0, 0)
+Get.TextSize = 14.000
+    Get.MouseButton1Click:Connect(function()
+        Get.Text = "Copy Success"
+        setclipboard("https://discord.gg/4Rtqm55xMj")
+        wait(0.5)
+        Get.Text = "Get Key"
+    end)
+UICorner_2.CornerRadius = UDim.new(0, 7)
+UICorner_2.Parent = Get
+
+Check.Name = "Check"
+Check.Parent = Key
+Check.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Check.Position = UDim2.new(0.677753091, 0, 0.423076868, 0)
+Check.Size = UDim2.new(0, 80, 0, 45)
+Check.Font = Enum.Font.SciFi
+Check.Text = "Check Key"
+Check.TextColor3 = Color3.fromRGB(0, 0, 0)
+Check.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 7)
+UICorner_3.Parent = Check
+
+Dis.Name = "Dis"
+Dis.Parent = Key
+Dis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dis.Position = UDim2.new(0.361601889, 0, 0.423076868, 0)
+Dis.Size = UDim2.new(0, 80, 0, 45)
+Dis.Font = Enum.Font.SciFi
+Dis.Text = "Discord"
+Dis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dis.TextSize = 14.000
+
+    Dis.MouseButton1Click:Connect(function()
+        Dis.Text = "Copy Success"
+        setclipboard("https://discord.gg/4Rtqm55xMj")
+        wait(0.5)
+        Dis.Text = "Get Key"
+    end)
+
+UICorner_4.CornerRadius = UDim.new(0, 7)
+UICorner_4.Parent = Dis
+
+_G.Key_KeyPass = "CrystalxUtanoHub-DragonSeaPaid-7292"
+
+    Check.MouseButton1Click:Connect(function()
+        local KeyInput = Box.Text
+        local CorrectKey = _G.Key_KeyPass
+        if KeyInput == CorrectKey then
+            game.StarterGui:SetCore("SendNotification", {
+                Title = "Notification...",
+                Text = "Thank You For Use Script!",
+                Icon = "rbxassetid://13930584887",
+                Duration = 5
+            })	
+shared.LoaderTitle = 'Crystal X Utano Hub Loading...' -- ใส่ชื่อ
+shared.LoaderKeyFrames = {
+[1] = {1, 30}, -- [Time (s), Percentage] 
+[2] = {3, 50} -- [เวลา, เปอร์เซ็น]
+}
+
+local Metadata = {
+LoaderData = {
+Name = (shared.LoaderTitle or 'A Loader'),
+Colors = shared.LoaderColors or {
+Main = Color3.fromRGB(24, 24, 24),
+Topic = Color3.fromRGB(0, 135, 251),
+Title = Color3.fromRGB(0, 135, 251),
+LoaderBackground = Color3.fromRGB(30, 30, 30),
+LoaderSplash = Color3.fromRGB(255, 255, 255)
+}
+},
+Keyframes = shared.LoaderKeyFrames or {
+[1] = {1, 10}, -- [Time (s), Percentage]
+[2] = {2, 30},
+[3] = {3, 60},
+[4] = {2, 100}
+}
+}
+
+--
+local function tweenObject(object, speed, info)
+game.TweenService:Create(object, TweenInfo.new(speed, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), info):Play()
+end
+local function createObject(className, properties)
+local instance = Instance.new(className)
+local parent
+for propertyName, propertyValue in pairs(properties) do
+if propertyName ~= "Parent" then
+instance[propertyName] = propertyValue
+else
+parent = propertyValue
+end
+end
+instance.Parent = parent
+return instance
+end
+
+
+local Core = createObject("ScreenGui", {
+Name = "Core",
+Parent = game.CoreGui
 })
+local Main = createObject("Frame", {
+Name = "Main",
+Parent = Core,
+BackgroundColor3 = Metadata.LoaderData.Colors.Main,
+BorderSizePixel = 0,
+ClipsDescendants = true,
+Position = UDim2.new(0.5, 0, 0.5, 0),
+AnchorPoint = Vector2.new(0.5, 0.5),
+Size = UDim2.new(0, 0, 0, 0),
+})
+local Top = createObject("TextLabel", {
+Name = "Top",
+TextTransparency = 1,
+Parent = Main,
+BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+BackgroundTransparency = 1,
+Position = UDim2.new(0, 30, 0, 8),
+Size = UDim2.new(0, 301, 0, 50),
+Font = Enum.Font.Gotham,
+Text = "Loading Script...",
+TextColor3 = Metadata.LoaderData.Colors.Topic,
+TextSize = 10,
+TextXAlignment = Enum.TextXAlignment.Left,
+})
+local Title = createObject("TextLabel", {
+Name = "Title",
+Parent = Main,
+TextTransparency = 1,
+BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+BackgroundTransparency = 1,
+Position = UDim2.new(0, 30, 0, 27),
+Size = UDim2.new(0, 301, 0, 46),
+Font = Enum.Font.Gotham,
+RichText = true,
+Text = "<b>" .. Metadata.LoaderData.Name .. "</b>",
+TextColor3 = Metadata.LoaderData.Colors.Title,
+TextSize = 14,
+TextXAlignment = Enum.TextXAlignment.Left,
+})
+local BG = createObject("Frame", {
+Name = "BG",
+Parent = Main,
+AnchorPoint = Vector2.new(0.5, 0),
+BackgroundTransparency = 1,
+BackgroundColor3 = Metadata.LoaderData.Colors.LoaderBackground,
+BorderSizePixel = 0,
+Position = UDim2.new(0.5, 0, 0, 70),
+Size = UDim2.new(0.8500000238418579, 0, 0, 24),
+})
+local Progress = createObject("Frame", {
+Name = "Progress",
+Parent = BG,
+BackgroundColor3 = Metadata.LoaderData.Colors.LoaderSplash,
+BackgroundTransparency = 1,
+BorderSizePixel = 0,
+Size = UDim2.new(0, 0, 0, 24),
+})
+
+local function updatePercentage(percentage)
+tweenObject(Progress, 0.5, {
+Size = UDim2.new((percentage / 100), 0, 0, 24)
+})
+end
+
+
+-- Loader itself
+tweenObject(Main, 0.25, {
+Size = UDim2.new(0, 346, 0, 121)
+})
+wait(0.25)
+tweenObject(Top, 0.5, {
+TextTransparency = 0
+})
+tweenObject(Title, 0.5, {
+TextTransparency = 0
+})
+tweenObject(BG, 0.5, {
+BackgroundTransparency = 0
+})
+tweenObject(Progress, 0.5, {
+BackgroundTransparency = 0
+})
+
+for i, v in pairs(Metadata.Keyframes) do
+wait(v[1]);
+updatePercentage(v[2])
+end
+updatePercentage(100)
+
+tweenObject(Top, 0.5, {
+TextTransparency = 1
+})
+tweenObject(Title, 0.5, {
+TextTransparency = 1
+})
+tweenObject(BG, 0.5, {
+BackgroundTransparency = 1
+})
+tweenObject(Progress, 0.5, {
+BackgroundTransparency = 1
+})
+wait(0.5)
+tweenObject(Main, 0.25, {
+Size = UDim2.new(0, 0, 0, 0)
+})
+wait(0.25);
+Core:Destroy()
+wait(.5)
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/HUBWORKNOICE/DragonHub/main/lua"))()
 
 local OwO = library:Window("Raid")
@@ -125,3 +395,22 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/ma
 end)
 
 OwO:Label("Scripr Free by Nguyen Huy", Color3.fromRGB(127, 143, 166))
+
+Box.Text = ""
+Box.TextColor3 = Color3.fromRGB(255, 255, 0)
+Box.Text = "Success Key !"
+
+local SysemKey = game.CoreGui:FindFirstChild("LoadUi")
+Key:TweenSize(UDim2.new(0,1,0,1),"Out","Quad",1,true)
+wait(.2)
+Key.Position = UDim2.new(1000, 0, 1000, 0)
+else
+Box.TextColor3 = Color3.fromRGB(255, 0, 0)
+Box.Text = "Checking..."
+wait(.1)
+Box.Text = "Incorrect Key !"
+wait(0.5)
+Box.TextColor3 = Color3.fromRGB(0, 0, 0)
+Box.Text = "Type Key Here ..."
+end
+end)
