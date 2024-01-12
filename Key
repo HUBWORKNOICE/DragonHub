@@ -7,7 +7,7 @@ local keyCheck
 for i,v in pairs(keys) do
    if counter == #keys then
        keys = "dragon1"
-       game.Players.LocalPlayer:Kick("Invalid Key")
+       game.Players.LocalPlayer:Kick("Invalid Ke")
    else
        if v == getgenv().Key then   
            loadstring(game:HttpGet("https://raw.githubusercontent.com/HUBWORKNOICE/DragonHub/main/Hub"))()
