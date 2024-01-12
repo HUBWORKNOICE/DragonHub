@@ -1,7 +1,5 @@
 local keys = {
-    "DragonxUmaHub-DragonSea-7292",
-    "DragonxUmaHub-DragonSea-7292",
-    "5",
+    "Dragon",
 }
 
 local counter = 1
