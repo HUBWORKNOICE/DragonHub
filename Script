@@ -16,7 +16,7 @@ end
  
 -- UI LIBRARY
  
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/HUBWORKNOICE/DragonHub/main/Hubnews"))() -- GETS THE UI LIBRARY
+local Library = loadstring(game:HttpGet("https:/raw.githubusercontent.com/Attrixx/Scandia/main/KavoUiLib.lua"))() -- GETS THE UI LIBRARY
 local Window = Library.CreateLib("Dragon Sea Mob Farm", "Sentinel") -- CREATES THE WINDOW
  
 -- MAIN
